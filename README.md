@@ -70,6 +70,8 @@ All concepts' labels (in SKOS their preferred labels of *prefLabels*) are indica
 
 Also, basic definitions for the top concepts have been added.
 
+The term *ACCOMODATION SERVICES*, an incorrectly spelled, duplicative version of *ACCOMMODATION SERVICES* has been removed.
+
 ### URIs and access
 Concepts have all been allocate individual persistent web addresses ([URI](https://en.wikipedia.org/wiki/Uniform_Resource_Identifier)s) for direct use. URIs consist of a base and an ID portion, for example the AGIFT term "General insurance"'s URI is [`https://data.naa.gov.au/def/agift/General-insurance`](https://data.naa.gov.au/def/agift/General-insurance) where the base is `https://data.naa.gov.au/def/agift/` and the ID is `General-insurance`.
 
