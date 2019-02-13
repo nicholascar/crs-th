@@ -78,10 +78,10 @@ Initially, the concept prefLabels have been used to create URI IDs by replacing 
 The URI base is initally set to `http://test.linked.data.gov.au/def/crs-th/` in for testing purposes. This uses the testing part of the [Australin Government Linked Data Working Group](http://www.linked.data.gov.au)'s `linked.data.gov.au` persistent domain, `/def/` to indicate a *definitional resource* and *crs-th* as a unique short code for the CRS Thesaurus.
 
 Using base + ID, we have a URI for *Water Conservation Plans* being:  
-[`http://test.linked.data.gov.au/def/crs-th/water-conservation-plans`](http://test.linked.data.gov.au/def/crs-th/water-conservation-plans).
+* [`http://test.linked.data.gov.au/def/crs-th/water-conservation-plans`](http://test.linked.data.gov.au/def/crs-th/water-conservation-plans)
 
 The thesaurus (usually termed a *vocabulary* in SKOS) as a whole is available online at:  
-[`http://test.linked.data.gov.au/def/crs-th`](http://test.linked.data.gov.au/def/crs-th).
+* [`http://test.linked.data.gov.au/def/crs-th`](http://test.linked.data.gov.au/def/crs-th)
 
 ## Data & access
 While in testing, the up-to-date copy of this vocabulary's content is stored in this code repository in the file [crs-th.ttl](crs-th.ttl). This point-of-truth may move as NAA systems take over.
