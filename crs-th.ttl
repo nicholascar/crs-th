@@ -1,0 +1,2606 @@
+@prefix : <http://test.linked.data.gov.au/def/crs-th/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://test.linked.data.gov.au/def/crs-th> a owl:Ontology ;
+  dc:contributor "Nicholas Car" ;
+  dc:publisher "National Archives of Australia" ;
+  dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
+  dct:created "2019-02-14T15:25:00.297000+10:00"^^xsd:dateTime ;
+  dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
+  rdfs:label "CRS Thesaurus"@en ;
+  owl:versionInfo "As per NAA database, no additions except for Top Concepts" ;
+  rdfs:comment """This is the Commonwealth Record Series (CRS)' thesaurus of government functions.
+
+The CRS is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations.
+
+This version of the CRS Thesaurus is taken directly from the NAA's database with the single addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them.""" .
+
+
+:accommodation-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Accommodation Services"@en .
+
+:administrative-decision-appeal a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Administrative Decision Appeal"@en .
+
+:administrative-decision-review a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Administrative Decision Review"@en .
+
+:administrative-law a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Administrative Law"@en .
+
+:adoption-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Adoption Services"@en .
+
+:adult-education-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Adult Education Programs"@en .
+
+:adult-migrant-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Adult Migrant Education"@en .
+
+:advertising-campaigns a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Advertising Campaigns"@en .
+
+:advertising-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Advertising Standards"@en .
+
+:aged-care-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Aged Care Services"@en .
+
+:agreement-dispute-mediation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Agreement Dispute Mediation"@en .
+
+:agricultural-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Agricultural Industry"@en .
+
+:agricultural-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Agricultural Sciences"@en .
+
+:air-transport a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Air Transport"@en .
+
+:air-transport-safety a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Air Transport Safety"@en .
+
+:aircraft-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Aircraft Standards"@en .
+
+:airforce a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Airforce"@en .
+
+:airport-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Airport Services"@en .
+
+:ambulance-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ambulance Services"@en .
+
+:animal-and-veterinary-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Animal And Veterinary Sciences"@en .
+
+:apparatus-licensing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Apparatus Licensing"@en .
+
+:applications-for-native-title a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Applications For Native Title"@en .
+
+:applied-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Applied Sciences"@en .
+
+:apprenticeship-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Apprenticeship Programs"@en .
+
+:aquacultural-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Aquacultural Industry"@en .
+
+:architectural-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Architectural Services"@en .
+
+:army a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Army"@en .
+
+:army-reserve-training a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Army Reserve Training"@en .
+
+:artifact-export-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Artifact Export Regulation"@en .
+
+:arts-development a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts Development"@en .
+
+:arts-education a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts Education"@en .
+
+:arts-funding a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts Funding"@en .
+
+:arts-incentive-schemes a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts Incentive Schemes"@en .
+
+:arts-promotion a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts Promotion"@en .
+
+:asset-assessment a skos:Concept ;
+    skos:broader :arts ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Asset Assessment"@en .
+
+:association-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Association Registration"@en .
+
+:associations-and-corporate-law a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Associations And Corporate Law"@en .
+
+:astronomical-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Astronomical Sciences"@en .
+
+:athlete-scholarship-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Athlete Scholarship Programs"@en .
+
+:atmospheric-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Atmospheric Sciences"@en .
+
+:atomic-and-molecular-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Atomic And Molecular Sciences"@en .
+
+:australian-defence-forces a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Australian Defence Forces (ADF)"@en .
+
+:australian-theatre-of-war a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Australian Theatre Of War"@en .
+
+:authentication a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Authentication"@en .
+
+:authorised-deposit-taking-institutions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Authorised Deposit Taking Institutions"@en .
+
+:award-conditions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Award Conditions"@en .
+
+:badges-and-insignia a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Badges And Insignia"@en .
+
+:bankruptcy-proceedings a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Bankruptcy Proceedings"@en .
+
+:benefit-entitlements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Benefit Entitlements"@en .
+
+:bilateral-treaties a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Bilateral Treaties"@en .
+
+:biochemistry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Biochemistry"@en .
+
+:biodiversity-preservation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Biodiversity Preservation"@en .
+
+:biological-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Biological Sciences"@en .
+
+:biotechnology-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Biotechnology Development"@en .
+
+:birth-death-and-marriage-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Birth Death And Marriage Registration"@en .
+
+:botany a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Botany"@en .
+
+:broadcasting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Broadcasting"@en .
+
+:broadcasting-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Broadcasting Standards"@en .
+
+:building-acoustics a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Building Acoustics"@en .
+
+:building-approval-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Building Approval Services"@en .
+
+:building-preservation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Building Preservation"@en .
+
+:building-regulations-and-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Building Regulations And Standards"@en .
+
+:built-environment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Built Environment"@en .
+
+:burial-ground-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Burial Ground Management"@en .
+
+:business a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business"@en .
+
+:business-management a skos:Concept ;
+    skos:broader :businesses ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business Management"@en .
+
+:business-permits-and-licences a skos:Concept ;
+    skos:broader :businesses ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business Permits And Licences"@en .
+
+:business-process-auditing a skos:Concept ;
+    skos:broader :businesses ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business Process Auditing"@en .
+
+:business-registration a skos:Concept ;
+    skos:broader :businesses ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business Registration"@en .
+
+:business-sponsorship a skos:Concept ;
+    skos:broader :businesses ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Business Sponsorship"@en .
+
+:cadets a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cadets"@en .
+
+:call-centre-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Call Centre Administration"@en .
+
+:caravan-and-camping-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Caravan And Camping Services"@en .
+
+:career-development-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Career Development Programs"@en .
+
+:cargo-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cargo Control"@en .
+
+:carriage-service-providers a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Carriage Service Providers"@en .
+
+:carrier-licensing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Carrier Licensing"@en .
+
+:censorship-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Censorship Standards"@en .
+
+:census-collection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Census Collection"@en .
+
+:ceremonial-representation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ceremonial Representation"@en .
+
+:certified-employment-conditions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Certified Employment Conditions"@en .
+
+:chamber-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Chamber Support"@en .
+
+:charting-sea-lanes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Charting Sea Lanes"@en .
+
+:chemical-and-pesticide-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Chemical And Pesticide Regulation"@en .
+
+:child-and-adolescent-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Child And Adolescent Health Services"@en .
+
+:child-and-youth-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Child And Youth Support"@en .
+
+:childcare-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Childcare Services"@en .
+
+:citizenship a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Citizenship"@en .
+
+:civic-celebrations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Civic Celebrations"@en .
+
+:civic-infrastructure a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Civic Infrastructure"@en .
+
+:civic-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Civic Management"@en .
+
+:civil-community-assistance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Civil Community Assistance"@en .
+
+:civil-law a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Civil Law"@en .
+
+:climate-information-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Climate Information Services"@en .
+
+:clinical-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Clinical Health Services"@en .
+
+:coastal-pilotage a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Coastal Pilotage"@en .
+
+:coastal-surveillance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Coastal Surveillance"@en .
+
+:collection-access a skos:Concept ;
+    skos:broader :collection-management ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Access"@en .
+
+:collection-accessioning a skos:Concept ;
+    skos:broader :collection-management ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Accessioning"@en .
+
+:collection-acquisition a skos:Concept ;
+    skos:broader :collection-management ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Acquisition"@en .
+
+:collection-promotion a skos:Concept ;
+    skos:broader :collection-management ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Promotion"@en .
+
+:collection-storage a skos:Concept ;
+    skos:broader :collection-management ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Storage"@en .
+
+:commercial-zoning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Commercial Zoning"@en .
+
+:commissions-of-inquiry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Commissions Of Inquiry"@en .
+
+:committee-and-member-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Committee And Member Support"@en .
+
+:commonwealth-recognition-awards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Commonwealth Recognition Awards"@en .
+
+:commonwealth-state-funding a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Commonwealth State Funding"@en .
+
+:communications a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Communications"@en .
+
+:community-based-correction a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Based Correction"@en .
+
+:community-education a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Education"@en .
+
+:community-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Health Services"@en .
+
+:community-policing a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Policing"@en .
+
+:community-protection a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Protection"@en .
+
+:community-recreational-programs a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Recreational Programs"@en .
+
+:community-services a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Services"@en .
+
+:community-support a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Support"@en .
+
+:community-transport a skos:Concept ;
+    skos:broader :community ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community Transport"@en .
+
+:conservation-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Conservation Programs"@en .
+
+:constitution a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Constitution"@en .
+
+:constitutional-conventions a skos:Concept ;
+    skos:broader :constitutional ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Constitutional Conventions"@en .
+
+:constitutional-matters a skos:Concept ;
+    skos:broader :constitutional ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Constitutional Matters"@en .
+
+:constitutional-referenda a skos:Concept ;
+    skos:broader :constitutional ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Constitutional Referenda"@en .
+
+:consular-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Consular Services"@en .
+
+:consumer-protection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Consumer Protection"@en .
+
+:contract-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Contract Management"@en .
+
+:conveyancing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Conveyancing"@en .
+
+:copyright-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Copyright Regulation"@en .
+
+:coronial-law a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Coronial Law"@en .
+
+:corrective-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Corrective Services"@en .
+
+:counselling-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Counselling Services"@en .
+
+:counterfeiting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Counterfeiting"@en .
+
+:courier-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Courier Services"@en .
+
+:court-reporting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Court Reporting"@en .
+
+:criminal-law a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Criminal Law"@en .
+
+:criminology a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Criminology"@en .
+
+:cross-border-cooperation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cross Border Cooperation"@en .
+
+:crown-land-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Crown Land Administration"@en .
+
+:cultural-awards-and-scholarships a skos:Concept ;
+    skos:broader :cultural-affairs ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cultural Awards And Scholarships"@en .
+
+:cultural-centre-management a skos:Concept ;
+    skos:broader :cultural-affairs ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cultural Centre Management"@en .
+
+:cultural-festivals a skos:Concept ;
+    skos:broader :cultural-affairs ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cultural Festivals"@en .
+
+:cultural-gifts-programs a skos:Concept ;
+    skos:broader :cultural-affairs ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cultural Gifts Programs"@en .
+
+:currency a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Currency"@en .
+
+:curriculum-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Curriculum Development"@en .
+
+:customs-regulations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Customs Regulations"@en .
+
+:data-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Data Management"@en .
+
+:data-security-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Data Security Standards"@en .
+
+:declaration-of-interests a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Declaration Of Interests"@en .
+
+:defence-attaches a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Attaches"@en .
+
+:defence-co-operation-programs a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Co Operation Programs"@en .
+
+:defence-college-training a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence College Training"@en .
+
+:defence-community-programs a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Community Programs"@en .
+
+:defence-efficiency-review a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Efficiency Review"@en .
+
+:defence-estate-management a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Estate Management"@en .
+
+:defence-force-careers a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Force Careers"@en .
+
+:defence-force-commands a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Force Commands"@en .
+
+:defence-forces-assistance a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Forces Assistance"@en .
+
+:defence-housing a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Housing"@en .
+
+:defence-industry a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Industry"@en .
+
+:defence-personnel-exchanges a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Personnel Exchanges"@en .
+
+:defence-reform-program a skos:Concept ;
+    skos:broader :defence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence Reform Program"@en .
+
+:demographic-surveys a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Demographic Surveys"@en .
+
+:dental-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Dental Health Services"@en .
+
+:deportation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Deportation"@en .
+
+:descriptive-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Descriptive Standards"@en .
+
+:detention-centre-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Detention Centre Management"@en .
+
+:detention-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Detention Programs"@en .
+
+:development-assistance-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Development Assistance Programs"@en .
+
+:diplomatic-missions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Diplomatic Missions"@en .
+
+:disarmament-and-arms-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Disarmament And Arms Control"@en .
+
+:disaster-recovery a skos:Concept ;
+    skos:broader :disasters ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Disaster Recovery"@en .
+
+:disaster-relief a skos:Concept ;
+    skos:broader :disasters ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Disaster Relief"@en .
+
+:disaster-support a skos:Concept ;
+    skos:broader :disasters ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Disaster Support"@en .
+
+:discipline-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Discipline Programs"@en .
+
+:domestic-animal-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Domestic Animal Registration"@en .
+
+:doping-detection-research a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Doping Detection Research"@en .
+
+:draft-bill-amendment-process a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Draft Bill Amendment Process"@en .
+
+:driving-licenses-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Driving Licenses Administration"@en .
+
+:drugs-and-poisons-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Drugs And Poisons Regulation"@en .
+
+:early-childhood-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Early Childhood Education"@en .
+
+:earth-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Earth Sciences"@en .
+
+:education-and-training a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Education And Training"@en .
+
+:election-campaigning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Election Campaigning"@en .
+
+:electoral-boundary-assessment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Electoral Boundary Assessment"@en .
+
+:electoral-matters a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Electoral Matters"@en .
+
+:electronic-commerce a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Electronic Commerce"@en .
+
+:electronic-postal-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Electronic Postal Services"@en .
+
+:electronic-publishing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Electronic Publishing"@en .
+
+:emergency-accommodation a skos:Concept ;
+    skos:broader :emergencies ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Emergency Accommodation"@en .
+
+:emergency-funding a skos:Concept ;
+    skos:broader :emergencies ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Emergency Funding"@en .
+
+:emergency-management a skos:Concept ;
+    skos:broader :emergencies ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Emergency Management"@en .
+
+:emergency-services a skos:Concept ;
+    skos:broader :emergencies ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Emergency Services"@en .
+
+:employment-advocacy-services a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment Advocacy Services"@en .
+
+:employment-conditions-and-safety a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment Conditions And Safety"@en .
+
+:employment-contract-standards a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment Contract Standards"@en .
+
+:employment-services a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment Services"@en .
+
+:employment-services-marketing a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment Services Marketing"@en .
+
+:endangered-species-protection a skos:Concept ;
+    skos:broader :employment ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Endangered Species Protection"@en .
+
+:energy-resources a skos:Concept ;
+    skos:broader :energy ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Energy Resources"@en .
+
+:energy-supply a skos:Concept ;
+    skos:broader :energy ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Energy Supply"@en .
+
+:energy-supply-policy a skos:Concept ;
+    skos:broader :energy ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Energy Supply Policy"@en .
+
+:engineering-and-technology-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Engineering And Technology Sciences"@en .
+
+:engineering-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Engineering Services"@en .
+
+:enterprise-bargaining-processes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Enterprise Bargaining Processes"@en .
+
+:enterprise-codes-of-practice a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Enterprise Codes Of Practice"@en .
+
+:entomology a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Entomology"@en .
+
+:environment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Environment"@en .
+
+:environmental-impact-assessment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Environmental Impact Assessment"@en .
+
+:epidemiology a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Epidemiology"@en .
+
+:equipment-licensing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Equipment Licensing"@en .
+
+:ethical-compliance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ethical Compliance"@en .
+
+:exchange-rates a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Exchange Rates"@en .
+
+:exhibition-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Exhibition Promotion"@en .
+
+:exhibitions-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Exhibitions Programs"@en .
+
+:export-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Export Promotion"@en .
+
+:export-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Export Regulation"@en .
+
+:external-security a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "External Security"@en .
+
+:fair-trading-compliance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Fair Trading Compliance"@en .
+
+:family-law-proceedings a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Family Law Proceedings"@en .
+
+:family-reunion-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Family Reunion Programs"@en .
+
+:federation-celebrations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Federation Celebrations"@en .
+
+:finance-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Finance Management"@en .
+
+:financial-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Financial Administration"@en .
+
+:financial-assistance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Financial Assistance"@en .
+
+:financial-budgeting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Financial Budgeting"@en .
+
+:financial-institutions-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Financial Institutions Regulation"@en .
+
+:financial-investment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Financial Investment"@en .
+
+:finding-aids-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Finding Aids Development"@en .
+
+:firefighting-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Firefighting Services"@en .
+
+:fiscal-policy a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Fiscal Policy"@en .
+
+:fisheries-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Fisheries Industry"@en .
+
+:food-hygiene-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Food Hygiene Regulation"@en .
+
+:food-quality-assurance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Food Quality Assurance"@en .
+
+:foreign-investment-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Foreign Investment Control"@en .
+
+:forensic-analysis a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Forensic Analysis"@en .
+
+:forestry-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Forestry Industry"@en .
+
+:fossil-fuel-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Fossil Fuel Management"@en .
+
+:fundraising-and-donation-schemes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Fundraising And Donation Schemes"@en .
+
+:gambling-support-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Gambling Support Services"@en .
+
+:games-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Games Administration"@en .
+
+:games-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Games Promotion"@en .
+
+:gaming-industry-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Gaming Industry Regulation"@en .
+
+:garden-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Garden Management"@en .
+
+:general-insurance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "General Insurance"@en .
+
+:genetic-engineering a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Genetic Engineering"@en .
+
+:governance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Governance"@en .
+
+:government-media a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Government Media"@en .
+
+:government-procurement-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Government Procurement Regulation"@en .
+
+:hansard-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hansard Services"@en .
+
+:harbour-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Harbour Management"@en .
+
+:head-of-government-protocol a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Head Of Government Protocol"@en .
+
+:health-care a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Care"@en .
+
+:health-counselling a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Counselling"@en .
+
+:health-disaster-preparedness a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Disaster Preparedness"@en .
+
+:health-hazard-prevention a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Hazard Prevention"@en .
+
+:health-insurance-schemes a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Insurance Schemes"@en .
+
+:health-promotion a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Promotion"@en .
+
+:health-protocol-administration a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Protocol Administration"@en .
+
+:health-risk-management a skos:Concept ;
+    skos:broader :health ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Risk Management"@en .
+
+:historic-relic-protection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Historic Relic Protection"@en .
+
+:honours-and-award-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Honours And Award Programs"@en .
+
+:horticultural-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Horticultural Industry"@en .
+
+:hospital-administration a skos:Concept ;
+    skos:broader :hospitals ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hospital Administration"@en .
+
+:hospital-services a skos:Concept ;
+    skos:broader :hospitals ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hospital Services"@en .
+
+:hospital-teaching-programs a skos:Concept ;
+    skos:broader :hospitals ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hospital Teaching Programs"@en .
+
+:household-census a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Household Census"@en .
+
+:human-resource-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Human Resource Development"@en .
+
+:human-rights-obligations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Human Rights Obligations"@en .
+
+:hydrology a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hydrology"@en .
+
+:immigration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Immigration"@en .
+
+:import-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Import Regulation"@en .
+
+:income-assessment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Income Assessment"@en .
+
+:income-awards-and-conditions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Income Awards And Conditions"@en .
+
+:income-support-schemes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Income Support Schemes"@en .
+
+:independent-living-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Independent Living Services"@en .
+
+:indigenous-cultural-heritage a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Cultural Heritage"@en .
+
+:indigenous-enterprise-development a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Enterprise Development"@en .
+
+:indigenous-health-services a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Health Services"@en .
+
+:indigenous-heritage-conservation a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Heritage Conservation"@en .
+
+:indigenous-reconciliation a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Reconciliation"@en .
+
+:indigenous-welfare-programs a skos:Concept ;
+    skos:broader :indigenous ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous Welfare Programs"@en .
+
+:industry-assistance-schemes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Industry Assistance Schemes"@en .
+
+:inflation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Inflation"@en .
+
+:information-dissemination a skos:Concept ;
+    skos:broader :information ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Information Dissemination"@en .
+
+:information-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Information Management"@en .
+
+:information-management-standards a skos:Concept ;
+    skos:broader :information ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Information Management Standards"@en .
+
+:information-security a skos:Concept ;
+    skos:broader :information ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Information Security"@en .
+
+:information-technology-standards a skos:Concept ;
+    skos:broader :information ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Information Technology Standards"@en .
+
+:inspection-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Inspection Services"@en .
+
+:insurance-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Insurance Regulation"@en .
+
+:integrated-service-planning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Integrated Service Planning"@en .
+
+:intelligence-liaison a skos:Concept ;
+    skos:broader :intelligence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Intelligence Liaison"@en .
+
+:intelligence-support a skos:Concept ;
+    skos:broader :intelligence ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Intelligence Support"@en .
+
+:intergovernment-policy-dissemination a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Intergovernment Policy Dissemination"@en .
+
+:intergovernment-relations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Intergovernment Relations"@en .
+
+:international-affairs a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Affairs"@en .
+
+:international-cultural-exchanges a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Cultural Exchanges"@en .
+
+:international-expositions a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Expositions"@en .
+
+:international-liaison a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Liaison"@en .
+
+:international-monetary-regulation a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Monetary Regulation"@en .
+
+:international-relations a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Relations"@en .
+
+:international-security-liaison a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Security Liaison"@en .
+
+:international-trade-agreements a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Trade Agreements"@en .
+
+:international-treaty-participation a skos:Concept ;
+    skos:broader :international ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International Treaty Participation"@en .
+
+:interpreter-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Interpreter Services"@en .
+
+:interstate-trade-agreements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Interstate Trade Agreements"@en .
+
+:investment-scheme-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Investment Scheme Regulation"@en .
+
+:job-placement-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Job Placement Programs"@en .
+
+:job-vacancy-data-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Job Vacancy Data Management"@en .
+
+:justice-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Justice Administration"@en .
+
+:juvenile-justice a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Juvenile Justice"@en .
+
+:labour-market-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Labour Market Programs"@en .
+
+:land-rehabilitation-programs a skos:Concept ;
+    skos:broader :land ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Land Rehabilitation Programs"@en .
+
+:land-use-planning a skos:Concept ;
+    skos:broader :land ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Land Use Planning"@en .
+
+:land-use-zoning a skos:Concept ;
+    skos:broader :land ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Land Use Zoning"@en .
+
+:land-valuation a skos:Concept ;
+    skos:broader :land ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Land Valuation"@en .
+
+:landcare-programs a skos:Concept ;
+    skos:broader :land ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Landcare Programs"@en .
+
+:language-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Language Services"@en .
+
+:law-enforcement a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Law Enforcement"@en .
+
+:legal-aid-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Legal Aid Services"@en .
+
+:legislation-review a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Legislation Review"@en .
+
+:legislative-drafting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Legislative Drafting"@en .
+
+:life-insurance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Life Insurance"@en .
+
+:lightstation-maintenance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Lightstation Maintenance"@en .
+
+:litigation-processes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Litigation Processes"@en .
+
+:local-laws-and-ordinances a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Local Laws And Ordinances"@en .
+
+:logistics a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Logistics"@en .
+
+:marina-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Marina Management"@en .
+
+:marine-and-rural-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Marine And Rural Regulation"@en .
+
+:marine-and-rural-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Marine And Rural Support"@en .
+
+:marine-life-protection-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Marine Life Protection Programs"@en .
+
+:maritime-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Maritime Services"@en .
+
+:mathematical-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mathematical Sciences"@en .
+
+:media-ownership-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Media Ownership Regulation"@en .
+
+:mediation-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mediation Programs"@en .
+
+:medical-aids-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Medical Aids Regulation"@en .
+
+:medical-quarantine-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Medical Quarantine Services"@en .
+
+:medical-research a skos:Concept ;
+    skos:broader :medical-and-health-sciences ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Medical Research"@en .
+
+:medical-research-funding a skos:Concept ;
+    skos:broader :medical-and-health-sciences ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Medical Research Funding"@en .
+
+:memorial-maintenance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Memorial Maintenance"@en .
+
+:mental-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mental Health Services"@en .
+
+:merger-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Merger Regulation"@en .
+
+:migrant-accommodation-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Migrant Accommodation Services"@en .
+
+:migrant-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Migrant Services"@en .
+
+:migrant-settlements-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Migrant Settlements Programs"@en .
+
+:military-advisors a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Advisors"@en .
+
+:military-bands a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Bands"@en .
+
+:military-education-and-training a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Education And Training"@en .
+
+:military-employment-services a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Employment Services"@en .
+
+:military-equipment-programs a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Equipment Programs"@en .
+
+:military-exercises a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Exercises"@en .
+
+:military-operations a skos:Concept ;
+    skos:broader :military ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military Operations"@en .
+
+:mineral-exploration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mineral Exploration"@en .
+
+:mineral-resources a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mineral Resources"@en .
+
+:mining-regulations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mining Regulations"@en .
+
+:mobile-telephone-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Mobile Telephone Services"@en .
+
+:monetary-policy a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Monetary Policy"@en .
+
+:multicultural-festivals a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Multicultural Festivals"@en .
+
+:multicultural-heritage-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Multicultural Heritage Promotion"@en .
+
+:multicultural-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Multicultural Services"@en .
+
+:multilateral-treaties a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Multilateral Treaties"@en .
+
+:national-park-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "National Park Management"@en .
+
+:national-referral-laboratory-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "National Referral Laboratory Services"@en .
+
+:native-animal-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Native Animal Registration"@en .
+
+:native-title-claims a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Native Title Claims"@en .
+
+:natural-disasters a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Natural Disasters"@en .
+
+:natural-heritage-protection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Natural Heritage Protection"@en .
+
+:naturalisation-assessment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Naturalisation Assessment"@en .
+
+:nature-reserve-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Nature Reserve Management"@en .
+
+:navigation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Navigation"@en .
+
+:navigation-systems-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Navigation Systems Development"@en .
+
+:navy a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Navy"@en .
+
+:notifiable-disease-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Notifiable Disease Management"@en .
+
+:nuclear-safeguards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Nuclear Safeguards"@en .
+
+:nuclear-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Nuclear Sciences"@en .
+
+:oceanography a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Oceanography"@en .
+
+:oceans-governance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Oceans Governance"@en .
+
+:official-establishment-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Official Establishment Management"@en .
+
+:official-hospitality a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Official Hospitality"@en .
+
+:official-protocol a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Official Protocol"@en .
+
+:official-visits a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Official Visits"@en .
+
+:online-transaction-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Online Transaction Standards"@en .
+
+:overseas-aid-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Overseas Aid Programs"@en .
+
+:overseas-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Overseas Promotion"@en .
+
+:overseas-skills-recognition a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Overseas Skills Recognition"@en .
+
+:overseas-student-scholarship-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Overseas Student Scholarship Programs"@en .
+
+:park-access-and-permits a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Park Access And Permits"@en .
+
+:park-and-reserve-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Park And Reserve Services"@en .
+
+:parliamentary-papers a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Parliamentary Papers"@en .
+
+:passenger-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Passenger Services"@en .
+
+:passport-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Passport Services"@en .
+
+:pastoral-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pastoral Industry"@en .
+
+:patent-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Patent Registration"@en .
+
+:patient-care a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Patient Care"@en .
+
+:peacekeeping-forces a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Peacekeeping Forces"@en .
+
+:pension-entitlements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pension Entitlements"@en .
+
+:permanent-entry-arrangements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Permanent Entry Arrangements"@en .
+
+:personal-safety-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Personal Safety Standards"@en .
+
+:pharmaceutical-and-drug-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pharmaceutical And Drug Support"@en .
+
+:physical-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Physical Sciences"@en .
+
+:physiology a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Physiology"@en .
+
+:pilot-licensing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pilot Licensing"@en .
+
+:police-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Police Administration"@en .
+
+:pollutant-prevention-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pollutant Prevention Programs"@en .
+
+:pollution-emission-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Pollution Emission Control"@en .
+
+:population-based-research a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Population Based Research"@en .
+
+:population-distribution-analysis a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Population Distribution Analysis"@en .
+
+:port-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Port Regulation"@en .
+
+:postal-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Postal Services"@en .
+
+:practitioner-discipline a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Practitioner Discipline"@en .
+
+:practitioner-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Practitioner Registration"@en .
+
+:preparation-of-legislative-regulations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Preparation Of Legislative Regulations"@en .
+
+:preschool-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Preschool Education"@en .
+
+:presentation-arrangements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Presentation Arrangements"@en .
+
+:preservation-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Preservation Services"@en .
+
+:prices-surveillance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Prices Surveillance"@en .
+
+:primary-health-care a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Primary Health Care"@en .
+
+:primary-industries a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Primary Industries"@en .
+
+:privacy-guideline-monitoring a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Privacy Guideline Monitoring"@en .
+
+:probate-applications a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Probate Applications"@en .
+
+:product-safety a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Product Safety"@en .
+
+:prohibited-export-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Prohibited Export Control"@en .
+
+:prohibited-import-control a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Prohibited Import Control"@en .
+
+:prosecution-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Prosecution Services"@en .
+
+:protective-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Protective Services"@en .
+
+:public-borrowing a skos:Concept ;
+    skos:broader :public-expenditure ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Borrowing"@en .
+
+:public-debt a skos:Concept ;
+    skos:broader :public-expenditure ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Debt"@en .
+
+:public-fitness-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Fitness Promotion"@en .
+
+:public-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Health Services"@en .
+
+:public-housing-construction a skos:Concept ;
+    skos:broader :public-housing ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Housing Construction"@en .
+
+:public-housing-design a skos:Concept ;
+    skos:broader :public-housing ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Housing Design"@en .
+
+:public-housing-entitlements a skos:Concept ;
+    skos:broader :public-housing ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Housing Entitlements"@en .
+
+:public-housing-maintenance a skos:Concept ;
+    skos:broader :public-housing ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Housing Maintenance"@en .
+
+:public-land-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Land Management"@en .
+
+:public-land-zoning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Land Zoning"@en .
+
+:publicity-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Publicity Programs"@en .
+
+:publishing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Publishing"@en .
+
+:publishing-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Publishing Standards"@en .
+
+:quarantine a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Quarantine"@en .
+
+:radio-broadcasting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Radio Broadcasting"@en .
+
+:radio-communication a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Radio Communication"@en .
+
+:rail-harmonisation-standards a skos:Concept ;
+    skos:broader :rail ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rail Harmonisation Standards"@en .
+
+:rail-land-acquisition-regulation a skos:Concept ;
+    skos:broader :rail ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rail Land Acquisition Regulation"@en .
+
+:rail-transport a skos:Concept ;
+    skos:broader :rail ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rail Transport"@en .
+
+:rail-transport-safety a skos:Concept ;
+    skos:broader :rail ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rail Transport Safety"@en .
+
+:railway-maintenance a skos:Concept ;
+    skos:broader :rail ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Railway Maintenance"@en .
+
+:rates-of-pay-and-salary a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rates Of Pay And Salary"@en .
+
+:rebate-schemes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rebate Schemes"@en .
+
+:recordkeeping-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Recordkeeping Standards"@en .
+
+:recreational-park-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Recreational Park Management"@en .
+
+:recruitment-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Recruitment Programs"@en .
+
+:reference-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Reference Services"@en .
+
+:refuge-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Refuge Support"@en .
+
+:refugee-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Refugee Services"@en .
+
+:regional-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Regional Development"@en .
+
+:remuneration-review a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Remuneration Review"@en .
+
+:renewable-energy-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Renewable Energy Development"@en .
+
+:rescue-coordination a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rescue Coordination"@en .
+
+:reserves a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Reserves"@en .
+
+:residential-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Residential Services"@en .
+
+:residential-zoning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Residential Zoning"@en .
+
+:resource-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Resource Management"@en .
+
+:resources a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Resources"@en .
+
+:retail-postal-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Retail Postal Services"@en .
+
+:retirement-income a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Retirement Income"@en .
+
+:retirement-saving a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Retirement Saving"@en .
+
+:revenue-raising a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Revenue Raising"@en .
+
+:road-safety-awareness a skos:Concept ;
+    skos:broader :roads ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Road Safety Awareness"@en .
+
+:road-surface-maintenance a skos:Concept ;
+    skos:broader :roads ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Road Surface Maintenance"@en .
+
+:road-traffic-regulation a skos:Concept ;
+    skos:broader :roads ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Road Traffic Regulation"@en .
+
+:road-transport a skos:Concept ;
+    skos:broader :roads ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Road Transport"@en .
+
+:road-transport-safety a skos:Concept ;
+    skos:broader :roads ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Road Transport Safety"@en .
+
+:roulettes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Roulettes"@en .
+
+:rural-community-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rural Community Development"@en .
+
+:rural-field-day-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rural Field Day Promotion"@en .
+
+:rural-partnership-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rural Partnership Programs"@en .
+
+:sacred-object-protection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sacred Object Protection"@en .
+
+:sacred-site-protection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sacred Site Protection"@en .
+
+:satellite-communication a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Satellite Communication"@en .
+
+:school-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "School Education"@en .
+
+:school-transport-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "School Transport Regulation"@en .
+
+:search-and-rescue a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Search And Rescue"@en .
+
+:search-technology-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Search Technology Development"@en .
+
+:security a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Security"@en .
+
+:seismography a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Seismography"@en .
+
+:settlement-negotiations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Settlement Negotiations"@en .
+
+:ship-commissioning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ship Commissioning"@en .
+
+:ship-inspection a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ship Inspection"@en .
+
+:ship-personnel a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ship Personnel"@en .
+
+:ship-safety a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Ship Safety"@en .
+
+:silvicultural-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Silvicultural Industry"@en .
+
+:small-business-advocacy a skos:Concept ;
+    skos:broader :small-business ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Small Business Advocacy"@en .
+
+:small-business-development a skos:Concept ;
+    skos:broader :small-business ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Small Business Development"@en .
+
+:small-business-services a skos:Concept ;
+    skos:broader :small-business ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Small Business Services"@en .
+
+:social-club-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Social Club Support"@en .
+
+:social-justice-and-equity a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Social Justice And Equity"@en .
+
+:soil-preservation-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Soil Preservation Programs"@en .
+
+:spatial-information-research a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Spatial Information Research"@en .
+
+:special-needs-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Special Needs Programs"@en .
+
+:special-needs-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Special Needs Services"@en .
+
+:special-operations a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Special Operations"@en .
+
+:spectrum-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Spectrum Management"@en .
+
+:sport-and-fitness-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sport And Fitness Development"@en .
+
+:sport-and-recreation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sport And Recreation"@en .
+
+:sporting-facilities-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sporting Facilities Management"@en .
+
+:sporting-grants-administration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sporting Grants Administration"@en .
+
+:sports-drugs-monitoring a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Sports Drugs Monitoring"@en .
+
+:stevedores a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Stevedores"@en .
+
+:stock-market-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Stock Market Regulation"@en .
+
+:strategic-decisions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Strategic Decisions"@en .
+
+:strategic-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Strategic Development"@en .
+
+:strategic-planning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Strategic Planning"@en .
+
+:strategic-policy a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Strategic Policy"@en .
+
+:strategic-support a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Strategic Support"@en .
+
+:superannuation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Superannuation"@en .
+
+:tabling-of-official-documents a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tabling Of Official Documents"@en .
+
+:tariff-regulation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tariff Regulation"@en .
+
+:taxation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Taxation"@en .
+
+:taxation-compliance a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Taxation Compliance"@en .
+
+:telecommunications a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Telecommunications"@en .
+
+:telephone-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Telephone Services"@en .
+
+:television-broadcasting a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Television Broadcasting"@en .
+
+:temporary-entry-arrangements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Temporary Entry Arrangements"@en .
+
+:termination-processes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Termination Processes"@en .
+
+:tertiary-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tertiary Education"@en .
+
+:tourism a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tourism"@en .
+
+:tourism-awards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tourism Awards"@en .
+
+:tourism-industry-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tourism Industry Development"@en .
+
+:tourist-event-promotion a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Tourist Event Promotion"@en .
+
+:town-planning a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Town Planning"@en .
+
+:trade-development-programs a skos:Concept ;
+    skos:broader :trade ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trade Development Programs"@en .
+
+:trade-expositions a skos:Concept ;
+    skos:broader :trade ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trade Expositions"@en .
+
+:trade-fair-promotion a skos:Concept ;
+    skos:broader :trade ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trade Fair Promotion"@en .
+
+:trade-practices-compliance a skos:Concept ;
+    skos:broader :trade ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trade Practices Compliance"@en .
+
+:trademark-registration a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trademark Registration"@en .
+
+:trainee-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trainee Programs"@en .
+
+:transport-access-schemes a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Transport Access Schemes"@en .
+
+:transport-network-maintenance a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Transport Network Maintenance"@en .
+
+:travel-authorisation a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Travel Authorisation"@en .
+
+:travel-missions a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Travel Missions"@en .
+
+:unseaworthiness a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Unseaworthiness"@en .
+
+:vehicle-registration a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Vehicle Registration"@en .
+
+:vehicle-standards a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Vehicle Standards"@en .
+
+:vessel-piloting a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Vessel Piloting"@en .
+
+:veteran-entitlements a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Veteran Entitlements"@en .
+
+:veteran-health-services a skos:Concept ;
+    skos:broader :health-services ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Veteran Health Services"@en .
+
+:viticultural-industry a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Viticultural Industry"@en .
+
+:vocational-education a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Vocational Education"@en .
+
+:volunteer-support-programs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Volunteer Support Programs"@en .
+
+:warfare a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Warfare"@en .
+
+:waste-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Waste Management"@en .
+
+:water-conservation-plans a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water Conservation Plans"@en .
+
+:water-quality-monitoring a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water Quality Monitoring"@en .
+
+:water-resources a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water Resources"@en .
+
+:water-supply a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water Supply"@en .
+
+:water-usage-management a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water Usage Management"@en .
+
+:waterway-management a skos:Concept ;
+    skos:broader :water ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Waterway Management"@en .
+
+:website-development a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Website Development"@en .
+
+:weights-and-measures-standards a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Weights And Measures Standards"@en .
+
+:welfare-complaints-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Welfare Complaints Services"@en .
+
+:wilderness-area-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Wilderness Area Management"@en .
+
+:wildlife-sanctuary-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Wildlife Sanctuary Management"@en .
+
+:workers-compensation-schemes a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workers Compensation Schemes"@en .
+
+:workplace-agreement-processes a skos:Concept ;
+    skos:broader :workplace ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace Agreement Processes"@en .
+
+:workplace-discrimination-monitoring a skos:Concept ;
+    skos:broader :workplace ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace Discrimination Monitoring"@en .
+
+:workplace-equity-and-justice-programs a skos:Concept ;
+    skos:broader :workplace ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace Equity And Justice Programs"@en .
+
+:workplace-management a skos:Concept ;
+    skos:broader :workplace ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace Management"@en .
+
+:workplace-training a skos:Concept ;
+    skos:broader :workplace ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace Training"@en .
+
+:world-heritage-listings a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "World Heritage Listings"@en .
+
+:intelligence a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Intelligence"@en .
+
+:medical-and-health-sciences a skos:Concept ;
+    skos:broader :science ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Medical And Health Sciences"@en .
+
+:public-expenditure a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Expenditure"@en .
+
+:disasters a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Disasters"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:energy a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Energy"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:hospitals a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Hospitals"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:small-business a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Small Business"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:cultural-affairs a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Cultural Affairs"@en .
+
+:emergencies a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Emergencies"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:information skos:topConceptOf :ConceptScheme .
+
+:public-housing a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Public Housing"@en .
+
+:trade a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Trade"@en .
+
+:businesses skos:topConceptOf :ConceptScheme .
+
+:collection-management a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Collection Management"@en .
+
+:land a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Land"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:rail a skos:Concept ;
+    skos:broader :transport ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Rail"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:roads a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Roads"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:workplace a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Workplace"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:arts a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Arts"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:employment a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Employment"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:indigenous a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Indigenous"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:transport a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Transport"@en .
+
+:water a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Water"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:military a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Military"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:community a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Community"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:health a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:health-services a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Health Services"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:international a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "International"@en ;
+    skos:topConceptOf :ConceptScheme .
+
+:defence a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Defence"@en .
+
+:science a skos:Concept ;
+    skos:inScheme :ConceptScheme ;
+    skos:prefLabel "Science"@en .
+
+:ConceptScheme a skos:ConceptScheme ;
+  skos:prefLabel "CRS Thesaurus Concept Scheme"@en .

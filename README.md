@@ -1,9 +1,16 @@
 # CRS Thesaurus in SKOS
-This is the Commonwealth Record Series (CRS)' thesaurus of government functions delivered as a [SKOS vocabulary](https://www.w3.org/TR/skos-primer/). 
+This is the Commonwealth Record Series (CRS)' thesaurus of government functions delivered as a [SKOS vocabulary](https://www.w3.org/TR/skos-primer/).
 
 The CRS is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations and an [RDF](https://www.w3.org/RDF/) / [OWL](https://www.w3.org/TR/owl2-overview/) implementation of the CRS is modelled by the [CRS Ontology](https://github.com/CSIRO-enviro-informatics/crs-ont) and content according to which will likely soon be delivered online.
 
 **NOTE: This thesaurus is in test mode until this notice is removed**
+
+## Files in this repository
+* **[README.md](README.md)** - this file
+* **[LICENSE](LICENSE)** - the license deed for this repository; Creative Commons v4.0 International
+* **[CRS-Thesaurus.xlsx](CRS-Thesaurus.xlsx)** - Excel workbook used to convert tabular CRS Thesaurus terms to RDF
+* **[crs-th-raw.ttl](crs-th-raw.ttl)** - raw RDF version of the CRS Thesaurus, taken from Excel & copy 'n pasting
+* **[crs-th.ttl](crs-th.ttl)** - the CRS Thesaurus in RDF (turtle)
 
 
 ## Original CRS v. CRS in SKOS
@@ -17,10 +24,10 @@ Classification ID | Term | Date Modified
 31 | SPATIAL INFORMATION RESEARCH | 17/11/1999 0:00
 31 | ... | ...
 
-The Classification ID is used to distinguish CRS Thesaurus terms from other thesauri such as earlier versions of [AGIFT](data.naa.gov.au/def/agift) and physical artefact types. Several other colums of information are also stored about terms, such as who in the NAA entered them. No term hierarchy, definitions, explanatory notes or other metadata are given for terms. There are 578 terms in total.
+The Classification ID is used to distinguish CRS Thesaurus terms from other thesauri such as earlier versions of [AGIFT](data.naa.gov.au/def/agift) and physical artefact types. Several other columns of information are also stored about terms, such as who in the NAA entered them. No term hierarchy, definitions, explanatory notes or other metadata are given for terms. There are 578 terms in total.
 
 ### SKOS structuring
-In this SKOS implemetation of the CRC Thesuarus, two levels of hierarchy have been introduced, so where in the original CRC Thesuarus you have terms like:
+In this SKOS implementation of the CRC Thesaurus, two levels of hierarchy have been introduced, so where in the original CRC Thesaurus you have terms like:
 
 * WATER CONSERVATION PLANS
 * WATER QUALITY MONITORING
@@ -37,7 +44,7 @@ Now you have a 2-level concept hierarchy like:
   * WATER RESOURCES
   * WATER SUPPLY
   * WATER USAGE MANAGEMENT
-  * WATERWAY MANAGEMENT 
+  * WATERWAY MANAGEMENT
 
 So WATER has been added and the water-related concepts placed under it. Also added are:
 
@@ -61,10 +68,10 @@ So WATER has been added and the water-related concepts placed under it. Also add
 * Small Business
 * Workplace
 
-These 20 concepts are the *top concepts* of this SKOS implemenation with the original 578 being second-level concepts. Due to SKOS' mechanics, both top- and second-level concepts may be used directly but.
+These 20 concepts are the *top concepts* of this SKOS implementation with the original 578 being second-level concepts. Due to SKOS' mechanics, both top- and second-level concepts may be used directly but.
 
 ### Other text changes
-In this implementation, title case has been used so rather than *WATER CONSERVATION PLANS*, we have *Water Conservation Plans*. 
+In this implementation, title case has been used so rather than *WATER CONSERVATION PLANS*, we have *Water Conservation Plans*.
 
 All concepts' labels (in SKOS their preferred labels of *prefLabels*) are indicated as being in English.
 
@@ -77,7 +84,7 @@ Concepts have all been allocate individual persistent web addresses ([URI](https
 
 Initially, the concept prefLabels have been used to create URI IDs by replacing spaces with hyphens and casting to lower case, so *Water Conservation Plans* becomes `water-conservation-plans`.
 
-The URI base is initally set to `http://test.linked.data.gov.au/def/crs-th/` in for testing purposes. This uses the testing part of the [Australin Government Linked Data Working Group](http://www.linked.data.gov.au)'s `linked.data.gov.au` persistent domain, `/def/` to indicate a *definitional resource* and *crs-th* as a unique short code for the CRS Thesaurus.
+The URI base is initially set to `http://test.linked.data.gov.au/def/crs-th/` in for testing purposes. This uses the testing part of the [Australian Government Linked Data Working Group](http://www.linked.data.gov.au)'s `linked.data.gov.au` persistent domain, `/def/` to indicate a *definitional resource* and *crs-th* as a unique short code for the CRS Thesaurus.
 
 Using base + ID, we have a URI for *Water Conservation Plans* being:  
 * [`http://test.linked.data.gov.au/def/crs-th/water-conservation-plans`](http://test.linked.data.gov.au/def/crs-th/water-conservation-plans)
@@ -107,4 +114,4 @@ Contributors:
 *a/g Assistant Director*  
 Commonwealth Information Policy  
 Collection Management  
-National Archives of Australia 
+National Archives of Australia
