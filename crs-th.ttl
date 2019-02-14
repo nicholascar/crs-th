@@ -1,76 +1,84 @@
 @prefix : <http://test.linked.data.gov.au/def/crs-th/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://test.linked.data.gov.au/def/crs-th> a owl:Ontology ;
-  dc:contributor "Nicholas Car" ;
-  dc:publisher "National Archives of Australia" ;
-  dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
-  dct:created "2019-02-14T15:25:00.297000+10:00"^^xsd:dateTime ;
-  dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
-  rdfs:label "CRS Thesaurus"@en ;
-  owl:versionInfo "As per NAA database, no additions except for Top Concepts" ;
-  rdfs:comment """This is the Commonwealth Record Series (CRS)' thesaurus of government functions.
+    rdfs:label "CRS Thesaurus"@en ;
+    dc:contributor "Nicholas Car" ;
+    dc:publisher "National Archives of Australia" ;
+    dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
+    dct:created "2019-02-14T15:25:00.297000+10:00"^^xsd:dateTime ;
+    dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
+    rdfs:comment """This is the Commonwealth Record Series (CRS)' thesaurus of government functions.
 
 The CRS is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations.
 
-This version of the CRS Thesaurus is taken directly from the NAA's database with the single addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them.""" .
-
+This version of the CRS Thesaurus is taken directly from the NAA's database with the single addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them.""";
+    owl:versionInfo "As per NAA database, no additions except for Top Concepts" .
 
 :accommodation-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Accommodation Services"@en .
+    skos:prefLabel "Accommodation Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :administrative-decision-appeal a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Administrative Decision Appeal"@en .
+    skos:prefLabel "Administrative Decision Appeal"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :administrative-decision-review a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Administrative Decision Review"@en .
+    skos:prefLabel "Administrative Decision Review"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :administrative-law a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Administrative Law"@en .
+    skos:prefLabel "Administrative Law"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :adoption-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Adoption Services"@en .
+    skos:prefLabel "Adoption Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :adult-education-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Adult Education Programs"@en .
+    skos:prefLabel "Adult Education Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :adult-migrant-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Adult Migrant Education"@en .
+    skos:prefLabel "Adult Migrant Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :advertising-campaigns a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Advertising Campaigns"@en .
+    skos:prefLabel "Advertising Campaigns"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :advertising-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Advertising Standards"@en .
+    skos:prefLabel "Advertising Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :aged-care-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Aged Care Services"@en .
+    skos:prefLabel "Aged Care Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :agreement-dispute-mediation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Agreement Dispute Mediation"@en .
+    skos:prefLabel "Agreement Dispute Mediation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :agricultural-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Agricultural Industry"@en .
+    skos:prefLabel "Agricultural Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :agricultural-sciences a skos:Concept ;
     skos:broader :science ;
@@ -79,27 +87,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :air-transport a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Air Transport"@en .
+    skos:prefLabel "Air Transport"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :air-transport-safety a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Air Transport Safety"@en .
+    skos:prefLabel "Air Transport Safety"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :aircraft-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Aircraft Standards"@en .
+    skos:prefLabel "Aircraft Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :airforce a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Airforce"@en .
+    skos:prefLabel "Airforce"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :airport-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Airport Services"@en .
+    skos:prefLabel "Airport Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ambulance-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ambulance Services"@en .
+    skos:prefLabel "Ambulance Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :animal-and-veterinary-sciences a skos:Concept ;
     skos:broader :science ;
@@ -108,11 +122,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :apparatus-licensing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Apparatus Licensing"@en .
+    skos:prefLabel "Apparatus Licensing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :applications-for-native-title a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Applications For Native Title"@en .
+    skos:prefLabel "Applications For Native Title"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :applied-sciences a skos:Concept ;
     skos:broader :science ;
@@ -121,27 +137,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :apprenticeship-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Apprenticeship Programs"@en .
+    skos:prefLabel "Apprenticeship Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :aquacultural-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Aquacultural Industry"@en .
+    skos:prefLabel "Aquacultural Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :architectural-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Architectural Services"@en .
+    skos:prefLabel "Architectural Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :army a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Army"@en .
+    skos:prefLabel "Army"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :army-reserve-training a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Army Reserve Training"@en .
+    skos:prefLabel "Army Reserve Training"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :artifact-export-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Artifact Export Regulation"@en .
+    skos:prefLabel "Artifact Export Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :arts-development a skos:Concept ;
     skos:broader :arts ;
@@ -175,11 +197,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :association-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Association Registration"@en .
+    skos:prefLabel "Association Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :associations-and-corporate-law a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Associations And Corporate Law"@en .
+    skos:prefLabel "Associations And Corporate Law"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :astronomical-sciences a skos:Concept ;
     skos:broader :science ;
@@ -188,7 +212,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :athlete-scholarship-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Athlete Scholarship Programs"@en .
+    skos:prefLabel "Athlete Scholarship Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :atmospheric-sciences a skos:Concept ;
     skos:broader :science ;
@@ -207,43 +232,53 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :australian-theatre-of-war a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Australian Theatre Of War"@en .
+    skos:prefLabel "Australian Theatre Of War"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :authentication a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Authentication"@en .
+    skos:prefLabel "Authentication"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :authorised-deposit-taking-institutions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Authorised Deposit Taking Institutions"@en .
+    skos:prefLabel "Authorised Deposit Taking Institutions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :award-conditions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Award Conditions"@en .
+    skos:prefLabel "Award Conditions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :badges-and-insignia a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Badges And Insignia"@en .
+    skos:prefLabel "Badges And Insignia"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :bankruptcy-proceedings a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Bankruptcy Proceedings"@en .
+    skos:prefLabel "Bankruptcy Proceedings"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :benefit-entitlements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Benefit Entitlements"@en .
+    skos:prefLabel "Benefit Entitlements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :bilateral-treaties a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Bilateral Treaties"@en .
+    skos:prefLabel "Bilateral Treaties"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :biochemistry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Biochemistry"@en .
+    skos:prefLabel "Biochemistry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :biodiversity-preservation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Biodiversity Preservation"@en .
+    skos:prefLabel "Biodiversity Preservation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :biological-sciences a skos:Concept ;
     skos:broader :science ;
@@ -252,51 +287,63 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :biotechnology-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Biotechnology Development"@en .
+    skos:prefLabel "Biotechnology Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :birth-death-and-marriage-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Birth Death And Marriage Registration"@en .
+    skos:prefLabel "Birth Death And Marriage Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :botany a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Botany"@en .
+    skos:prefLabel "Botany"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :broadcasting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Broadcasting"@en .
+    skos:prefLabel "Broadcasting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :broadcasting-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Broadcasting Standards"@en .
+    skos:prefLabel "Broadcasting Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :building-acoustics a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Building Acoustics"@en .
+    skos:prefLabel "Building Acoustics"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :building-approval-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Building Approval Services"@en .
+    skos:prefLabel "Building Approval Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :building-preservation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Building Preservation"@en .
+    skos:prefLabel "Building Preservation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :building-regulations-and-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Building Regulations And Standards"@en .
+    skos:prefLabel "Building Regulations And Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :built-environment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Built Environment"@en .
+    skos:prefLabel "Built Environment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :burial-ground-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Burial Ground Management"@en .
+    skos:prefLabel "Burial Ground Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :business a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Business"@en .
+    skos:prefLabel "Business"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :business-management a skos:Concept ;
     skos:broader :businesses ;
@@ -325,59 +372,73 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :cadets a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Cadets"@en .
+    skos:prefLabel "Cadets"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :call-centre-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Call Centre Administration"@en .
+    skos:prefLabel "Call Centre Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :caravan-and-camping-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Caravan And Camping Services"@en .
+    skos:prefLabel "Caravan And Camping Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :career-development-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Career Development Programs"@en .
+    skos:prefLabel "Career Development Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :cargo-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Cargo Control"@en .
+    skos:prefLabel "Cargo Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :carriage-service-providers a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Carriage Service Providers"@en .
+    skos:prefLabel "Carriage Service Providers"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :carrier-licensing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Carrier Licensing"@en .
+    skos:prefLabel "Carrier Licensing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :censorship-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Censorship Standards"@en .
+    skos:prefLabel "Censorship Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :census-collection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Census Collection"@en .
+    skos:prefLabel "Census Collection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ceremonial-representation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ceremonial Representation"@en .
+    skos:prefLabel "Ceremonial Representation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :certified-employment-conditions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Certified Employment Conditions"@en .
+    skos:prefLabel "Certified Employment Conditions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :chamber-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Chamber Support"@en .
+    skos:prefLabel "Chamber Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :charting-sea-lanes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Charting Sea Lanes"@en .
+    skos:prefLabel "Charting Sea Lanes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :chemical-and-pesticide-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Chemical And Pesticide Regulation"@en .
+    skos:prefLabel "Chemical And Pesticide Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :child-and-adolescent-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -386,39 +447,48 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :child-and-youth-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Child And Youth Support"@en .
+    skos:prefLabel "Child And Youth Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :childcare-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Childcare Services"@en .
+    skos:prefLabel "Childcare Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :citizenship a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Citizenship"@en .
+    skos:prefLabel "Citizenship"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :civic-celebrations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Civic Celebrations"@en .
+    skos:prefLabel "Civic Celebrations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :civic-infrastructure a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Civic Infrastructure"@en .
+    skos:prefLabel "Civic Infrastructure"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :civic-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Civic Management"@en .
+    skos:prefLabel "Civic Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :civil-community-assistance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Civil Community Assistance"@en .
+    skos:prefLabel "Civil Community Assistance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :civil-law a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Civil Law"@en .
+    skos:prefLabel "Civil Law"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :climate-information-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Climate Information Services"@en .
+    skos:prefLabel "Climate Information Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :clinical-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -427,11 +497,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :coastal-pilotage a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Coastal Pilotage"@en .
+    skos:prefLabel "Coastal Pilotage"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :coastal-surveillance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Coastal Surveillance"@en .
+    skos:prefLabel "Coastal Surveillance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :collection-access a skos:Concept ;
     skos:broader :collection-management ;
@@ -460,27 +532,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :commercial-zoning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Commercial Zoning"@en .
+    skos:prefLabel "Commercial Zoning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :commissions-of-inquiry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Commissions Of Inquiry"@en .
+    skos:prefLabel "Commissions Of Inquiry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :committee-and-member-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Committee And Member Support"@en .
+    skos:prefLabel "Committee And Member Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :commonwealth-recognition-awards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Commonwealth Recognition Awards"@en .
+    skos:prefLabel "Commonwealth Recognition Awards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :commonwealth-state-funding a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Commonwealth State Funding"@en .
+    skos:prefLabel "Commonwealth State Funding"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :communications a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Communications"@en .
+    skos:prefLabel "Communications"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :community-based-correction a skos:Concept ;
     skos:broader :community ;
@@ -529,11 +607,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :conservation-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Conservation Programs"@en .
+    skos:prefLabel "Conservation Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :constitution a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Constitution"@en .
+    skos:prefLabel "Constitution"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :constitutional-conventions a skos:Concept ;
     skos:broader :constitutional ;
@@ -552,63 +632,78 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :consular-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Consular Services"@en .
+    skos:prefLabel "Consular Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :consumer-protection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Consumer Protection"@en .
+    skos:prefLabel "Consumer Protection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :contract-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Contract Management"@en .
+    skos:prefLabel "Contract Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :conveyancing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Conveyancing"@en .
+    skos:prefLabel "Conveyancing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :copyright-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Copyright Regulation"@en .
+    skos:prefLabel "Copyright Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :coronial-law a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Coronial Law"@en .
+    skos:prefLabel "Coronial Law"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :corrective-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Corrective Services"@en .
+    skos:prefLabel "Corrective Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :counselling-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Counselling Services"@en .
+    skos:prefLabel "Counselling Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :counterfeiting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Counterfeiting"@en .
+    skos:prefLabel "Counterfeiting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :courier-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Courier Services"@en .
+    skos:prefLabel "Courier Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :court-reporting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Court Reporting"@en .
+    skos:prefLabel "Court Reporting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :criminal-law a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Criminal Law"@en .
+    skos:prefLabel "Criminal Law"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :criminology a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Criminology"@en .
+    skos:prefLabel "Criminology"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :cross-border-cooperation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Cross Border Cooperation"@en .
+    skos:prefLabel "Cross Border Cooperation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :crown-land-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Crown Land Administration"@en .
+    skos:prefLabel "Crown Land Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :cultural-awards-and-scholarships a skos:Concept ;
     skos:broader :cultural-affairs ;
@@ -632,27 +727,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :currency a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Currency"@en .
+    skos:prefLabel "Currency"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :curriculum-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Curriculum Development"@en .
+    skos:prefLabel "Curriculum Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :customs-regulations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Customs Regulations"@en .
+    skos:prefLabel "Customs Regulations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :data-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Data Management"@en .
+    skos:prefLabel "Data Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :data-security-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Data Security Standards"@en .
+    skos:prefLabel "Data Security Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :declaration-of-interests a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Declaration Of Interests"@en .
+    skos:prefLabel "Declaration Of Interests"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :defence-attaches a skos:Concept ;
     skos:broader :defence ;
@@ -721,7 +822,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :demographic-surveys a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Demographic Surveys"@en .
+    skos:prefLabel "Demographic Surveys"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :dental-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -730,31 +832,38 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :deportation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Deportation"@en .
+    skos:prefLabel "Deportation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :descriptive-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Descriptive Standards"@en .
+    skos:prefLabel "Descriptive Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :detention-centre-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Detention Centre Management"@en .
+    skos:prefLabel "Detention Centre Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :detention-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Detention Programs"@en .
+    skos:prefLabel "Detention Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :development-assistance-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Development Assistance Programs"@en .
+    skos:prefLabel "Development Assistance Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :diplomatic-missions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Diplomatic Missions"@en .
+    skos:prefLabel "Diplomatic Missions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :disarmament-and-arms-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Disarmament And Arms Control"@en .
+    skos:prefLabel "Disarmament And Arms Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :disaster-recovery a skos:Concept ;
     skos:broader :disasters ;
@@ -773,31 +882,38 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :discipline-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Discipline Programs"@en .
+    skos:prefLabel "Discipline Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :domestic-animal-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Domestic Animal Registration"@en .
+    skos:prefLabel "Domestic Animal Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :doping-detection-research a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Doping Detection Research"@en .
+    skos:prefLabel "Doping Detection Research"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :draft-bill-amendment-process a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Draft Bill Amendment Process"@en .
+    skos:prefLabel "Draft Bill Amendment Process"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :driving-licenses-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Driving Licenses Administration"@en .
+    skos:prefLabel "Driving Licenses Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :drugs-and-poisons-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Drugs And Poisons Regulation"@en .
+    skos:prefLabel "Drugs And Poisons Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :early-childhood-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Early Childhood Education"@en .
+    skos:prefLabel "Early Childhood Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :earth-sciences a skos:Concept ;
     skos:broader :science ;
@@ -806,31 +922,38 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :education-and-training a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Education And Training"@en .
+    skos:prefLabel "Education And Training"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :election-campaigning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Election Campaigning"@en .
+    skos:prefLabel "Election Campaigning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :electoral-boundary-assessment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Electoral Boundary Assessment"@en .
+    skos:prefLabel "Electoral Boundary Assessment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :electoral-matters a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Electoral Matters"@en .
+    skos:prefLabel "Electoral Matters"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :electronic-commerce a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Electronic Commerce"@en .
+    skos:prefLabel "Electronic Commerce"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :electronic-postal-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Electronic Postal Services"@en .
+    skos:prefLabel "Electronic Postal Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :electronic-publishing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Electronic Publishing"@en .
+    skos:prefLabel "Electronic Publishing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :emergency-accommodation a skos:Concept ;
     skos:broader :emergencies ;
@@ -904,15 +1027,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :engineering-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Engineering Services"@en .
+    skos:prefLabel "Engineering Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :enterprise-bargaining-processes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Enterprise Bargaining Processes"@en .
+    skos:prefLabel "Enterprise Bargaining Processes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :enterprise-codes-of-practice a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Enterprise Codes Of Practice"@en .
+    skos:prefLabel "Enterprise Codes Of Practice"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :entomology a skos:Concept ;
     skos:broader :science ;
@@ -921,11 +1047,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :environment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Environment"@en .
+    skos:prefLabel "Environment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :environmental-impact-assessment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Environmental Impact Assessment"@en .
+    skos:prefLabel "Environmental Impact Assessment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :epidemiology a skos:Concept ;
     skos:broader :science ;
@@ -934,171 +1062,213 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :equipment-licensing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Equipment Licensing"@en .
+    skos:prefLabel "Equipment Licensing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ethical-compliance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ethical Compliance"@en .
+    skos:prefLabel "Ethical Compliance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :exchange-rates a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Exchange Rates"@en .
+    skos:prefLabel "Exchange Rates"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :exhibition-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Exhibition Promotion"@en .
+    skos:prefLabel "Exhibition Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :exhibitions-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Exhibitions Programs"@en .
+    skos:prefLabel "Exhibitions Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :export-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Export Promotion"@en .
+    skos:prefLabel "Export Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :export-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Export Regulation"@en .
+    skos:prefLabel "Export Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :external-security a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "External Security"@en .
+    skos:prefLabel "External Security"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :fair-trading-compliance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Fair Trading Compliance"@en .
+    skos:prefLabel "Fair Trading Compliance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :family-law-proceedings a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Family Law Proceedings"@en .
+    skos:prefLabel "Family Law Proceedings"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :family-reunion-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Family Reunion Programs"@en .
+    skos:prefLabel "Family Reunion Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :federation-celebrations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Federation Celebrations"@en .
+    skos:prefLabel "Federation Celebrations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :finance-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Finance Management"@en .
+    skos:prefLabel "Finance Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :financial-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Financial Administration"@en .
+    skos:prefLabel "Financial Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :financial-assistance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Financial Assistance"@en .
+    skos:prefLabel "Financial Assistance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :financial-budgeting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Financial Budgeting"@en .
+    skos:prefLabel "Financial Budgeting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :financial-institutions-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Financial Institutions Regulation"@en .
+    skos:prefLabel "Financial Institutions Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :financial-investment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Financial Investment"@en .
+    skos:prefLabel "Financial Investment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :finding-aids-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Finding Aids Development"@en .
+    skos:prefLabel "Finding Aids Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :firefighting-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Firefighting Services"@en .
+    skos:prefLabel "Firefighting Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :fiscal-policy a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Fiscal Policy"@en .
+    skos:prefLabel "Fiscal Policy"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :fisheries-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Fisheries Industry"@en .
+    skos:prefLabel "Fisheries Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :food-hygiene-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Food Hygiene Regulation"@en .
+    skos:prefLabel "Food Hygiene Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :food-quality-assurance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Food Quality Assurance"@en .
+    skos:prefLabel "Food Quality Assurance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :foreign-investment-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Foreign Investment Control"@en .
+    skos:prefLabel "Foreign Investment Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :forensic-analysis a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Forensic Analysis"@en .
+    skos:prefLabel "Forensic Analysis"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :forestry-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Forestry Industry"@en .
+    skos:prefLabel "Forestry Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :fossil-fuel-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Fossil Fuel Management"@en .
+    skos:prefLabel "Fossil Fuel Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :fundraising-and-donation-schemes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Fundraising And Donation Schemes"@en .
+    skos:prefLabel "Fundraising And Donation Schemes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :gambling-support-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Gambling Support Services"@en .
+    skos:prefLabel "Gambling Support Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :games-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Games Administration"@en .
+    skos:prefLabel "Games Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :games-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Games Promotion"@en .
+    skos:prefLabel "Games Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :gaming-industry-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Gaming Industry Regulation"@en .
+    skos:prefLabel "Gaming Industry Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :garden-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Garden Management"@en .
+    skos:prefLabel "Garden Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :general-insurance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "General Insurance"@en .
+    skos:prefLabel "General Insurance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :genetic-engineering a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Genetic Engineering"@en .
+    skos:prefLabel "Genetic Engineering"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :governance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Governance"@en .
+    skos:prefLabel "Governance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :government-media a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Government Media"@en .
+    skos:prefLabel "Government Media"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :government-procurement-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Government Procurement Regulation"@en .
+    skos:prefLabel "Government Procurement Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :hansard-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Hansard Services"@en .
+    skos:prefLabel "Hansard Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :harbour-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Harbour Management"@en .
+    skos:prefLabel "Harbour Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :head-of-government-protocol a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Head Of Government Protocol"@en .
+    skos:prefLabel "Head Of Government Protocol"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :health-care a skos:Concept ;
     skos:broader :health ;
@@ -1142,15 +1312,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :historic-relic-protection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Historic Relic Protection"@en .
+    skos:prefLabel "Historic Relic Protection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :honours-and-award-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Honours And Award Programs"@en .
+    skos:prefLabel "Honours And Award Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :horticultural-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Horticultural Industry"@en .
+    skos:prefLabel "Horticultural Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :hospital-administration a skos:Concept ;
     skos:broader :hospitals ;
@@ -1169,15 +1342,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :household-census a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Household Census"@en .
+    skos:prefLabel "Household Census"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :human-resource-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Human Resource Development"@en .
+    skos:prefLabel "Human Resource Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :human-rights-obligations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Human Rights Obligations"@en .
+    skos:prefLabel "Human Rights Obligations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :hydrology a skos:Concept ;
     skos:broader :science ;
@@ -1186,27 +1362,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :immigration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Immigration"@en .
+    skos:prefLabel "Immigration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :import-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Import Regulation"@en .
+    skos:prefLabel "Import Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :income-assessment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Income Assessment"@en .
+    skos:prefLabel "Income Assessment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :income-awards-and-conditions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Income Awards And Conditions"@en .
+    skos:prefLabel "Income Awards And Conditions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :income-support-schemes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Income Support Schemes"@en .
+    skos:prefLabel "Income Support Schemes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :independent-living-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Independent Living Services"@en .
+    skos:prefLabel "Independent Living Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :indigenous-cultural-heritage a skos:Concept ;
     skos:broader :indigenous ;
@@ -1240,11 +1422,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :industry-assistance-schemes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Industry Assistance Schemes"@en .
+    skos:prefLabel "Industry Assistance Schemes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :inflation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Inflation"@en .
+    skos:prefLabel "Inflation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :information-dissemination a skos:Concept ;
     skos:broader :information ;
@@ -1253,7 +1437,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :information-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Information Management"@en .
+    skos:prefLabel "Information Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :information-management-standards a skos:Concept ;
     skos:broader :information ;
@@ -1272,15 +1457,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :inspection-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Inspection Services"@en .
+    skos:prefLabel "Inspection Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :insurance-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Insurance Regulation"@en .
+    skos:prefLabel "Insurance Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :integrated-service-planning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Integrated Service Planning"@en .
+    skos:prefLabel "Integrated Service Planning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :intelligence-liaison a skos:Concept ;
     skos:broader :intelligence ;
@@ -1294,11 +1482,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :intergovernment-policy-dissemination a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Intergovernment Policy Dissemination"@en .
+    skos:prefLabel "Intergovernment Policy Dissemination"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :intergovernment-relations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Intergovernment Relations"@en .
+    skos:prefLabel "Intergovernment Relations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :international-affairs a skos:Concept ;
     skos:broader :international ;
@@ -1347,35 +1537,43 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :interpreter-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Interpreter Services"@en .
+    skos:prefLabel "Interpreter Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :interstate-trade-agreements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Interstate Trade Agreements"@en .
+    skos:prefLabel "Interstate Trade Agreements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :investment-scheme-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Investment Scheme Regulation"@en .
+    skos:prefLabel "Investment Scheme Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :job-placement-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Job Placement Programs"@en .
+    skos:prefLabel "Job Placement Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :job-vacancy-data-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Job Vacancy Data Management"@en .
+    skos:prefLabel "Job Vacancy Data Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :justice-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Justice Administration"@en .
+    skos:prefLabel "Justice Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :juvenile-justice a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Juvenile Justice"@en .
+    skos:prefLabel "Juvenile Justice"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :labour-market-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Labour Market Programs"@en .
+    skos:prefLabel "Labour Market Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :land-rehabilitation-programs a skos:Concept ;
     skos:broader :land ;
@@ -1404,63 +1602,78 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :language-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Language Services"@en .
+    skos:prefLabel "Language Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :law-enforcement a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Law Enforcement"@en .
+    skos:prefLabel "Law Enforcement"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :legal-aid-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Legal Aid Services"@en .
+    skos:prefLabel "Legal Aid Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :legislation-review a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Legislation Review"@en .
+    skos:prefLabel "Legislation Review"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :legislative-drafting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Legislative Drafting"@en .
+    skos:prefLabel "Legislative Drafting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :life-insurance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Life Insurance"@en .
+    skos:prefLabel "Life Insurance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :lightstation-maintenance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Lightstation Maintenance"@en .
+    skos:prefLabel "Lightstation Maintenance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :litigation-processes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Litigation Processes"@en .
+    skos:prefLabel "Litigation Processes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :local-laws-and-ordinances a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Local Laws And Ordinances"@en .
+    skos:prefLabel "Local Laws And Ordinances"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :logistics a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Logistics"@en .
+    skos:prefLabel "Logistics"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :marina-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Marina Management"@en .
+    skos:prefLabel "Marina Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :marine-and-rural-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Marine And Rural Regulation"@en .
+    skos:prefLabel "Marine And Rural Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :marine-and-rural-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Marine And Rural Support"@en .
+    skos:prefLabel "Marine And Rural Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :marine-life-protection-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Marine Life Protection Programs"@en .
+    skos:prefLabel "Marine Life Protection Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :maritime-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Maritime Services"@en .
+    skos:prefLabel "Maritime Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mathematical-sciences a skos:Concept ;
     skos:broader :science ;
@@ -1469,15 +1682,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :media-ownership-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Media Ownership Regulation"@en .
+    skos:prefLabel "Media Ownership Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mediation-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Mediation Programs"@en .
+    skos:prefLabel "Mediation Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :medical-aids-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Medical Aids Regulation"@en .
+    skos:prefLabel "Medical Aids Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :medical-quarantine-services a skos:Concept ;
     skos:broader :health-services ;
@@ -1496,7 +1712,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :memorial-maintenance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Memorial Maintenance"@en .
+    skos:prefLabel "Memorial Maintenance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mental-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -1505,19 +1722,23 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :merger-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Merger Regulation"@en .
+    skos:prefLabel "Merger Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :migrant-accommodation-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Migrant Accommodation Services"@en .
+    skos:prefLabel "Migrant Accommodation Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :migrant-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Migrant Services"@en .
+    skos:prefLabel "Migrant Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :migrant-settlements-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Migrant Settlements Programs"@en .
+    skos:prefLabel "Migrant Settlements Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :military-advisors a skos:Concept ;
     skos:broader :military ;
@@ -1556,91 +1777,113 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :mineral-exploration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Mineral Exploration"@en .
+    skos:prefLabel "Mineral Exploration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mineral-resources a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Mineral Resources"@en .
+    skos:prefLabel "Mineral Resources"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mining-regulations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Mining Regulations"@en .
+    skos:prefLabel "Mining Regulations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :mobile-telephone-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Mobile Telephone Services"@en .
+    skos:prefLabel "Mobile Telephone Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :monetary-policy a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Monetary Policy"@en .
+    skos:prefLabel "Monetary Policy"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :multicultural-festivals a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Multicultural Festivals"@en .
+    skos:prefLabel "Multicultural Festivals"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :multicultural-heritage-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Multicultural Heritage Promotion"@en .
+    skos:prefLabel "Multicultural Heritage Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :multicultural-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Multicultural Services"@en .
+    skos:prefLabel "Multicultural Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :multilateral-treaties a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Multilateral Treaties"@en .
+    skos:prefLabel "Multilateral Treaties"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :national-park-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "National Park Management"@en .
+    skos:prefLabel "National Park Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :national-referral-laboratory-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "National Referral Laboratory Services"@en .
+    skos:prefLabel "National Referral Laboratory Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :native-animal-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Native Animal Registration"@en .
+    skos:prefLabel "Native Animal Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :native-title-claims a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Native Title Claims"@en .
+    skos:prefLabel "Native Title Claims"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :natural-disasters a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Natural Disasters"@en .
+    skos:prefLabel "Natural Disasters"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :natural-heritage-protection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Natural Heritage Protection"@en .
+    skos:prefLabel "Natural Heritage Protection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :naturalisation-assessment a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Naturalisation Assessment"@en .
+    skos:prefLabel "Naturalisation Assessment"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :nature-reserve-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Nature Reserve Management"@en .
+    skos:prefLabel "Nature Reserve Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :navigation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Navigation"@en .
+    skos:prefLabel "Navigation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :navigation-systems-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Navigation Systems Development"@en .
+    skos:prefLabel "Navigation Systems Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :navy a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Navy"@en .
+    skos:prefLabel "Navy"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :notifiable-disease-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Notifiable Disease Management"@en .
+    skos:prefLabel "Notifiable Disease Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :nuclear-safeguards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Nuclear Safeguards"@en .
+    skos:prefLabel "Nuclear Safeguards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :nuclear-sciences a skos:Concept ;
     skos:broader :science ;
@@ -1649,99 +1892,123 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :oceanography a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Oceanography"@en .
+    skos:prefLabel "Oceanography"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :oceans-governance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Oceans Governance"@en .
+    skos:prefLabel "Oceans Governance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :official-establishment-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Official Establishment Management"@en .
+    skos:prefLabel "Official Establishment Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :official-hospitality a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Official Hospitality"@en .
+    skos:prefLabel "Official Hospitality"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :official-protocol a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Official Protocol"@en .
+    skos:prefLabel "Official Protocol"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :official-visits a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Official Visits"@en .
+    skos:prefLabel "Official Visits"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :online-transaction-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Online Transaction Standards"@en .
+    skos:prefLabel "Online Transaction Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :overseas-aid-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Overseas Aid Programs"@en .
+    skos:prefLabel "Overseas Aid Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :overseas-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Overseas Promotion"@en .
+    skos:prefLabel "Overseas Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :overseas-skills-recognition a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Overseas Skills Recognition"@en .
+    skos:prefLabel "Overseas Skills Recognition"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :overseas-student-scholarship-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Overseas Student Scholarship Programs"@en .
+    skos:prefLabel "Overseas Student Scholarship Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :park-access-and-permits a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Park Access And Permits"@en .
+    skos:prefLabel "Park Access And Permits"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :park-and-reserve-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Park And Reserve Services"@en .
+    skos:prefLabel "Park And Reserve Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :parliamentary-papers a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Parliamentary Papers"@en .
+    skos:prefLabel "Parliamentary Papers"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :passenger-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Passenger Services"@en .
+    skos:prefLabel "Passenger Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :passport-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Passport Services"@en .
+    skos:prefLabel "Passport Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pastoral-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pastoral Industry"@en .
+    skos:prefLabel "Pastoral Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :patent-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Patent Registration"@en .
+    skos:prefLabel "Patent Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :patient-care a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Patient Care"@en .
+    skos:prefLabel "Patient Care"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :peacekeeping-forces a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Peacekeeping Forces"@en .
+    skos:prefLabel "Peacekeeping Forces"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pension-entitlements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pension Entitlements"@en .
+    skos:prefLabel "Pension Entitlements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :permanent-entry-arrangements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Permanent Entry Arrangements"@en .
+    skos:prefLabel "Permanent Entry Arrangements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :personal-safety-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Personal Safety Standards"@en .
+    skos:prefLabel "Personal Safety Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pharmaceutical-and-drug-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pharmaceutical And Drug Support"@en .
+    skos:prefLabel "Pharmaceutical And Drug Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :physical-sciences a skos:Concept ;
     skos:broader :science ;
@@ -1750,67 +2017,83 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :physiology a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Physiology"@en .
+    skos:prefLabel "Physiology"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pilot-licensing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pilot Licensing"@en .
+    skos:prefLabel "Pilot Licensing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :police-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Police Administration"@en .
+    skos:prefLabel "Police Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pollutant-prevention-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pollutant Prevention Programs"@en .
+    skos:prefLabel "Pollutant Prevention Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :pollution-emission-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Pollution Emission Control"@en .
+    skos:prefLabel "Pollution Emission Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :population-based-research a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Population Based Research"@en .
+    skos:prefLabel "Population Based Research"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :population-distribution-analysis a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Population Distribution Analysis"@en .
+    skos:prefLabel "Population Distribution Analysis"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :port-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Port Regulation"@en .
+    skos:prefLabel "Port Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :postal-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Postal Services"@en .
+    skos:prefLabel "Postal Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :practitioner-discipline a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Practitioner Discipline"@en .
+    skos:prefLabel "Practitioner Discipline"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :practitioner-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Practitioner Registration"@en .
+    skos:prefLabel "Practitioner Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :preparation-of-legislative-regulations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Preparation Of Legislative Regulations"@en .
+    skos:prefLabel "Preparation Of Legislative Regulations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :preschool-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Preschool Education"@en .
+    skos:prefLabel "Preschool Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :presentation-arrangements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Presentation Arrangements"@en .
+    skos:prefLabel "Presentation Arrangements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :preservation-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Preservation Services"@en .
+    skos:prefLabel "Preservation Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :prices-surveillance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Prices Surveillance"@en .
+    skos:prefLabel "Prices Surveillance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :primary-health-care a skos:Concept ;
     skos:broader :health-services ;
@@ -1819,35 +2102,43 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :primary-industries a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Primary Industries"@en .
+    skos:prefLabel "Primary Industries"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :privacy-guideline-monitoring a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Privacy Guideline Monitoring"@en .
+    skos:prefLabel "Privacy Guideline Monitoring"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :probate-applications a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Probate Applications"@en .
+    skos:prefLabel "Probate Applications"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :product-safety a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Product Safety"@en .
+    skos:prefLabel "Product Safety"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :prohibited-export-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Prohibited Export Control"@en .
+    skos:prefLabel "Prohibited Export Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :prohibited-import-control a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Prohibited Import Control"@en .
+    skos:prefLabel "Prohibited Import Control"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :prosecution-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Prosecution Services"@en .
+    skos:prefLabel "Prosecution Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :protective-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Protective Services"@en .
+    skos:prefLabel "Protective Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :public-borrowing a skos:Concept ;
     skos:broader :public-expenditure ;
@@ -1861,7 +2152,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :public-fitness-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Public Fitness Promotion"@en .
+    skos:prefLabel "Public Fitness Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :public-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -1890,35 +2182,43 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :public-land-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Public Land Management"@en .
+    skos:prefLabel "Public Land Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :public-land-zoning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Public Land Zoning"@en .
+    skos:prefLabel "Public Land Zoning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :publicity-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Publicity Programs"@en .
+    skos:prefLabel "Publicity Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :publishing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Publishing"@en .
+    skos:prefLabel "Publishing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :publishing-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Publishing Standards"@en .
+    skos:prefLabel "Publishing Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :quarantine a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Quarantine"@en .
+    skos:prefLabel "Quarantine"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :radio-broadcasting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Radio Broadcasting"@en .
+    skos:prefLabel "Radio Broadcasting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :radio-communication a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Radio Communication"@en .
+    skos:prefLabel "Radio Communication"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rail-harmonisation-standards a skos:Concept ;
     skos:broader :rail ;
@@ -1947,87 +2247,108 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :rates-of-pay-and-salary a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rates Of Pay And Salary"@en .
+    skos:prefLabel "Rates Of Pay And Salary"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rebate-schemes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rebate Schemes"@en .
+    skos:prefLabel "Rebate Schemes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :recordkeeping-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Recordkeeping Standards"@en .
+    skos:prefLabel "Recordkeeping Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :recreational-park-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Recreational Park Management"@en .
+    skos:prefLabel "Recreational Park Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :recruitment-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Recruitment Programs"@en .
+    skos:prefLabel "Recruitment Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :reference-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Reference Services"@en .
+    skos:prefLabel "Reference Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :refuge-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Refuge Support"@en .
+    skos:prefLabel "Refuge Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :refugee-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Refugee Services"@en .
+    skos:prefLabel "Refugee Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :regional-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Regional Development"@en .
+    skos:prefLabel "Regional Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :remuneration-review a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Remuneration Review"@en .
+    skos:prefLabel "Remuneration Review"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :renewable-energy-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Renewable Energy Development"@en .
+    skos:prefLabel "Renewable Energy Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rescue-coordination a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rescue Coordination"@en .
+    skos:prefLabel "Rescue Coordination"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :reserves a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Reserves"@en .
+    skos:prefLabel "Reserves"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :residential-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Residential Services"@en .
+    skos:prefLabel "Residential Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :residential-zoning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Residential Zoning"@en .
+    skos:prefLabel "Residential Zoning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :resource-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Resource Management"@en .
+    skos:prefLabel "Resource Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :resources a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Resources"@en .
+    skos:prefLabel "Resources"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :retail-postal-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Retail Postal Services"@en .
+    skos:prefLabel "Retail Postal Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :retirement-income a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Retirement Income"@en .
+    skos:prefLabel "Retirement Income"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :retirement-saving a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Retirement Saving"@en .
+    skos:prefLabel "Retirement Saving"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :revenue-raising a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Revenue Raising"@en .
+    skos:prefLabel "Revenue Raising"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :road-safety-awareness a skos:Concept ;
     skos:broader :roads ;
@@ -2056,79 +2377,98 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :roulettes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Roulettes"@en .
+    skos:prefLabel "Roulettes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rural-community-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rural Community Development"@en .
+    skos:prefLabel "Rural Community Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rural-field-day-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rural Field Day Promotion"@en .
+    skos:prefLabel "Rural Field Day Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :rural-partnership-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Rural Partnership Programs"@en .
+    skos:prefLabel "Rural Partnership Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sacred-object-protection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sacred Object Protection"@en .
+    skos:prefLabel "Sacred Object Protection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sacred-site-protection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sacred Site Protection"@en .
+    skos:prefLabel "Sacred Site Protection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :satellite-communication a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Satellite Communication"@en .
+    skos:prefLabel "Satellite Communication"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :school-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "School Education"@en .
+    skos:prefLabel "School Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :school-transport-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "School Transport Regulation"@en .
+    skos:prefLabel "School Transport Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :search-and-rescue a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Search And Rescue"@en .
+    skos:prefLabel "Search And Rescue"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :search-technology-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Search Technology Development"@en .
+    skos:prefLabel "Search Technology Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :security a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Security"@en .
+    skos:prefLabel "Security"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :seismography a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Seismography"@en .
+    skos:prefLabel "Seismography"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :settlement-negotiations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Settlement Negotiations"@en .
+    skos:prefLabel "Settlement Negotiations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ship-commissioning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ship Commissioning"@en .
+    skos:prefLabel "Ship Commissioning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ship-inspection a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ship Inspection"@en .
+    skos:prefLabel "Ship Inspection"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ship-personnel a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ship Personnel"@en .
+    skos:prefLabel "Ship Personnel"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ship-safety a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Ship Safety"@en .
+    skos:prefLabel "Ship Safety"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :silvicultural-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Silvicultural Industry"@en .
+    skos:prefLabel "Silvicultural Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :small-business-advocacy a skos:Concept ;
     skos:broader :small-business ;
@@ -2147,147 +2487,183 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :social-club-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Social Club Support"@en .
+    skos:prefLabel "Social Club Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :social-justice-and-equity a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Social Justice And Equity"@en .
+    skos:prefLabel "Social Justice And Equity"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :soil-preservation-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Soil Preservation Programs"@en .
+    skos:prefLabel "Soil Preservation Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :spatial-information-research a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Spatial Information Research"@en .
+    skos:prefLabel "Spatial Information Research"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :special-needs-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Special Needs Programs"@en .
+    skos:prefLabel "Special Needs Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :special-needs-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Special Needs Services"@en .
+    skos:prefLabel "Special Needs Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :special-operations a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Special Operations"@en .
+    skos:prefLabel "Special Operations"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :spectrum-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Spectrum Management"@en .
+    skos:prefLabel "Spectrum Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sport-and-fitness-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sport And Fitness Development"@en .
+    skos:prefLabel "Sport And Fitness Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sport-and-recreation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sport And Recreation"@en .
+    skos:prefLabel "Sport And Recreation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sporting-facilities-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sporting Facilities Management"@en .
+    skos:prefLabel "Sporting Facilities Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sporting-grants-administration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sporting Grants Administration"@en .
+    skos:prefLabel "Sporting Grants Administration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :sports-drugs-monitoring a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Sports Drugs Monitoring"@en .
+    skos:prefLabel "Sports Drugs Monitoring"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :stevedores a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Stevedores"@en .
+    skos:prefLabel "Stevedores"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :stock-market-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Stock Market Regulation"@en .
+    skos:prefLabel "Stock Market Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :strategic-decisions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Strategic Decisions"@en .
+    skos:prefLabel "Strategic Decisions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :strategic-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Strategic Development"@en .
+    skos:prefLabel "Strategic Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :strategic-planning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Strategic Planning"@en .
+    skos:prefLabel "Strategic Planning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :strategic-policy a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Strategic Policy"@en .
+    skos:prefLabel "Strategic Policy"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :strategic-support a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Strategic Support"@en .
+    skos:prefLabel "Strategic Support"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :superannuation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Superannuation"@en .
+    skos:prefLabel "Superannuation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tabling-of-official-documents a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tabling Of Official Documents"@en .
+    skos:prefLabel "Tabling Of Official Documents"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tariff-regulation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tariff Regulation"@en .
+    skos:prefLabel "Tariff Regulation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :taxation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Taxation"@en .
+    skos:prefLabel "Taxation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :taxation-compliance a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Taxation Compliance"@en .
+    skos:prefLabel "Taxation Compliance"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :telecommunications a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Telecommunications"@en .
+    skos:prefLabel "Telecommunications"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :telephone-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Telephone Services"@en .
+    skos:prefLabel "Telephone Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :television-broadcasting a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Television Broadcasting"@en .
+    skos:prefLabel "Television Broadcasting"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :temporary-entry-arrangements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Temporary Entry Arrangements"@en .
+    skos:prefLabel "Temporary Entry Arrangements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :termination-processes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Termination Processes"@en .
+    skos:prefLabel "Termination Processes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tertiary-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tertiary Education"@en .
+    skos:prefLabel "Tertiary Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tourism a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tourism"@en .
+    skos:prefLabel "Tourism"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tourism-awards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tourism Awards"@en .
+    skos:prefLabel "Tourism Awards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tourism-industry-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tourism Industry Development"@en .
+    skos:prefLabel "Tourism Industry Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :tourist-event-promotion a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Tourist Event Promotion"@en .
+    skos:prefLabel "Tourist Event Promotion"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :town-planning a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Town Planning"@en .
+    skos:prefLabel "Town Planning"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :trade-development-programs a skos:Concept ;
     skos:broader :trade ;
@@ -2311,11 +2687,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :trademark-registration a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Trademark Registration"@en .
+    skos:prefLabel "Trademark Registration"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :trainee-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Trainee Programs"@en .
+    skos:prefLabel "Trainee Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :transport-access-schemes a skos:Concept ;
     skos:broader :transport ;
@@ -2329,15 +2707,18 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :travel-authorisation a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Travel Authorisation"@en .
+    skos:prefLabel "Travel Authorisation"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :travel-missions a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Travel Missions"@en .
+    skos:prefLabel "Travel Missions"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :unseaworthiness a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Unseaworthiness"@en .
+    skos:prefLabel "Unseaworthiness"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :vehicle-registration a skos:Concept ;
     skos:broader :transport ;
@@ -2356,7 +2737,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :veteran-entitlements a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Veteran Entitlements"@en .
+    skos:prefLabel "Veteran Entitlements"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :veteran-health-services a skos:Concept ;
     skos:broader :health-services ;
@@ -2365,23 +2747,28 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :viticultural-industry a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Viticultural Industry"@en .
+    skos:prefLabel "Viticultural Industry"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :vocational-education a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Vocational Education"@en .
+    skos:prefLabel "Vocational Education"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :volunteer-support-programs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Volunteer Support Programs"@en .
+    skos:prefLabel "Volunteer Support Programs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :warfare a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Warfare"@en .
+    skos:prefLabel "Warfare"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :waste-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Waste Management"@en .
+    skos:prefLabel "Waste Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :water-conservation-plans a skos:Concept ;
     skos:broader :water ;
@@ -2415,27 +2802,33 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :website-development a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Website Development"@en .
+    skos:prefLabel "Website Development"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :weights-and-measures-standards a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Weights And Measures Standards"@en .
+    skos:prefLabel "Weights And Measures Standards"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :welfare-complaints-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Welfare Complaints Services"@en .
+    skos:prefLabel "Welfare Complaints Services"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :wilderness-area-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Wilderness Area Management"@en .
+    skos:prefLabel "Wilderness Area Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :wildlife-sanctuary-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Wildlife Sanctuary Management"@en .
+    skos:prefLabel "Wildlife Sanctuary Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :workers-compensation-schemes a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Workers Compensation Schemes"@en .
+    skos:prefLabel "Workers Compensation Schemes"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :workplace-agreement-processes a skos:Concept ;
     skos:broader :workplace ;
@@ -2464,11 +2857,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :world-heritage-listings a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "World Heritage Listings"@en .
+    skos:prefLabel "World Heritage Listings"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :intelligence a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Intelligence"@en .
+    skos:prefLabel "Intelligence"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :medical-and-health-sciences a skos:Concept ;
     skos:broader :science ;
@@ -2477,7 +2872,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :public-expenditure a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Public Expenditure"@en .
+    skos:prefLabel "Public Expenditure"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :disasters a skos:Concept ;
     skos:inScheme :ConceptScheme ;
@@ -2501,7 +2897,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :cultural-affairs a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Cultural Affairs"@en .
+    skos:prefLabel "Cultural Affairs"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :emergencies a skos:Concept ;
     skos:inScheme :ConceptScheme ;
@@ -2512,17 +2909,20 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :public-housing a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Public Housing"@en .
+    skos:prefLabel "Public Housing"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :trade a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Trade"@en .
+    skos:prefLabel "Trade"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :businesses skos:topConceptOf :ConceptScheme .
 
 :collection-management a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Collection Management"@en .
+    skos:prefLabel "Collection Management"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :land a skos:Concept ;
     skos:inScheme :ConceptScheme ;
@@ -2562,7 +2962,8 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :transport a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Transport"@en .
+    skos:prefLabel "Transport"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :water a skos:Concept ;
     skos:inScheme :ConceptScheme ;
@@ -2596,11 +2997,13 @@ This version of the CRS Thesaurus is taken directly from the NAA's database with
 
 :defence a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Defence"@en .
+    skos:prefLabel "Defence"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :science a skos:Concept ;
     skos:inScheme :ConceptScheme ;
-    skos:prefLabel "Science"@en .
+    skos:prefLabel "Science"@en ;
+    skos:topConceptOf :ConceptScheme .
 
 :ConceptScheme a skos:ConceptScheme ;
-  skos:prefLabel "CRS Thesaurus Concept Scheme"@en .
+    skos:prefLabel "CRS Thesaurus Concept Scheme"@en .
