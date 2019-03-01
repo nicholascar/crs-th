@@ -1,4 +1,4 @@
-@prefix : <http://test.linked.data.gov.au/def/crs-th/> .
+@prefix : <http://test.linked.data.gov.au/def/crs-th-31/> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -7,22 +7,26 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <http://test.linked.data.gov.au/def/crs-th> a owl:Ontology ;
-    rdfs:label "CRS Thesaurus"@en ;
+    rdfs:label "CRS Thesaurus Terms List 31"@en ;
     dc:contributor "Nicholas Car" ;
+    dc:contributor "David Hearder" ;
     dc:publisher "National Archives of Australia" ;
     dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
     dct:created "2019-02-14T15:25:00.297000+10:00"^^xsd:dateTime ;
     dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
-    rdfs:comment """This is the Commonwealth Record Series (CRS)' thesaurus of government functions.
+    rdfs:comment """This is the Commonwealth Record Series (CRS)' Thesuarus Terms List 31 which is a thesaurus of government functions.
 
 The CRS is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations.
 
-This version of the CRS Thesaurus is taken directly from the NAA's database with the single addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them.""";
-    owl:versionInfo "As per NAA database, no additions except for Top Concepts" .
+This SKOS/RDF expression of the Term List 31 is the same as the original save for the addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them and a single, erroneous, duplicative term removed ("Accomodation Services" removed as inccorectly spelled and duplicating "Accomodation Services").
+""";
+    owl:versionInfo "As per NAA database, no additions except for Top Concepts" ;
+    dc:source """This CRS Thesaurus Terms List 31 is taken directly from the NAA's CRS Database table VALID_THESAURUS_TERMS where INS_SUMMARY_ID value equalled 31.""" ;
 
 :accommodation-services a skos:Concept ;
     skos:inScheme :ConceptScheme ;
     skos:prefLabel "Accommodation Services"@en ;
+    skos:hiddenLabel "Accomodation Services"@en ;
     skos:topConceptOf :ConceptScheme .
 
 :administrative-decision-appeal a skos:Concept ;
