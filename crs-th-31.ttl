@@ -1,5 +1,5 @@
 @prefix : <http://test.linked.data.gov.au/def/crs-th-31/> .
-@prefix :cs <http://test.linked.data.gov.au/def/crs-th-31> .
+@prefix cs: <http://test.linked.data.gov.au/def/crs-th-31> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -22,7 +22,7 @@ The CRS is maintained by the [National Archives of Australia](http://naa.gov.au)
 This SKOS/RDF expression of the Term List 31 is the same as the original save for the addition of a 2-part hierarchy whereby 20 Top Concepts have been added (defence, water, health etc.) and some of the original 597 terms placed underneath them and a single, erroneous, duplicative term removed ("Accomodation Services" removed as inccorectly spelled and duplicating "Accomodation Services").
 """;
     owl:versionInfo "As per NAA database, no additions except for Top Concepts" ;
-    dc:source """This CRS Thesaurus Terms List 31 is taken directly from the NAA's CRS Database table VALID_THESAURUS_TERMS where INS_SUMMARY_ID value equalled 31.""" ;
+    dc:source """This CRS Thesaurus Terms List 31 is taken directly from the NAA's CRS Database table VALID_THESAURUS_TERMS where INS_SUMMARY_ID value equalled 31.""" .
 
 :accommodation-services a skos:Concept ;
     skos:inScheme :cs ;

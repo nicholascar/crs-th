@@ -1,5 +1,5 @@
 @prefix : <http://test.linked.data.gov.au/def/crs-th/> .
-@prefix :cs <http://test.linked.data.gov.au/def/crs-th> .
+@prefix cs: <http://test.linked.data.gov.au/def/crs-th> .
 @prefix dc: <http://purl.org/dc/elements/1.1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
