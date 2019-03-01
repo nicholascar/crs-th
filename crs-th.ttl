@@ -17,7 +17,7 @@
     dc:publisher "National Archives of Australia" ;
     dc:source "This CRS Thesaurus Terms vocabulary is taken directly from the NAA's CRS Database table VALID_THESAURUS_TERMS where INS_SUMMARY_ID value equals 20." ;
     dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
-    dct:created "2019-03-01T15:25:00.297000+10:00"^^xsd:dateTime ;
+    dct:created "2019-03-01"^^xsd:date ;
     dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
     rdfs:comment """This is the Commonwealth Record Series (CRS)' Thesuarus Terms which is a thesaurus of government functions.
 
