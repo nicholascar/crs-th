@@ -1,0 +1,982 @@
+:act-police a skos:Concept ; skos:prefLabel "Act Police" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of legal advice, formulation of legislation, management of the Commonwealth Law Court system including provision of legal aid services. Also includes enforcement of law and order through the Commonwealth policing responsibility and protection of the civil and consumer rights of individuals" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Functions relating to the provision of services to the Commonwealth Government and general public, including leasing, purchasing, storage, protection of government and diplomatic buildings and archives" .
+:agriculture a skos:Concept ; skos:prefLabel "Agriculture" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for agriculture, including the marketing, testing of crops and financial support and subsidies" .
+:air-force a skos:Concept ; skos:prefLabel "Air Force" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of Australia's air defence forces" .
+:air-force-administration a skos:Concept ; skos:prefLabel "Air Force Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Centralised policy making areas within the Air Force" .
+:air-force-commands a skos:Concept ; skos:prefLabel "Air Force Commands" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Flying units and related training and support establishments and units" .
+:air-operations a skos:Concept ; skos:prefLabel "Air Operations" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Flying and operational units, including military airports and bases. For civilian airports USE Airports" .
+:air-safety a skos:Concept ; skos:prefLabel "Air Safety" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation, and monitoring of policies and procedures for ensuring safety of airline operators, flying crew and passengers" .
+:air-transport a skos:Concept ; skos:prefLabel "Air Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Public and private non military aviation, including transport companies, policy making bodies and facilities such as airports. For military airports and bases USE Air Force Commands" .
+:airport-services a skos:Concept ; skos:prefLabel "Airport Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Civilian airport management and operation. For military airports USE Air Force Commands" .
+:analytical-services a skos:Concept ; skos:prefLabel "Analytical Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of laboratory and testing / analytical services for the government" .
+:arbitration a skos:Concept ; skos:prefLabel "Arbitration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, policy for and conduct of conciliation and arbitration of industrial disputes" .
+:archives-administration a skos:Concept ; skos:prefLabel "Archives Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Organisations managing Commonwealth and related records and providing access to the heritage of the Commonwealth, including, manuscripts, film and sound archives." .
+:army a skos:Concept ; skos:prefLabel "Army" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of Australia's land defence forces" .
+:army-administration a skos:Concept ; skos:prefLabel "Army Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Centralised policy making areas for the Army" .
+:army-commands a skos:Concept ; skos:prefLabel "Army Commands" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Military and related headquarter, training and support command establishments and units" .
+:arts-development a skos:Concept ; skos:prefLabel "Arts Development" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Funding and support for the arts, including film, fine arts and the performing arts. USE Censorship for controls on release of publications and films" .
+:audit a skos:Concept ; skos:prefLabel "Audit" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Auditing and financial scrutiny of government operations, including departments, and autonomous or independent bodies" .
+:australian-capital-territory a skos:Concept ; skos:prefLabel "Australian Capital Territory" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:banking a skos:Concept ; skos:prefLabel "Banking" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Central banking activities of the Federal Government and merchant, trading, development or savings bank activities. Also includes loans and savings programs administered by the banking industry and foreign exchange" .
+:bankruptcy a skos:Concept ; skos:prefLabel "Bankruptcy" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and administration of legislation relating to bankruptcy" .
+:botany a skos:Concept ; skos:prefLabel "Botany" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the scientific collection, study, and classification of plant" .
+:bounties a skos:Concept ; skos:prefLabel "Bounties" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Programs to encourage products and exports through insurance and bounties and other financial schemes" .
+:broadcasting a skos:Concept ; skos:prefLabel "Broadcasting" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and regulation of radio and television broadcasting including government run stations" .
+:building a skos:Concept ; skos:prefLabel "Building" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Policy, planning, design, construction and maintenance of government buildings and facilities" .
+:cabinet a skos:Concept ; skos:prefLabel "Cabinet" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of secretariat services to Cabinet, Cabinet Committees and special wartime Cabinets" .
+:canberra a skos:Concept ; skos:prefLabel "Canberra" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:censorship a skos:Concept ; skos:prefLabel "Censorship" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Control of ideas, images and other information disseminated in an electronic, verbal or print form. Also includes peace and wartime censorship" .
+:ceremonial-functions a skos:Concept ; skos:prefLabel "Ceremonial Functions" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes government involvement in state ceremonial affairs, Imperial and Australian honours and decorations, official ceremonial, protocol, gifts and pageantry" .
+:child-welfare a skos:Concept ; skos:prefLabel "Child Welfare" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes child support maintenance" .
+:citizenship a skos:Concept ; skos:prefLabel "Citizenship" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Identification of Australian citizens by recording individuals born/died in Australia or those born of Australian parentage overseas and registered at an Australian Embassy/High Commission, naturalization of foreign citizens. For relations with Expatriates USE Government Representation Overseas. Registers for Births, Deaths and Marriages are held by State/Territory Governments." .
+:civil-engineering a skos:Concept ; skos:prefLabel "Civil Engineering" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Policy, planning, design, construction and maintenance of the infrastructure and related tasks, including dams, railways and road construction" .
+:coastal-surveillance a skos:Concept ; skos:prefLabel "Coastal Surveillance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with observing Australia's coasts in order to stop people and goods entering illegall" .
+:collection-management a skos:Concept ; skos:prefLabel "Collection Management" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with managing collections (books, objects, relics, etc.) held for use by internal and/or external clients" .
+:colonial-administration a skos:Concept ; skos:prefLabel "Colonial Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "In 1901 the Commonwealth Government inherited several functions previously carried out by the Colonies such as the Colony of New South Wales. Examples of these functions include Postal services, operation of Lighthouses and Customs" .
+:committees-of-inquiry a skos:Concept ; skos:prefLabel "Committees Of Inquiry" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Independent investigations and reviews established for specific purposes and abolished on completion of their tasks" .
+:commonwealth-state-relations a skos:Concept ; skos:prefLabel "Commonwealth State Relations" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes joint consultative bodies such as the River Murray Commission and organisations responsible for distributing Commonwealth funds to the States through grants or loans" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Electronic and print media and publishing, postal or telecommunications operations of the government (eg Australia Post). Also includes operation of government broadcasting stations and regulation of the broadcasting industry" .
+:community-services a skos:Concept ; skos:prefLabel "Community Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the provision of health and welfare services to the community, administration of pensions and allowances, and regulation of the health insurance industry. Includes provision of child care services" .
+:compensation-schemes a skos:Concept ; skos:prefLabel "Compensation Schemes" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "National compensation schemes including policy issues. Includes compensation schemes for specific categories of workers (eg Seamen)" .
+:conservation a skos:Concept ; skos:prefLabel "Conservation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, provision of information about and protection of the natural environment. For conservation of the National estate USE National heritage" .
+:construction a skos:Concept ; skos:prefLabel "Construction" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Government involvement in the construction area, including commercial and domestic buildings" .
+:consular-services a skos:Concept ; skos:prefLabel "Consular Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of the provision of diplomatic services representing Australia in overseas locations" .
+:consumer-affairs a skos:Concept ; skos:prefLabel "Consumer Affairs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Arrangement for the protection of consumers and the redress of their complaints" .
+:copyright a skos:Concept ; skos:prefLabel "Copyright" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Recognition of intellectual property rights and administration of related legislation" .
+:corporate-affairs a skos:Concept ; skos:prefLabel "Corporate Affairs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Monitoring and ensuring compliance with Australian corporate legislation," .
+:corrective-services a skos:Concept ; skos:prefLabel "Corrective Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration and management of prisons and the prison system" .
+:court-reporting a skos:Concept ; skos:prefLabel "Court Reporting" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in making transcripts of court proceedings and preparing them for publication" .
+:courts-and-tribunals a skos:Concept ; skos:prefLabel "Courts And Tribunals" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:courts-martial a skos:Concept ; skos:prefLabel "Courts Martial" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Prosecution of members of the armed services by courts comprised of officers of the defence services" .
+:criminology a skos:Concept ; skos:prefLabel "Criminology" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with research into crime and criminal behaviour" .
+:cultural-affairs a skos:Concept ; skos:prefLabel "Cultural Affairs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Government involvement in the management, operation and support for the arts and cultural organisations such as museums, libraries and art galleries" .
+:currency a skos:Concept ; skos:prefLabel "Currency" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities relating to the production of Australian bank notes, coins and bonds" .
+:curriculum-development a skos:Concept ; skos:prefLabel "Curriculum Development" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and creation of programs relating to teaching methods, curriculum and education evaluation" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Customs, excise and tariffs on imports and exports. Provision of custom related services and surveillance and inspection of goods arriving into Australia" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration and development of Defence policy in time of peace or war. Includes military protection of Australia and the coordination of natural disaster services, the management of the defence industries infrastructure, defence scientific research and the collection of information of a strategic nature." .
+:defence-administration a skos:Concept ; skos:prefLabel "Defence Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of all elements of the Defence bureaucracy in times of peace and war" .
+:defence-coordination a skos:Concept ; skos:prefLabel "Defence Coordination" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination of the deployment of military forces in times of peace and war" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Military protection of Australia and the coordination of natural disaster services. Includes wartime coordination and management of civilians for dealing with enemy action (especially air raids)" .
+:defence-industries a skos:Concept ; skos:prefLabel "Defence Industries" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Defence related manufacturing activities undertaken by the government" .
+:defence-intelligence a skos:Concept ; skos:prefLabel "Defence Intelligence" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Collection of information of a strategic nature and its assessment. Includes the collection, by electronic methods, of intelligence on foreign countries" .
+:defence-research a skos:Concept ; skos:prefLabel "Defence Research" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, and development of, scientific and industrial research relating to the defence of Australia" .
+:defence-service-home-schemes a skos:Concept ; skos:prefLabel "Defence Service Home Schemes" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of programs aimed at providing low cost housing to Defence force personnel" .
+:dental-services a skos:Concept ; skos:prefLabel "Dental Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved with provision of dental services to low and middle income earners" .
+:deportation a skos:Concept ; skos:prefLabel "Deportation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in removal of unwanted persons to another country" .
+:deportations a skos:Concept ; skos:prefLabel "Deportations" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:disability-services a skos:Concept ; skos:prefLabel "Disability Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation and administration of policies and programs directed at providing health and welfare services to people with disabilities" .
+:earth-sciences a skos:Concept ; skos:prefLabel "Earth Sciences" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and provision of information about geology, geophysics and geoscience" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Commonwealth area of responsibility for education, including scholarships, programs to assist students, particularly through grants to individuals, educational institutions and curriculum development. For scholarships to overseas students studying in Australia USE Overseas aid programs" .
+:electoral-matters a skos:Concept ; skos:prefLabel "Electoral Matters" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Function of government covers the activities associated with conducting elections and referendums and maintenance of electoral rolls.  Includes administration of compulsory voting and enrolment procedures, provision of means to vote, such as ballot papers and other polling material, and scruting of electoral processes.  Also encompasses provision of electoral information and electoral education programs. See also CONSTITUTIONAL REFERENDA." .
+:emergency-services a skos:Concept ; skos:prefLabel "Emergency Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes accident response, natural disaster response and safety programs. USE also Rescue Coordination" .
+:employment a skos:Concept ; skos:prefLabel "Employment" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and administration of the labour market, including employment services and technical training schemes" .
+:energy a skos:Concept ; skos:prefLabel "Energy" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Exploitation, exploration and research into the identification, extraction, distribution and use of energy resources, including coal, gas and oil" .
+:environment a skos:Concept ; skos:prefLabel "Environment" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Policy, development and research into the natural environment and the national estate, including world heritage concerns. For industries impacting on the environment USE Primary industries OR Secondary industries" .
+:environmental-monitoring a skos:Concept ; skos:prefLabel "Environmental Monitoring" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Programs and procedures for monitoring environmental quality and the effects of business processes on the environment" .
+:equity-programs a skos:Concept ; skos:prefLabel "Equity Programs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation and monitoring of workplace programs designed to assist members of disadvantaged groups to overcome past or present disadvantage" .
+:excise a skos:Concept ; skos:prefLabel "Excise" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in the administration and collection of duties and taxes levied on products sold within Australia" .
+:exports-and-imports a skos:Concept ; skos:prefLabel "Exports And Imports" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Programs relating to exports and imports of resources and manufactured goods" .
+:expositions a skos:Concept ; skos:prefLabel "Expositions" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in participation in Expositions" .
+:external-security a skos:Concept ; skos:prefLabel "External Security" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Collection of information of the political, military or economic situations of foreign countries and its interpretation" .
+:extraditions a skos:Concept ; skos:prefLabel "Extraditions" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in bringing individuals accused of crimes back to Australia in order to try them" .
+:family-law a skos:Concept ; skos:prefLabel "Family Law" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in administering those laws which apply to familial relationships" .
+:federal-capital-territory a skos:Concept ; skos:prefLabel "Federal Capital Territory" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:federal-law a skos:Concept ; skos:prefLabel "Federal Law" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in administration of those laws which have federal application" .
+:field-force-army a skos:Concept ; skos:prefLabel "Field Force (Army)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination and management of the land defence forces of Australia" .
+:film-production a skos:Concept ; skos:prefLabel "Film Production" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Determination of public policy on and regulation of taxation, superannuation, and the corporate and banking sectors; regulation of foreign investment and exchange issues. Also includes determination of Commonwealth funds to the States and Territories" .
+:fisheries-regulation a skos:Concept ; skos:prefLabel "Fisheries Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for fisheries and the fishing industry" .
+:flight-regulation a skos:Concept ; skos:prefLabel "Flight Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and management of policies and procedures to regulate the use of air space" .
+:foreign-investment-control a skos:Concept ; skos:prefLabel "Foreign Investment Control" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with monitoring and controlling the amount of foreign investment in Australian property and companies" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development of international relations, including the United Nations; diplomatic representation in overseas countries including trade and immigration. Also includes implementation of aid programs for other countries" .
+:forestry-regulation a skos:Concept ; skos:prefLabel "Forestry Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for forestry and timber industries, including woodchipping" .
+:freight a skos:Concept ; skos:prefLabel "Freight" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and regulation of the transport of goods" .
+:genetics a skos:Concept ; skos:prefLabel "Genetics" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and development of genetic engineering techniques and processes. Includes monitoring of genetic engineering activities" .
+:goods-and-services a skos:Concept ; skos:prefLabel "Goods And Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of services relating to purchasing, storage and disposal of office equiment or assets, but excluding accommodation or buildings, on behalf of Commonwealth Government agencies. See also PROPERTY MANAGEMENT for services relating to Commonwealth buildings, owned or leased" .
+:government-accommodation-and-catering a skos:Concept ; skos:prefLabel "Government Accommodation And Catering" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Food and residential accommodation services provided to Commonwealth employees and members of the public" .
+:government-media a skos:Concept ; skos:prefLabel "Government Media" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination and management of Government advertising and publicity campaigns. For promotion of tourism USE Tourism" .
+:government-representation-overseas a skos:Concept ; skos:prefLabel "Government Representation Overseas" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "This function includes all diplomatic missions overseas; diplomatic representation of Australia by ministers and special envoys, particularly of a short term and individual nature; trade representation on behalf of Australian manufacturers and primary producers. Also includes overseas social security and expatriate concerns" .
+:governor-general a skos:Concept ; skos:prefLabel "Governor General" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Representation of the Monarchy in Australia, involvement in Royal visits. For vice regal involvement in other ceremonial activities USE Ceremonial functions" .
+:grants-administration a skos:Concept ; skos:prefLabel "Grants Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of policies, procedures, and activities associated with applications for and distribution of grants" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Public health, including quarantine and health research except medical insurance and health benefit schemes. For insurance and benefit schemes USE Health insurance" .
+:health-insurance a skos:Concept ; skos:prefLabel "Health Insurance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Regulation and operation of medical insurance schemes" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Covers all aspects of public health services and includes campaigns to promote public health" .
+:hearing-services a skos:Concept ; skos:prefLabel "Hearing Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved with provision of services to those with hearing difficulties" .
+:historic-memorials a skos:Concept ; skos:prefLabel "Historic Memorials" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Design, construction, and maintenance of memorials commemorating particular people and/or events" .
+:home-savings-schemes a skos:Concept ; skos:prefLabel "Home Savings Schemes" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of schemes to provide assistance towards home ownership for low to moderate income households" .
+:horticulture a skos:Concept ; skos:prefLabel "Horticulture" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for the fruit and vegetable industry" .
+:hospitals-and-clinics a skos:Concept ; skos:prefLabel "Hospitals And Clinics" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Hospitals and clinics operated by the Commonwealth or territorial governments" .
+:house-of-representatives-committees a skos:Concept ; skos:prefLabel "House Of Representatives Committees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:housing a skos:Concept ; skos:prefLabel "Housing" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Policy, planning, design, construction and maintenance of domestic housing and related tasks.  USE Community Services for allocation of housing for welfare purposes. USE Defence Service Home Schemes for defence related housing. USE Home Savings Schemes for programs supporting home purchasing" .
+:human-rights a skos:Concept ; skos:prefLabel "Human Rights" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, protection and promotion of human rights such as privacy, including measures for redress or advancement of groups and individuals" .
+:hydroelectric a skos:Concept ; skos:prefLabel "Hydroelectric" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:hydroelectric-power a skos:Concept ; skos:prefLabel "Hydroelectric Power" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:indigeneous-people a skos:Concept ; skos:prefLabel "Indigeneous People" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:indigenous-affairs a skos:Concept ; skos:prefLabel "Indigenous Affairs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Health and welfare of Indigenous peoples, including social, political and providing incentives for economic development" .
+:indigenous-enterprises a skos:Concept ; skos:prefLabel "Indigenous Enterprises" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Commercial enterprises run by and for the benefit of Indigenous people" .
+:indigenous-land-rights a skos:Concept ; skos:prefLabel "Indigenous Land Rights" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Function of negotiation and management of native title claims" .
+:indigenous-settlements a skos:Concept ; skos:prefLabel "Indigenous Settlements" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of reserves providing occupation by Indigenous peoples and liasion with missions who provided food, employment and housing for indigenous people" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Government involvement in the labour market; training and employment and national service; regulation and arbitration of working conditions and practices including promotion of safe working environments. For post war reconstruction training schemes USE Repatriation" .
+:industries a skos:Concept ; skos:prefLabel "Industries" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:inspection a skos:Concept ; skos:prefLabel "Inspection" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of the process of officially examining facilities, equipment and items to ensure their compliance with agreed standards" .
+:inspection-services a skos:Concept ; skos:prefLabel "Inspection Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:insurance a skos:Concept ; skos:prefLabel "Insurance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development of policy and its administration in relation to the insurance industry" .
+:internal-security a skos:Concept ; skos:prefLabel "Internal Security" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Involves the collection of intelligence information and its interpretation and assessment within Australia" .
+:international-relations a skos:Concept ; skos:prefLabel "International Relations" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Relations with international bodies such as the United Nations, including trade and environmental groups" .
+:internees a skos:Concept ; skos:prefLabel "Internees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Civilians or aliens either held in confinement or whose activities or property were subject to government control during World War I or World War II" .
+:investigation a skos:Concept ; skos:prefLabel "Investigation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities carried out by persons empowered to inquire and report on a subject" .
+:joint-committees a skos:Concept ; skos:prefLabel "Joint Committees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:justice-administration a skos:Concept ; skos:prefLabel "Justice Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Carriage of the Commonwealth justice system, including management and operation of judicial institutions" .
+:labour-market-programs a skos:Concept ; skos:prefLabel "Labour Market Programs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and administration of programs aimed at getting unemployed people back into the workforce through education, retraining, etc" .
+:land-transport a skos:Concept ; skos:prefLabel "Land Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Public and private land transport, including the operation of government railways, road safety, interstate transport regulations, and motor vehicle national certification" .
+:land-use a skos:Concept ; skos:prefLabel "Land Use" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development of policies and procedures to ensure environmentally sound and effective use of land resources" .
+:law-enforcement a skos:Concept ; skos:prefLabel "Law Enforcement" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of policing function of Federal and former territory jurisdiction and research into law enforcement patterns and trends. Also covers protection of diplomatic missions and corrective services" .
+:leasing a skos:Concept ; skos:prefLabel "Leasing" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in leasing items, equipment, accommodation, premises, or real estate from another organisation, including policy and procedures" .
+:legal a skos:Concept ; skos:prefLabel "Legal" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:legal-aid a skos:Concept ; skos:prefLabel "Legal Aid" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in provision of financial assistance to low and middle income earners to allow them to be represented in court" .
+:legal-services a skos:Concept ; skos:prefLabel "Legal Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of legal advice, interpretation of legislation, management of legal agreements, disputes and actions. Includes legal advice received from all sources" .
+:legislation a skos:Concept ; skos:prefLabel "Legislation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "The activities involved in the process of making laws" .
+:lighthouses a skos:Concept ; skos:prefLabel "Lighthouses" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "On its establishment in 1901, the Commonwealth was authorised to make laws in respect of lighthouses, lightships, beacons and buoys. CA 10, Department of Trade and Customs was responsible for this function from 1901 until 1915. However, the responsibility for lighthouses did not transfer to the Commonwealth from the States until 1915" .
+:literature-funding a skos:Concept ; skos:prefLabel "Literature Funding" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and operation of programs to provide financial support to writers" .
+:loans a skos:Concept ; skos:prefLabel "Loans" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and administration of policy and procedures associated with lending money to companies and individuals" .
+:logistics a skos:Concept ; skos:prefLabel "Logistics" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "The term Logistics is too broad for use on its own in the defence environment. USE Logistics (Air Force), Logistics (Army), Navy Support or Logistics (Defence)" .
+:logistics-air-force a skos:Concept ; skos:prefLabel "Logistics (Air Force)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes Air Force support units and bases" .
+:logistics-army a skos:Concept ; skos:prefLabel "Logistics (Army)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes Army support units and bases" .
+:logistics-defence a skos:Concept ; skos:prefLabel "Logistics (Defence)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes Joint and Tri service operational support units and bases and centralised support operations" .
+:maintenance a skos:Concept ; skos:prefLabel "Maintenance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with upkeep, repair, servicing, and preservation of internal/external conditions of premises, vehicles, equipment, etc" .
+:marine-science a skos:Concept ; skos:prefLabel "Marine Science" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and provision of information about the marine environment, including marine biology and its commercial exploitation" .
+:maritime-commands-navy a skos:Concept ; skos:prefLabel "Maritime Commands (Navy)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "All commissioned ships and shore based operational units" .
+:market-regulation a skos:Concept ; skos:prefLabel "Market Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Control and regulation of markets and market forces. For price control or price surveillance USE Rationing and price control" .
+:marketing a skos:Concept ; skos:prefLabel "Marketing" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Process of analysing, creating, and selling products and services. Includes market research, sales forecasting, advertising, media releases, promotion, pricing, and product evaluation" .
+:medical-research a skos:Concept ; skos:prefLabel "Medical Research" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Investigations into general medical administration and health issues, including research into health and medical standards" .
+:memorials a skos:Concept ; skos:prefLabel "Memorials" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Design, negotiations for, construction and maintenance of memorials and monuments" .
+:metals a skos:Concept ; skos:prefLabel "Metals" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:meteorology a skos:Concept ; skos:prefLabel "Meteorology" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and provision of information about the weather and atmosphere" .
+:migrant-services a skos:Concept ; skos:prefLabel "Migrant Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in providing welfare and social services to migrants" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and implementation of immigration and multicultural programs, qualifications" .
+:mining a skos:Concept ; skos:prefLabel "Mining" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and administration of policies and procedures to manage mining operations" .
+:multiculturalism a skos:Concept ; skos:prefLabel "Multiculturalism" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Recognition and promotion of an awareness of ethnic/cultural diversity, development of a cohesive society, including full participation of ethnic communities" .
+:munitions a skos:Concept ; skos:prefLabel "Munitions" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in the production of munitions" .
+:national-events a skos:Concept ; skos:prefLabel "National Events" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Planning, funding or coordination of events or festivals designed to commemorate significant events related to the history and development of Australia" .
+:national-fitness a skos:Concept ; skos:prefLabel "National Fitness" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Promotion and support for national fitness" .
+:national-heritage a skos:Concept ; skos:prefLabel "National Heritage" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Identification, description and protection of the national heritage including the National estate and World heritage concerns" .
+:national-land-use a skos:Concept ; skos:prefLabel "National Land Use" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:national-parks a skos:Concept ; skos:prefLabel "National Parks" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Preservation and study of areas designated as national parks" .
+:national-service a skos:Concept ; skos:prefLabel "National Service" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of policy and procedures to select young men to serve in the armed forces" .
+:natural-disasters a skos:Concept ; skos:prefLabel "Natural Disasters" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination and control of national responses to natural disasters such as the 1974 Darwin cyclone and provision of emergency / rescue services in the major territories" .
+:navigation a skos:Concept ; skos:prefLabel "Navigation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:navy a skos:Concept ; skos:prefLabel "Navy" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of Australia's sea defence forces" .
+:navy-administration a skos:Concept ; skos:prefLabel "Navy Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Centralised policy making areas within the Navy" .
+:navy-commands a skos:Concept ; skos:prefLabel "Navy Commands" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of naval units and related shore-based training and support establishments" .
+:navy-support a skos:Concept ; skos:prefLabel "Navy Support" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes all commissioned and non commissioned shore establishments" .
+:northern-territory a skos:Concept ; skos:prefLabel "Northern Territory" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:nursing-services a skos:Concept ; skos:prefLabel "Nursing Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of the provision of nursing services" .
+:occupational-health-and-safety a skos:Concept ; skos:prefLabel "Occupational Health And Safety" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Health and safety in the workplace, including industrial inspections and the promotion of ergonomic practices" .
+:ombudsman a skos:Concept ; skos:prefLabel "Ombudsman" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Investigation of complaints by individuals against government agency decisions, processes and behaviour" .
+:ordnance a skos:Concept ; skos:prefLabel "Ordnance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in the manufacture of artillery and military supplies" .
+:overseas-aid-programs a skos:Concept ; skos:prefLabel "Overseas Aid Programs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Aid to overseas students studying in Australia, development programs within other countries and international relief" .
+:parks a skos:Concept ; skos:prefLabel "Parks" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Establishment, maintenance and preservation of areas of land designated as parks" .
+:parliamentary-chamber-administration a skos:Concept ; skos:prefLabel "Parliamentary Chamber Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the day-to-day running of the House of Representatives meeting chamber and the Senate meeting chamber" .
+:parliamentary-committees a skos:Concept ; skos:prefLabel "Parliamentary Committees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:parliamentary-matters a skos:Concept ; skos:prefLabel "Parliamentary Matters" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Execution of the parliamentary process in the House of Representatives and the Senate and overall management of the various standing and select Committees. USE function terms that relate to the area of investigation for specific committees. USE Collection Management for the Parliamentary Library" .
+:passenger-entry-control a skos:Concept ; skos:prefLabel "Passenger Entry Control" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and administration of policies and procedures for managing the movement of sea and air passengers through Australian ports" .
+:passports a skos:Concept ; skos:prefLabel "Passports" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Policy and issue of passports or other travel documentation for Australians visiting overseas. USE Visas for management and issue of visas for incoming travellers" .
+:pastoral a skos:Concept ; skos:prefLabel "Pastoral" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for the dairy and livestock industry" .
+:patents-and-trademarks a skos:Concept ; skos:prefLabel "Patents And Trademarks" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and regulation of the use of patents and trademarks" .
+:pathology a skos:Concept ; skos:prefLabel "Pathology" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the scientific study, identification and treatment of bodily disease" .
+:pensions-and-benefits a skos:Concept ; skos:prefLabel "Pensions And Benefits" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of pensions, supplements and allowances to aged, disadvantaged or disabled persons. For War or Defence Service pensions USE Veterans' Affairs" .
+:personal-case-administration a skos:Concept ; skos:prefLabel "Personal Case Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in the management of personal case files" .
+:personnel a skos:Concept ; skos:prefLabel "Personnel" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of all employees within an organisation, including development, implementation and monitoring of policies and procedures. Includes administration of staff travel activities and provision of child care" .
+:pharmaceuticals-and-medical-aids a skos:Concept ; skos:prefLabel "Pharmaceuticals And Medical Aids" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, certification and manufacture of drugs, prosthetics and other medical aids" .
+:planning a skos:Concept ; skos:prefLabel "Planning" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in formulating ways in which objectives can be achieved" .
+:police-administration a skos:Concept ; skos:prefLabel "Police Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "The enforcement of law and maintenance of public order. For overseas Peace keeping forces USE International relations" .
+:police-station a skos:Concept ; skos:prefLabel "Police Station" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:port-authorities a skos:Concept ; skos:prefLabel "Port Authorities" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:port-regulation a skos:Concept ; skos:prefLabel "Port Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of safety and operational activities of Australian ports, both sea and air" .
+:postal-services a skos:Concept ; skos:prefLabel "Postal Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Covers provision of postal services and the production and printing of stamps" .
+:preschool-education a skos:Concept ; skos:prefLabel "Preschool Education" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination, support for and operation of preschool education" .
+:primary-education a skos:Concept ; skos:prefLabel "Primary Education" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination, support for and operation of primary education" .
+:primary-industries a skos:Concept ; skos:prefLabel "Primary Industries" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Primary industries, except mining. For animal and plant quarantine USE Quarantine" .
+:prisoners-of-war a skos:Concept ; skos:prefLabel "Prisoners Of War" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Custody of enemy prisoners in Australia and information or other activities relating to Australian personnel captured overseas" .
+:property-management a skos:Concept ; skos:prefLabel "Property Management" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of land, and working, storage and living space within premises, and the acquisition, construction, fitting-out, maintenance, and disposal of property. Includes owned, rented or leased property of any kind" .
+:protective-services a skos:Concept ; skos:prefLabel "Protective Services" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Security and protection of Commonwealth premises and facilities, including nightwatchmen services for government factories and guards for diplomatic missions" .
+:public-borrowing a skos:Concept ; skos:prefLabel "Public Borrowing" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Overseas and domestic borrowing by Australian governments and their agencies" .
+:public-service a skos:Concept ; skos:prefLabel "Public Service" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Operational activities of the Australian Public Service, including working conditions and conditions of service" .
+:public-utilities a skos:Concept ; skos:prefLabel "Public Utilities" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Covers administration and provision of public utilities or municipal services in mainland and external territories" .
+:publishing-and-printing a skos:Concept ; skos:prefLabel "Publishing And Printing" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Publishing and printing activities of the government, including distribution of publications" .
+:quarantine a skos:Concept ; skos:prefLabel "Quarantine" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Includes programs and facilities for the isolation/ treatment of people with highly infectious diseases and quarantine of local and imported livestock and plant species" .
+:radio-broadcasting a skos:Concept ; skos:prefLabel "Radio Broadcasting" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management, regulation, and provision of radio broadcasting services" .
+:rail-transport a skos:Concept ; skos:prefLabel "Rail Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Construction, management and operation of rail systems" .
+:rationing-and-price-control a skos:Concept ; skos:prefLabel "Rationing And Price Control" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Control of prices or commodities in war or peace time" .
+:records-of-the-government a skos:Concept ; skos:prefLabel "Records Of The Government" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:recreation a skos:Concept ; skos:prefLabel "Recreation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and promotion of tourism, national fitness, sports and other recreational activities, such as parks" .
+:recruitment a skos:Concept ; skos:prefLabel "Recruitment" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in recruiting staff, including development of policy and procedures for advertising vacancies, and the handling of applications, interviews, selection, culling and appointment" .
+:refugees a skos:Concept ; skos:prefLabel "Refugees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Support, recognition or services for political, religious and/or ethnic groups seeking refuge from persecution. USE Internees for people interned during war" .
+:regional-development a skos:Concept ; skos:prefLabel "Regional Development" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Planning, development and implementation of policies covering decentralisation, rural services and the design of rural towns and infrastructure. USE Land Transport or Works for capital projects in rural areas." .
+:rehabilitation a skos:Concept ; skos:prefLabel "Rehabilitation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Retraining and restoring mobility or other functions of the disabled, provision of prosthetic appliances" .
+:removals a skos:Concept ; skos:prefLabel "Removals" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "The process of relocation of an organisation or individual" .
+:repatriation a skos:Concept ; skos:prefLabel "Repatriation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and implementation of programs to resettle returned service personnel and to provide social and medical assistance" .
+:repatriation-hospitals a skos:Concept ; skos:prefLabel "Repatriation Hospitals" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of hospitals which provide medical assistance and services to returned servicemen and women" .
+:rescue-coordination a skos:Concept ; skos:prefLabel "Rescue Coordination" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and coordination of procedures for effecting air-sea rescue activities" .
+:research a skos:Concept ; skos:prefLabel "Research" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Generic activity. SEE also Defence Research or Scientific Research or Social and Economic Research" .
+:research-and-development a skos:Concept ; skos:prefLabel "Research And Development" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in investigating or enquiring into a subject or area of interest in order to discover facts, principles, etc. to assist in the development of projects, standards, guidelines, etc., and the business activities of an organisation in general. SEE  also Defence Research or Scientific Research or Social and Ecomonic Research" .
+:resources a skos:Concept ; skos:prefLabel "Resources" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and regulation of resource related industries. Includes control over practices and research into renewable energy sources. For impact of resource extraction on the natural environment USE ENVIRONMENT" .
+:road-safety a skos:Concept ; skos:prefLabel "Road Safety" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation and monitoring of policies and procedures to ensure the safety of those who travel by road" .
+:road-transport a skos:Concept ; skos:prefLabel "Road Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Construction, management and regulation of road networks, including licensing of vehicles" .
+:royal-commissions a skos:Concept ; skos:prefLabel "Royal Commissions" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Investigations conducted under the provisions of the Royal Commissions Act" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and promotion of science research and standards, land and sea survey and mapping, management of science programs including meteorology and space science" .
+:scientific-research a skos:Concept ; skos:prefLabel "Scientific Research" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Creation and implementation of policy and guidelines regarding scientific research and investigations, including the conduct of research, but excluding scientific experiments of a defence nature. For defence science USE Defence research" .
+:sea-safety a skos:Concept ; skos:prefLabel "Sea Safety" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation and monitoring of policies and procedures to ensure the safety of those who travel on the sea" .
+:sea-transport a skos:Concept ; skos:prefLabel "Sea Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Regulation of sea lanes and their users, including certification and licensing of ships and crews" .
+:seaboard-survey a skos:Concept ; skos:prefLabel "Seaboard Survey" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:seat-of-government a skos:Concept ; skos:prefLabel "Seat Of Government" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:secondary-education a skos:Concept ; skos:prefLabel "Secondary Education" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination, support for and operation of secondary and technical schools and colleges" .
+:secondary-industries a skos:Concept ; skos:prefLabel "Secondary Industries" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Government factories and Commonwealth involvement in the manufacturing sector (not related to Defence). Includes textiles, motor vehicles, electronics and consumer durables" .
+:security-and-intelligence a skos:Concept ; skos:prefLabel "Security And Intelligence" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Covers the activities of the Australian intelligence community. Includes information and advice affecting Australia's internal security, defences," .
+:senate-committees a skos:Concept ; skos:prefLabel "Senate Committees" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:shipbuilding a skos:Concept ; skos:prefLabel "Shipbuilding" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Construction of water craft of all sizes and functions" .
+:social-and-economic-research a skos:Concept ; skos:prefLabel "Social And Economic Research" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and implementation of demographic surveys, census and provision of statistical information" .
+:social-welfare a skos:Concept ; skos:prefLabel "Social Welfare" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Provision of community and welfare services, administration of pensions and allowances and regulation of health insurance industry including government health related subsidies" .
+:space-science a skos:Concept ; skos:prefLabel "Space Science" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into and provision of information about space and the space industry" .
+:sport a skos:Concept ; skos:prefLabel "Sport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, promotion, funding and other support of professional or amateur sport" .
+:standard-setting a skos:Concept ; skos:prefLabel "Standard Setting" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development, implementation, and monitoring of industry or organisation benchmarks for services and processes that enhance effectiveness and efficiency" .
+:statistics a skos:Concept ; skos:prefLabel "Statistics" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the collection of statistical information" .
+:storage a skos:Concept ; skos:prefLabel "Storage" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:student-assistance a skos:Concept ; skos:prefLabel "Student Assistance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities involved in the provision of financial assistance to both secondary and tertiary students" .
+:superannuation a skos:Concept ; skos:prefLabel "Superannuation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Programs for national superannuation or the coordination and encouragement of portable nongovernment superannuation schemes" .
+:supreme-court-law a skos:Concept ; skos:prefLabel "Supreme Court Law" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:surveillance a skos:Concept ; skos:prefLabel "Surveillance" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:surveillance-electronic a skos:Concept ; skos:prefLabel "Surveillance, Electronic" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:survey-and-mapping a skos:Concept ; skos:prefLabel "Survey And Mapping" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and management of programs to gather geographical and topographical information about Australia's land and sea. For demographic surveys and census functions USE Social and economic research" .
+:tariff a skos:Concept ; skos:prefLabel "Tariff" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:tariff-regulation a skos:Concept ; skos:prefLabel "Tariff Regulation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of processes for taxing imports and exports" .
+:taxation a skos:Concept ; skos:prefLabel "Taxation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Income tax and other forms of direct or indirect taxation" .
+:telecommunications a skos:Concept ; skos:prefLabel "Telecommunications" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management and regulation of telecommunications activities" .
+:television-broadcasting a skos:Concept ; skos:prefLabel "Television Broadcasting" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management, regulation, and provision of television broadcasting services" .
+:territory-administration a skos:Concept ; skos:prefLabel "Territory Administration" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "All activities relating to mainland and external territories, including the National Capital. Includes claims for compensation for land degradation" .
+:tertiary-education a skos:Concept ; skos:prefLabel "Tertiary Education" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination, support for and operation of universities, technical and further education colleges and colleges of advanced education" .
+:tourism a skos:Concept ; skos:prefLabel "Tourism" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research into, support for and promotion of tourism and the tourist industry. For promotional campaigns of Australia USE Government media" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Exports and imports of resources and manufactured goods. Regulation of industry protection and subsidy schemes and control of imports through customs services" .
+:trade-practices a skos:Concept ; skos:prefLabel "Trade Practices" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of policy and procedures designed to protect consumers from unethical and illegal business practices" .
+:trade-skills-assessment a skos:Concept ; skos:prefLabel "Trade Skills Assessment" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Administration of procedures designed to assess individual levels of trade skills" .
+:trade-union-training a skos:Concept ; skos:prefLabel "Trade Union Training" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the provision of training courses to trade union members" .
+:training a skos:Concept ; skos:prefLabel "Training" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "All activities associated with the development and implementation of training programs. USE Vocational Training Schemes for development and funding of technical and vocational training schemes. USE Education for school or university based education policy and funding. For vocational training schemes for ex service personnel USE Repatriation. SEE also Training (Army) or Training (Air Force) or Navy Support" .
+:training-air-force a skos:Concept ; skos:prefLabel "Training (Air Force)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Air Force reserve and training units and establishments" .
+:training-army a skos:Concept ; skos:prefLabel "Training (Army)" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Army reserve and training units and establishments" .
+:transport a skos:Concept ; skos:prefLabel "Transport" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Public and private transport but excluding infrastructure activity such as road building. Also includes management of transport facilities such as lighthouses and airports" .
+:transport-and-storage a skos:Concept ; skos:prefLabel "Transport And Storage" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:urban-or-regional-development a skos:Concept ; skos:prefLabel "Urban Or Regional Development" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "" .
+:valuation a skos:Concept ; skos:prefLabel "Valuation" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with determining the value of property, equipment, and other resources" .
+:veterans-affairs a skos:Concept ; skos:prefLabel "Veterans' Affairs" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Support for war veterans and their dependents, including determination of eligibility, provision of hospitals and geriatric care facilities. For Service pensions USE Pensions and benefits. For War service homes USE Defence Service Home Schemes" .
+:viticulture a skos:Concept ; skos:prefLabel "Viticulture" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Research, regulation and support for the wine and brandy industry" .
+:vocational-training-schemes a skos:Concept ; skos:prefLabel "Vocational Training Schemes" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "For development and funding of technical and vocational training schemes. USE Education for school or university based education policy and funding. For vocational training schemes for ex service personnel USE Repatriation. SEE ALSO Training (Army) or Training (Air Force) or Navy Support" .
+:war-memorials a skos:Concept ; skos:prefLabel "War Memorials" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Design, construction, and maintenance of memorials to participants and casualties in war" .
+:wartime-security a skos:Concept ; skos:prefLabel "Wartime Security" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Coordination and management of measures to ensure the security of the nation during times of war" .
+:waste-disposal a skos:Concept ; skos:prefLabel "Waste Disposal" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Management of procedures and processes for disposal of waste of all kinds" .
+:water-resources a skos:Concept ; skos:prefLabel "Water Resources" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Development and management of policies and procedures aimed at ensuring the most efficient and effective use of water resources, including management and construction of dams and water catchment areas" .
+:weights-and-measures a skos:Concept ; skos:prefLabel "Weights And Measures" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the development and implementation of standards for weights and measures" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Determination of Government policy on construction and infrastructure projects including railways, housing and offices. Also includes provision of municipal services to mainland territories and development of programs to foster urban and regional development" .
+:zoology a skos:Concept ; skos:prefLabel "Zoology" ; :inScheme :vocab ; skos:topConceptOf :vocab ; skos:description "Activities associated with the scientific collection, study, and classification of animals" .
+:accounting a skos:Concept ; skos:prefLabel "Accounting" ; :inScheme :vocab ;  skos:description "Covers accounting across Commonwealth government agenciesand includes estimating, purchasing and auditing" .
+:accreditation a skos:Concept ; skos:prefLabel "Accreditation" ; :inScheme :vocab ;  skos:description "Activities associated with recognizing the credential of another party" .
+:acquisition a skos:Concept ; skos:prefLabel "Acquisition" ; :inScheme :vocab ;  skos:description "Gaining ownership or use of property and other itmes required for the conduct of business, through donations, purchases or requisitions." .
+:committees a skos:Concept ; skos:prefLabel "Committees" ; :inScheme :vocab ;  skos:description "This is not a function. USE terms that relate to the function (eg conservation) being performed by a parliamentary or independent comittee" .
+:licensing a skos:Concept ; skos:prefLabel "Licensing" ; :inScheme :vocab ;  skos:description "Includes permit giving, authorisation and similar mechanisms of regulation" .
+:policy-development a skos:Concept ; skos:prefLabel "Policy Development" ; :inScheme :vocab ;  skos:description "Includes procedural development" .
+:urban-development a skos:Concept ; skos:prefLabel "Urban Development" ; :inScheme :vocab ;  skos:description "Planning, development and implementation of policies covering design and use of metropolitan areas. See also Regional Development for planning of rural centres" .
+:airport-services a skos:Concept ; skos:prefLabel "Airport Services" ; :inScheme :vocab ;  skos:related :air-force-commands ;  skos:description "" .
+:airport-services a skos:Concept ; skos:prefLabel "Airport Services" ; :inScheme :vocab ;  skos:related :air-safety ;  skos:description "" .
+:air-force-commands a skos:Concept ; skos:prefLabel "Air Force Commands" ; :inScheme :vocab ;  skos:related :airports ;  skos:description "" .
+:wartime-security a skos:Concept ; skos:prefLabel "Wartime Security" ; :inScheme :vocab ;  skos:related :censorship ;  skos:description "" .
+:governor-general a skos:Concept ; skos:prefLabel "Governor General" ; :inScheme :vocab ;  skos:related :ceremonial-functions ;  skos:description "" .
+:royal-commissions a skos:Concept ; skos:prefLabel "Royal Commissions" ; :inScheme :vocab ;  skos:related :committees-of-inquiry ;  skos:description "" .
+:forestry-regulation a skos:Concept ; skos:prefLabel "Forestry Regulation" ; :inScheme :vocab ;  skos:related :conservation ;  skos:description "" .
+:patents-and-trademarks a skos:Concept ; skos:prefLabel "Patents And Trademarks" ; :inScheme :vocab ;  skos:related :copyright ;  skos:description "" .
+:censorship a skos:Concept ; skos:prefLabel "Censorship" ; :inScheme :vocab ;  skos:related :customs ;  skos:description "" .
+:defence-intelligence a skos:Concept ; skos:prefLabel "Defence Intelligence" ; :inScheme :vocab ;  skos:related :customs ;  skos:description "" .
+:exports-and-imports a skos:Concept ; skos:prefLabel "Exports And Imports" ; :inScheme :vocab ;  skos:related :customs ;  skos:description "" .
+:security-and-intelligence a skos:Concept ; skos:prefLabel "Security And Intelligence" ; :inScheme :vocab ;  skos:related :customs ;  skos:description "" .
+:national-service a skos:Concept ; skos:prefLabel "National Service" ; :inScheme :vocab ;  skos:related :defence-forces ;  skos:description "" .
+:veterans-affairs a skos:Concept ; skos:prefLabel "Veterans' Affairs" ; :inScheme :vocab ;  skos:related :defence-forces ;  skos:description "" .
+:secondary-industries a skos:Concept ; skos:prefLabel "Secondary Industries" ; :inScheme :vocab ;  skos:related :defence-industries ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:related :defence-intelligence ;  skos:description "" .
+:external-security a skos:Concept ; skos:prefLabel "External Security" ; :inScheme :vocab ;  skos:related :defence-intelligence ;  skos:description "" .
+:internal-security a skos:Concept ; skos:prefLabel "Internal Security" ; :inScheme :vocab ;  skos:related :defence-intelligence ;  skos:description "" .
+:wartime-security a skos:Concept ; skos:prefLabel "Wartime Security" ; :inScheme :vocab ;  skos:related :defence-intelligence ;  skos:description "" .
+:pensions-and-benefits a skos:Concept ; skos:prefLabel "Pensions And Benefits" ; :inScheme :vocab ;  skos:related :employment ;  skos:description "" .
+:scientific-research a skos:Concept ; skos:prefLabel "Scientific Research" ; :inScheme :vocab ;  skos:related :environmental-monitoring ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:related :exports-and-imports ;  skos:description "" .
+:defence-intelligence a skos:Concept ; skos:prefLabel "Defence Intelligence" ; :inScheme :vocab ;  skos:related :external-security ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:related :external-security ;  skos:description "" .
+:external-security a skos:Concept ; skos:prefLabel "External Security" ; :inScheme :vocab ;  skos:related :foreign-policy ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:related :foreign-policy ;  skos:description "" .
+:tourism a skos:Concept ; skos:prefLabel "Tourism" ; :inScheme :vocab ;  skos:related :government-media ;  skos:description "" .
+:ceremonial-functions a skos:Concept ; skos:prefLabel "Ceremonial Functions" ; :inScheme :vocab ;  skos:related :governor-general ;  skos:description "" .
+:repatriation-hospitals a skos:Concept ; skos:prefLabel "Repatriation Hospitals" ; :inScheme :vocab ;  skos:related :hospitals-and-clinics ;  skos:description "" .
+:defence-intelligence a skos:Concept ; skos:prefLabel "Defence Intelligence" ; :inScheme :vocab ;  skos:related :internal-security ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:related :internees ;  skos:description "" .
+:prisoners-of-war a skos:Concept ; skos:prefLabel "Prisoners Of War" ; :inScheme :vocab ;  skos:related :internees ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:related :national-service ;  skos:description "" .
+:emergency-services a skos:Concept ; skos:prefLabel "Emergency Services" ; :inScheme :vocab ;  skos:related :natural-disasters ;  skos:description "" .
+:visas a skos:Concept ; skos:prefLabel "Visas" ; :inScheme :vocab ;  skos:related :passports ;  skos:description "" .
+:copyright a skos:Concept ; skos:prefLabel "Copyright" ; :inScheme :vocab ;  skos:related :patents-and-trademarks ;  skos:description "" .
+:employment a skos:Concept ; skos:prefLabel "Employment" ; :inScheme :vocab ;  skos:related :pensions-and-benefits ;  skos:description "" .
+:secondary-education a skos:Concept ; skos:prefLabel "Secondary Education" ; :inScheme :vocab ;  skos:related :primary-education ;  skos:description "" .
+:internees a skos:Concept ; skos:prefLabel "Internees" ; :inScheme :vocab ;  skos:related :prisoners-of-war ;  skos:description "" .
+:internees a skos:Concept ; skos:prefLabel "Internees" ; :inScheme :vocab ;  skos:related :refugees ;  skos:description "" .
+:hospitals-and-clinics a skos:Concept ; skos:prefLabel "Hospitals And Clinics" ; :inScheme :vocab ;  skos:related :repatriation-hospitals ;  skos:description "" .
+:committees-of-inquiry a skos:Concept ; skos:prefLabel "Committees Of Inquiry" ; :inScheme :vocab ;  skos:related :royal-commissions ;  skos:description "" .
+:primary-education a skos:Concept ; skos:prefLabel "Primary Education" ; :inScheme :vocab ;  skos:related :secondary-education ;  skos:description "" .
+:defence-industries a skos:Concept ; skos:prefLabel "Defence Industries" ; :inScheme :vocab ;  skos:related :secondary-industries ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:related :security-and-intelligence ;  skos:description "" .
+:public-utilities a skos:Concept ; skos:prefLabel "Public Utilities" ; :inScheme :vocab ;  skos:related :territories ;  skos:description "" .
+:government-media a skos:Concept ; skos:prefLabel "Government Media" ; :inScheme :vocab ;  skos:related :tourism ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:related :trade ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:related :veterans-affairs ;  skos:description "" .
+:repatriation a skos:Concept ; skos:prefLabel "Repatriation" ; :inScheme :vocab ;  skos:related :vocational-training-schemes ;  skos:description "" .
+:censorship a skos:Concept ; skos:prefLabel "Censorship" ; :inScheme :vocab ;  skos:related :wartime-security ;  skos:description "" .
+:defence-intelligence a skos:Concept ; skos:prefLabel "Defence Intelligence" ; :inScheme :vocab ;  skos:related :wartime-security ;  skos:description "" .
+:property-management a skos:Concept ; skos:prefLabel "Property Management" ; :inScheme :vocab ;  skos:narrower :acquisition ;  skos:description "" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ;  skos:narrower :aged-persons-services ;  skos:description "" .
+:primary-industries a skos:Concept ; skos:prefLabel "Primary Industries" ; :inScheme :vocab ;  skos:narrower :agriculture ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :air-force ;  skos:description "" .
+:air-force a skos:Concept ; skos:prefLabel "Air Force" ; :inScheme :vocab ;  skos:narrower :air-force-administration ;  skos:description "" .
+:air-force a skos:Concept ; skos:prefLabel "Air Force" ; :inScheme :vocab ;  skos:narrower :air-force-commands ;  skos:description "" .
+:air-force-commands a skos:Concept ; skos:prefLabel "Air Force Commands" ; :inScheme :vocab ;  skos:narrower :air-operations ;  skos:description "" .
+:air-transport a skos:Concept ; skos:prefLabel "Air Transport" ; :inScheme :vocab ;  skos:narrower :air-safety ;  skos:description "" .
+:transport a skos:Concept ; skos:prefLabel "Transport" ; :inScheme :vocab ;  skos:narrower :air-transport ;  skos:description "" .
+:air-transport a skos:Concept ; skos:prefLabel "Air Transport" ; :inScheme :vocab ;  skos:narrower :airports ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :analytical-services ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :arbitration ;  skos:description "" .
+:cultural-affairs a skos:Concept ; skos:prefLabel "Cultural Affairs" ; :inScheme :vocab ;  skos:narrower :archives-administration ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :army ;  skos:description "" .
+:army a skos:Concept ; skos:prefLabel "Army" ; :inScheme :vocab ;  skos:narrower :army-administration ;  skos:description "" .
+:army a skos:Concept ; skos:prefLabel "Army" ; :inScheme :vocab ;  skos:narrower :army-commands ;  skos:description "" .
+:cultural-affairs a skos:Concept ; skos:prefLabel "Cultural Affairs" ; :inScheme :vocab ;  skos:narrower :arts-development ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :banking ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :bankruptcy ;  skos:description "" .
+:scientific-research a skos:Concept ; skos:prefLabel "Scientific Research" ; :inScheme :vocab ;  skos:narrower :botany ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :bounties ;  skos:description "" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ;  skos:narrower :broadcasting ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :building ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :censorship ;  skos:description "" .
+:community-services a skos:Concept ; skos:prefLabel "Community Services" ; :inScheme :vocab ;  skos:narrower :child-welfare ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :citizenship ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :civil-engineering ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:narrower :coastal-surveillance ;  skos:description "" .
+:cultural-affairs a skos:Concept ; skos:prefLabel "Cultural Affairs" ; :inScheme :vocab ;  skos:narrower :collection-management ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :commonwealth-state-relations ;  skos:description "" .
+:social-welfare a skos:Concept ; skos:prefLabel "Social Welfare" ; :inScheme :vocab ;  skos:narrower :community-services ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :compensation-schemes ;  skos:description "" .
+:environment a skos:Concept ; skos:prefLabel "Environment" ; :inScheme :vocab ;  skos:narrower :conservation ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :construction ;  skos:description "" .
+:government-representation-overseas a skos:Concept ; skos:prefLabel "Government Representation Overseas" ; :inScheme :vocab ;  skos:narrower :consular-services ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :consumer-affairs ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :copyright ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :corporate-affairs ;  skos:description "" .
+:law-enforcement a skos:Concept ; skos:prefLabel "Law Enforcement" ; :inScheme :vocab ;  skos:narrower :corrective-services ;  skos:description "" .
+:justice-administration a skos:Concept ; skos:prefLabel "Justice Administration" ; :inScheme :vocab ;  skos:narrower :court-reporting ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :courts-martial ;  skos:description "" .
+:law-enforcement a skos:Concept ; skos:prefLabel "Law Enforcement" ; :inScheme :vocab ;  skos:narrower :criminology ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :currency ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :curriculum-development ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :customs ;  skos:description "" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ;  skos:narrower :defence-administration ;  skos:description "" .
+:defence-administration a skos:Concept ; skos:prefLabel "Defence Administration" ; :inScheme :vocab ;  skos:narrower :defence-coordination ;  skos:description "" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ;  skos:narrower :defence-forces ;  skos:description "" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ;  skos:narrower :defence-industries ;  skos:description "" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ;  skos:narrower :defence-intelligence ;  skos:description "" .
+:defence a skos:Concept ; skos:prefLabel "Defence" ; :inScheme :vocab ;  skos:narrower :defence-research ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :defence-service-home-schemes ;  skos:description "" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ;  skos:narrower :dental-services ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :deportation ;  skos:description "" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ;  skos:narrower :disability-services ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :earth-sciences ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :employment ;  skos:description "" .
+:resources a skos:Concept ; skos:prefLabel "Resources" ; :inScheme :vocab ;  skos:narrower :energy ;  skos:description "" .
+:environment a skos:Concept ; skos:prefLabel "Environment" ; :inScheme :vocab ;  skos:narrower :environmental-monitoring ;  skos:description "" .
+:personnel a skos:Concept ; skos:prefLabel "Personnel" ; :inScheme :vocab ;  skos:narrower :equity-programs ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:narrower :excise ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :exports-and-imports ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :expositions ;  skos:description "" .
+:security-and-intelligence a skos:Concept ; skos:prefLabel "Security And Intelligence" ; :inScheme :vocab ;  skos:narrower :external-security ;  skos:description "" .
+:government-representation-overseas a skos:Concept ; skos:prefLabel "Government Representation Overseas" ; :inScheme :vocab ;  skos:narrower :extraditions ;  skos:description "" .
+:justice-administration a skos:Concept ; skos:prefLabel "Justice Administration" ; :inScheme :vocab ;  skos:narrower :family-law ;  skos:description "" .
+:justice-administration a skos:Concept ; skos:prefLabel "Justice Administration" ; :inScheme :vocab ;  skos:narrower :federal-law ;  skos:description "" .
+:army-commands a skos:Concept ; skos:prefLabel "Army Commands" ; :inScheme :vocab ;  skos:narrower :field-force-army ;  skos:description "" .
+:arts-development a skos:Concept ; skos:prefLabel "Arts Development" ; :inScheme :vocab ;  skos:narrower :film-production ;  skos:description "" .
+:primary-industries a skos:Concept ; skos:prefLabel "Primary Industries" ; :inScheme :vocab ;  skos:narrower :fisheries-regulation ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :fleet ;  skos:description "" .
+:airport-services a skos:Concept ; skos:prefLabel "Airport Services" ; :inScheme :vocab ;  skos:narrower :flight-regulation ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :foreign-investment-control ;  skos:description "" .
+:primary-industries a skos:Concept ; skos:prefLabel "Primary Industries" ; :inScheme :vocab ;  skos:narrower :forestry-regulation ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :freight ;  skos:description "" .
+:scientific-research a skos:Concept ; skos:prefLabel "Scientific Research" ; :inScheme :vocab ;  skos:narrower :genetics ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :goods-and-services ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :government-accommodation-and-catering ;  skos:description "" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ;  skos:narrower :government-media ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:narrower :government-representation-overseas ;  skos:description "" .
+:social-welfare a skos:Concept ; skos:prefLabel "Social Welfare" ; :inScheme :vocab ;  skos:narrower :health-insurance ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :health-services ;  skos:description "" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ;  skos:narrower :hearing-services ;  skos:description "" .
+:memorials a skos:Concept ; skos:prefLabel "Memorials" ; :inScheme :vocab ;  skos:narrower :historic-memorials ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :home-savings-schemes ;  skos:description "" .
+:agriculture a skos:Concept ; skos:prefLabel "Agriculture" ; :inScheme :vocab ;  skos:narrower :horticulture ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :hospitals-and-clinics ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :housing ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :human-rights ;  skos:description "" .
+:indigenous-affairs a skos:Concept ; skos:prefLabel "Indigenous Affairs" ; :inScheme :vocab ;  skos:narrower :indigenous-enterprises ;  skos:description "" .
+:indigenous-affairs a skos:Concept ; skos:prefLabel "Indigenous Affairs" ; :inScheme :vocab ;  skos:narrower :indigenous-land-rights ;  skos:description "" .
+:indigenous-affairs a skos:Concept ; skos:prefLabel "Indigenous Affairs" ; :inScheme :vocab ;  skos:narrower :indigenous-settlements ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:narrower :inspection-services ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :insurance ;  skos:description "" .
+:security-and-intelligence a skos:Concept ; skos:prefLabel "Security And Intelligence" ; :inScheme :vocab ;  skos:narrower :internal-security ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:narrower :international-relations ;  skos:description "" .
+:wartime-security a skos:Concept ; skos:prefLabel "Wartime Security" ; :inScheme :vocab ;  skos:narrower :internees ;  skos:description "" .
+:employment a skos:Concept ; skos:prefLabel "Employment" ; :inScheme :vocab ;  skos:narrower :labour-market-programs ;  skos:description "" .
+:transport a skos:Concept ; skos:prefLabel "Transport" ; :inScheme :vocab ;  skos:narrower :land-transport ;  skos:description "" .
+:property-management a skos:Concept ; skos:prefLabel "Property Management" ; :inScheme :vocab ;  skos:narrower :leasing ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :legal-aid ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :legal-services ;  skos:description "" .
+:sea-transport a skos:Concept ; skos:prefLabel "Sea Transport" ; :inScheme :vocab ;  skos:narrower :lighthouses ;  skos:description "" .
+:cultural-affairs a skos:Concept ; skos:prefLabel "Cultural Affairs" ; :inScheme :vocab ;  skos:narrower :literature-funding ;  skos:description "" .
+:air-force-commands a skos:Concept ; skos:prefLabel "Air Force Commands" ; :inScheme :vocab ;  skos:narrower :logistics-air-force ;  skos:description "" .
+:army-commands a skos:Concept ; skos:prefLabel "Army Commands" ; :inScheme :vocab ;  skos:narrower :logistics-army ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :logistics-defence ;  skos:description "" .
+:property-management a skos:Concept ; skos:prefLabel "Property Management" ; :inScheme :vocab ;  skos:narrower :maintenance ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :marine-science ;  skos:description "" .
+:navy-commands a skos:Concept ; skos:prefLabel "Navy Commands" ; :inScheme :vocab ;  skos:narrower :maritime-commands-navy ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :market-regulation ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :medical-research ;  skos:description "" .
+:resources a skos:Concept ; skos:prefLabel "Resources" ; :inScheme :vocab ;  skos:narrower :metals ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :meteorology ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :migrant-services ;  skos:description "" .
+:resources a skos:Concept ; skos:prefLabel "Resources" ; :inScheme :vocab ;  skos:narrower :mining ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :multiculturalism ;  skos:description "" .
+:defence-industries a skos:Concept ; skos:prefLabel "Defence Industries" ; :inScheme :vocab ;  skos:narrower :munitions ;  skos:description "" .
+:recreation a skos:Concept ; skos:prefLabel "Recreation" ; :inScheme :vocab ;  skos:narrower :national-fitness ;  skos:description "" .
+:environment a skos:Concept ; skos:prefLabel "Environment" ; :inScheme :vocab ;  skos:narrower :national-heritage ;  skos:description "" .
+:environment a skos:Concept ; skos:prefLabel "Environment" ; :inScheme :vocab ;  skos:narrower :national-parks ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :national-service ;  skos:description "" .
+:defence-coordination a skos:Concept ; skos:prefLabel "Defence Coordination" ; :inScheme :vocab ;  skos:narrower :natural-disasters ;  skos:description "" .
+:sea-transport a skos:Concept ; skos:prefLabel "Sea Transport" ; :inScheme :vocab ;  skos:narrower :navigation ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :navy ;  skos:description "" .
+:navy a skos:Concept ; skos:prefLabel "Navy" ; :inScheme :vocab ;  skos:narrower :navy-administration ;  skos:description "" .
+:navy a skos:Concept ; skos:prefLabel "Navy" ; :inScheme :vocab ;  skos:narrower :navy-commands ;  skos:description "" .
+:navy-commands a skos:Concept ; skos:prefLabel "Navy Commands" ; :inScheme :vocab ;  skos:narrower :navy-support ;  skos:description "" .
+:health-services a skos:Concept ; skos:prefLabel "Health Services" ; :inScheme :vocab ;  skos:narrower :nursing-services ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :occupational-health-and-safety ;  skos:description "" .
+:administrative-law a skos:Concept ; skos:prefLabel "Administrative Law" ; :inScheme :vocab ;  skos:narrower :ombudsman ;  skos:description "" .
+:defence-industries a skos:Concept ; skos:prefLabel "Defence Industries" ; :inScheme :vocab ;  skos:narrower :ordnance ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:narrower :overseas-aid-programs ;  skos:description "" .
+:recreation a skos:Concept ; skos:prefLabel "Recreation" ; :inScheme :vocab ;  skos:narrower :parks ;  skos:description "" .
+:parliamentary-matters a skos:Concept ; skos:prefLabel "Parliamentary Matters" ; :inScheme :vocab ;  skos:narrower :parliamentary-chamber-administration ;  skos:description "" .
+:parliamentary-matters a skos:Concept ; skos:prefLabel "Parliamentary Matters" ; :inScheme :vocab ;  skos:narrower :parliamentary-legislation ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :passenger-entry-control ;  skos:description "" .
+:foreign-policy a skos:Concept ; skos:prefLabel "Foreign Policy" ; :inScheme :vocab ;  skos:narrower :passports ;  skos:description "" .
+:agriculture a skos:Concept ; skos:prefLabel "Agriculture" ; :inScheme :vocab ;  skos:narrower :pastoral ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :patents-and-trademarks ;  skos:description "" .
+:hospitals-and-clinics a skos:Concept ; skos:prefLabel "Hospitals And Clinics" ; :inScheme :vocab ;  skos:narrower :pathology ;  skos:description "" .
+:social-welfare a skos:Concept ; skos:prefLabel "Social Welfare" ; :inScheme :vocab ;  skos:narrower :pensions-and-benefits ;  skos:description "" .
+:public-service a skos:Concept ; skos:prefLabel "Public Service" ; :inScheme :vocab ;  skos:narrower :personnel ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :pharmaceuticals-and-medical-aids ;  skos:description "" .
+:law-enforcement a skos:Concept ; skos:prefLabel "Law Enforcement" ; :inScheme :vocab ;  skos:narrower :police-administration ;  skos:description "" .
+:sea-transport a skos:Concept ; skos:prefLabel "Sea Transport" ; :inScheme :vocab ;  skos:narrower :port-regulation ;  skos:description "" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ;  skos:narrower :postal-services ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :preschool-education ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :primary-education ;  skos:description "" .
+:defence-forces a skos:Concept ; skos:prefLabel "Defence Forces" ; :inScheme :vocab ;  skos:narrower :prisoners-of-war ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :property-management ;  skos:description "" .
+:law-enforcement a skos:Concept ; skos:prefLabel "Law Enforcement" ; :inScheme :vocab ;  skos:narrower :protective-services ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :public-borrowing ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :public-utilities ;  skos:description "" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ;  skos:narrower :publishing-and-printing ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :quarantine ;  skos:description "" .
+:broadcasting a skos:Concept ; skos:prefLabel "Broadcasting" ; :inScheme :vocab ;  skos:narrower :radio-broadcasting ;  skos:description "" .
+:land-transport a skos:Concept ; skos:prefLabel "Land Transport" ; :inScheme :vocab ;  skos:narrower :rail-transport ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :rationing-and-price-control ;  skos:description "" .
+:personnel a skos:Concept ; skos:prefLabel "Personnel" ; :inScheme :vocab ;  skos:narrower :recruitment ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :refugees ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :regional-development ;  skos:description "" .
+:health a skos:Concept ; skos:prefLabel "Health" ; :inScheme :vocab ;  skos:narrower :rehabilitation ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :removals ;  skos:description "" .
+:veterans-affairs a skos:Concept ; skos:prefLabel "Veterans' Affairs" ; :inScheme :vocab ;  skos:narrower :repatriation ;  skos:description "" .
+:repatriation a skos:Concept ; skos:prefLabel "Repatriation" ; :inScheme :vocab ;  skos:narrower :repatriation-hospitals ;  skos:description "" .
+:transport a skos:Concept ; skos:prefLabel "Transport" ; :inScheme :vocab ;  skos:narrower :rescue-coordination ;  skos:description "" .
+:land-transport a skos:Concept ; skos:prefLabel "Land Transport" ; :inScheme :vocab ;  skos:narrower :road-safety ;  skos:description "" .
+:land-transport a skos:Concept ; skos:prefLabel "Land Transport" ; :inScheme :vocab ;  skos:narrower :road-transport ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :scientific-research ;  skos:description "" .
+:sea-transport a skos:Concept ; skos:prefLabel "Sea Transport" ; :inScheme :vocab ;  skos:narrower :sea-safety ;  skos:description "" .
+:transport a skos:Concept ; skos:prefLabel "Transport" ; :inScheme :vocab ;  skos:narrower :sea-transport ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :secondary-education ;  skos:description "" .
+:defence-industries a skos:Concept ; skos:prefLabel "Defence Industries" ; :inScheme :vocab ;  skos:narrower :shipbuilding ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :space-science ;  skos:description "" .
+:recreation a skos:Concept ; skos:prefLabel "Recreation" ; :inScheme :vocab ;  skos:narrower :sport ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :storage ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :student-assistance ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :superannuation ;  skos:description "" .
+:justice-administration a skos:Concept ; skos:prefLabel "Justice Administration" ; :inScheme :vocab ;  skos:narrower :supreme-law ;  skos:description "" .
+:science a skos:Concept ; skos:prefLabel "Science" ; :inScheme :vocab ;  skos:narrower :survey-and-mapping ;  skos:description "" .
+:customs a skos:Concept ; skos:prefLabel "Customs" ; :inScheme :vocab ;  skos:narrower :tariff-regulation ;  skos:description "" .
+:financial-matters a skos:Concept ; skos:prefLabel "Financial Matters" ; :inScheme :vocab ;  skos:narrower :taxation ;  skos:description "" .
+:communications a skos:Concept ; skos:prefLabel "Communications" ; :inScheme :vocab ;  skos:narrower :telecommunications ;  skos:description "" .
+:broadcasting a skos:Concept ; skos:prefLabel "Broadcasting" ; :inScheme :vocab ;  skos:narrower :television-broadcasting ;  skos:description "" .
+:education a skos:Concept ; skos:prefLabel "Education" ; :inScheme :vocab ;  skos:narrower :tertiary-education ;  skos:description "" .
+:recreation a skos:Concept ; skos:prefLabel "Recreation" ; :inScheme :vocab ;  skos:narrower :tourism ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :trade-practices ;  skos:description "" .
+:employment a skos:Concept ; skos:prefLabel "Employment" ; :inScheme :vocab ;  skos:narrower :trade-skills-assessment ;  skos:description "" .
+:industrial-relations a skos:Concept ; skos:prefLabel "Industrial Relations" ; :inScheme :vocab ;  skos:narrower :trade-union-training ;  skos:description "" .
+:air-force-commands a skos:Concept ; skos:prefLabel "Air Force Commands" ; :inScheme :vocab ;  skos:narrower :training-air-force ;  skos:description "" .
+:army-commands a skos:Concept ; skos:prefLabel "Army Commands" ; :inScheme :vocab ;  skos:narrower :training-army ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :urban-development ;  skos:description "" .
+:administrative-services a skos:Concept ; skos:prefLabel "Administrative Services" ; :inScheme :vocab ;  skos:narrower :valuation ;  skos:description "" .
+:migration a skos:Concept ; skos:prefLabel "Migration" ; :inScheme :vocab ;  skos:narrower :visas ;  skos:description "" .
+:agriculture a skos:Concept ; skos:prefLabel "Agriculture" ; :inScheme :vocab ;  skos:narrower :viticulture ;  skos:description "" .
+:employment a skos:Concept ; skos:prefLabel "Employment" ; :inScheme :vocab ;  skos:narrower :vocational-training-schemes ;  skos:description "" .
+:memorials a skos:Concept ; skos:prefLabel "Memorials" ; :inScheme :vocab ;  skos:narrower :war-memorials ;  skos:description "" .
+:security-and-intelligence a skos:Concept ; skos:prefLabel "Security And Intelligence" ; :inScheme :vocab ;  skos:narrower :wartime-security ;  skos:description "" .
+:works a skos:Concept ; skos:prefLabel "Works" ; :inScheme :vocab ;  skos:narrower :waste-disposal ;  skos:description "" .
+:resources a skos:Concept ; skos:prefLabel "Resources" ; :inScheme :vocab ;  skos:narrower :water-resources ;  skos:description "" .
+:trade a skos:Concept ; skos:prefLabel "Trade" ; :inScheme :vocab ;  skos:narrower :weights-and-measures ;  skos:description "" .
+:scientific-research a skos:Concept ; skos:prefLabel "Scientific Research" ; :inScheme :vocab ;  skos:narrower :zoology ;  skos:description "" .
+:law a skos:Concept ; skos:prefLabel "Law" ; :inScheme :vocab ;  dct:isReplacedBy :administrative-law ; skos:broader :administrative-law ;  skos:description "" .
+:law-reform a skos:Concept ; skos:prefLabel "Law Reform" ; :inScheme :vocab ;  dct:isReplacedBy :administrative-law ; skos:broader :administrative-law ;  skos:description "" .
+:remuneration a skos:Concept ; skos:prefLabel "Remuneration" ; :inScheme :vocab ;  dct:isReplacedBy :administrative-law ; skos:broader :administrative-law ;  skos:description "" .
+:tribunals a skos:Concept ; skos:prefLabel "Tribunals" ; :inScheme :vocab ;  dct:isReplacedBy :administrative-law ; skos:broader :administrative-law ;  skos:description "" .
+:wheat a skos:Concept ; skos:prefLabel "Wheat" ; :inScheme :vocab ;  dct:isReplacedBy :agriculture ; skos:broader :agriculture ;  skos:description "" .
+:aerodrome a skos:Concept ; skos:prefLabel "Aerodrome" ; :inScheme :vocab ;  dct:isReplacedBy :air-transport ; skos:broader :air-transport ;  skos:description "" .
+:air-navigation a skos:Concept ; skos:prefLabel "Air Navigation" ; :inScheme :vocab ;  dct:isReplacedBy :air-transport ; skos:broader :air-transport ;  skos:description "" .
+:airlines a skos:Concept ; skos:prefLabel "Airlines" ; :inScheme :vocab ;  dct:isReplacedBy :air-transport ; skos:broader :air-transport ;  skos:description "" .
+:airways a skos:Concept ; skos:prefLabel "Airways" ; :inScheme :vocab ;  dct:isReplacedBy :air-transport ; skos:broader :air-transport ;  skos:description "" .
+:civil-aviation a skos:Concept ; skos:prefLabel "Civil Aviation" ; :inScheme :vocab ;  dct:isReplacedBy :air-transport ; skos:broader :air-transport ;  skos:description "" .
+:airports a skos:Concept ; skos:prefLabel "Airports" ; :inScheme :vocab ;  dct:isReplacedBy :airport-services ; skos:broader :airport-services ;  skos:description "" .
+:chemical-analysis a skos:Concept ; skos:prefLabel "Chemical Analysis" ; :inScheme :vocab ;  dct:isReplacedBy :analytical-services ; skos:broader :analytical-services ;  skos:description "" .
+:government-laboratories a skos:Concept ; skos:prefLabel "Government Laboratories" ; :inScheme :vocab ;  dct:isReplacedBy :analytical-services ; skos:broader :analytical-services ;  skos:description "" .
+:laboratories a skos:Concept ; skos:prefLabel "Laboratories" ; :inScheme :vocab ;  dct:isReplacedBy :analytical-services ; skos:broader :analytical-services ;  skos:description "" .
+:archives a skos:Concept ; skos:prefLabel "Archives" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:film-archives a skos:Concept ; skos:prefLabel "Film Archives" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:government-records a skos:Concept ; skos:prefLabel "Government Records" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:management-of-records a skos:Concept ; skos:prefLabel "Management Of Records" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:public-records a skos:Concept ; skos:prefLabel "Public Records" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:recordkeeping a skos:Concept ; skos:prefLabel "Recordkeeping" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:records-management a skos:Concept ; skos:prefLabel "Records Management" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:sound-archives a skos:Concept ; skos:prefLabel "Sound Archives" ; :inScheme :vocab ;  dct:isReplacedBy :archives-administration ; skos:broader :archives-administration ;  skos:description "" .
+:armour a skos:Concept ; skos:prefLabel "Armour" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:army-aviation a skos:Concept ; skos:prefLabel "Army Aviation" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:artillery a skos:Concept ; skos:prefLabel "Artillery" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:battalion a skos:Concept ; skos:prefLabel "Battalion" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:battery a skos:Concept ; skos:prefLabel "Battery" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:brigade a skos:Concept ; skos:prefLabel "Brigade" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:division a skos:Concept ; skos:prefLabel "Division" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:engineers a skos:Concept ; skos:prefLabel "Engineers" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:infantry a skos:Concept ; skos:prefLabel "Infantry" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:military-police a skos:Concept ; skos:prefLabel "Military Police" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:regiment a skos:Concept ; skos:prefLabel "Regiment" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:signals a skos:Concept ; skos:prefLabel "Signals" ; :inScheme :vocab ;  dct:isReplacedBy :army-commands ; skos:broader :army-commands ;  skos:description "" .
+:arts-and-crafts a skos:Concept ; skos:prefLabel "Arts And Crafts" ; :inScheme :vocab ;  dct:isReplacedBy :arts ; skos:broader :arts ;  skos:description "" .
+:arts a skos:Concept ; skos:prefLabel "Arts" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:arts-subsidies a skos:Concept ; skos:prefLabel "Arts Subsidies" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:ballet a skos:Concept ; skos:prefLabel "Ballet" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:dance a skos:Concept ; skos:prefLabel "Dance" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:fine-arts a skos:Concept ; skos:prefLabel "Fine Arts" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:music a skos:Concept ; skos:prefLabel "Music" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:opera a skos:Concept ; skos:prefLabel "Opera" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:painting a skos:Concept ; skos:prefLabel "Painting" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:performing-arts a skos:Concept ; skos:prefLabel "Performing Arts" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:theatre a skos:Concept ; skos:prefLabel "Theatre" ; :inScheme :vocab ;  dct:isReplacedBy :arts-development ; skos:broader :arts-development ;  skos:description "" .
+:internal-audit a skos:Concept ; skos:prefLabel "Internal Audit" ; :inScheme :vocab ;  dct:isReplacedBy :audit ; skos:broader :audit ;  skos:description "" .
+:banks a skos:Concept ; skos:prefLabel "Banks" ; :inScheme :vocab ;  dct:isReplacedBy :banking ; skos:broader :banking ;  skos:description "" .
+:foreign-exchange a skos:Concept ; skos:prefLabel "Foreign Exchange" ; :inScheme :vocab ;  dct:isReplacedBy :banking ; skos:broader :banking ;  skos:description "" .
+:government-buildings a skos:Concept ; skos:prefLabel "Government Buildings" ; :inScheme :vocab ;  dct:isReplacedBy :building ; skos:broader :building ;  skos:description "" .
+:cabinet-secretariat a skos:Concept ; skos:prefLabel "Cabinet Secretariat" ; :inScheme :vocab ;  dct:isReplacedBy :cabinet ; skos:broader :cabinet ;  skos:description "" .
+:film-censorship a skos:Concept ; skos:prefLabel "Film Censorship" ; :inScheme :vocab ;  dct:isReplacedBy :censorship ; skos:broader :censorship ;  skos:description "" .
+:literature-censorship a skos:Concept ; skos:prefLabel "Literature Censorship" ; :inScheme :vocab ;  dct:isReplacedBy :censorship ; skos:broader :censorship ;  skos:description "" .
+:press-censorship a skos:Concept ; skos:prefLabel "Press Censorship" ; :inScheme :vocab ;  dct:isReplacedBy :censorship ; skos:broader :censorship ;  skos:description "" .
+:radio-censorship a skos:Concept ; skos:prefLabel "Radio Censorship" ; :inScheme :vocab ;  dct:isReplacedBy :censorship ; skos:broader :censorship ;  skos:description "" .
+:television-censorship a skos:Concept ; skos:prefLabel "Television Censorship" ; :inScheme :vocab ;  dct:isReplacedBy :censorship ; skos:broader :censorship ;  skos:description "" .
+:awards a skos:Concept ; skos:prefLabel "Awards" ; :inScheme :vocab ;  dct:isReplacedBy :ceremonial-functions ; skos:broader :ceremonial-functions ;  skos:description "" .
+:government-hospitality a skos:Concept ; skos:prefLabel "Government Hospitality" ; :inScheme :vocab ;  dct:isReplacedBy :ceremonial-functions ; skos:broader :ceremonial-functions ;  skos:description "" .
+:honours-and-awards a skos:Concept ; skos:prefLabel "Honours And Awards" ; :inScheme :vocab ;  dct:isReplacedBy :ceremonial-functions ; skos:broader :ceremonial-functions ;  skos:description "" .
+:australia-card a skos:Concept ; skos:prefLabel "Australia Card" ; :inScheme :vocab ;  dct:isReplacedBy :citizenship ; skos:broader :citizenship ;  skos:description "" .
+:births a skos:Concept ; skos:prefLabel "Births" ; :inScheme :vocab ;  dct:isReplacedBy :citizenship ; skos:broader :citizenship ;  skos:description "" .
+:deaths a skos:Concept ; skos:prefLabel "Deaths" ; :inScheme :vocab ;  dct:isReplacedBy :citizenship ; skos:broader :citizenship ;  skos:description "" .
+:naturalization a skos:Concept ; skos:prefLabel "Naturalization" ; :inScheme :vocab ;  dct:isReplacedBy :citizenship ; skos:broader :citizenship ;  skos:description "" .
+:bridges a skos:Concept ; skos:prefLabel "Bridges" ; :inScheme :vocab ;  dct:isReplacedBy :civil-engineering ; skos:broader :civil-engineering ;  skos:description "" .
+:dams a skos:Concept ; skos:prefLabel "Dams" ; :inScheme :vocab ;  dct:isReplacedBy :civil-engineering ; skos:broader :civil-engineering ;  skos:description "" .
+:engineering a skos:Concept ; skos:prefLabel "Engineering" ; :inScheme :vocab ;  dct:isReplacedBy :civil-engineering ; skos:broader :civil-engineering ;  skos:description "" .
+:railway-construction a skos:Concept ; skos:prefLabel "Railway Construction" ; :inScheme :vocab ;  dct:isReplacedBy :civil-engineering ; skos:broader :civil-engineering ;  skos:description "" .
+:road-construction a skos:Concept ; skos:prefLabel "Road Construction" ; :inScheme :vocab ;  dct:isReplacedBy :civil-engineering ; skos:broader :civil-engineering ;  skos:description "" .
+:cultural-institutions a skos:Concept ; skos:prefLabel "Cultural Institutions" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:galleries a skos:Concept ; skos:prefLabel "Galleries" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:libraries a skos:Concept ; skos:prefLabel "Libraries" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:museums a skos:Concept ; skos:prefLabel "Museums" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:national-collections a skos:Concept ; skos:prefLabel "National Collections" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:parliamentary-library a skos:Concept ; skos:prefLabel "Parliamentary Library" ; :inScheme :vocab ;  dct:isReplacedBy :collection-management ; skos:broader :collection-management ;  skos:description "" .
+:colonies a skos:Concept ; skos:prefLabel "Colonies" ; :inScheme :vocab ;  dct:isReplacedBy :colonial-administration ; skos:broader :colonial-administration ;  skos:description "" .
+:federation a skos:Concept ; skos:prefLabel "Federation" ; :inScheme :vocab ;  dct:isReplacedBy :colonial-administration ; skos:broader :colonial-administration ;  skos:description "" .
+:german-new-guinea a skos:Concept ; skos:prefLabel "German New Guinea" ; :inScheme :vocab ;  dct:isReplacedBy :colonial-administration ; skos:broader :colonial-administration ;  skos:description "" .
+:pre-federation a skos:Concept ; skos:prefLabel "Pre Federation" ; :inScheme :vocab ;  dct:isReplacedBy :colonial-administration ; skos:broader :colonial-administration ;  skos:description "" .
+:enquiries a skos:Concept ; skos:prefLabel "Enquiries" ; :inScheme :vocab ;  dct:isReplacedBy :committees-of-inquiry ; skos:broader :committees-of-inquiry ;  skos:description "" .
+:inquiries a skos:Concept ; skos:prefLabel "Inquiries" ; :inScheme :vocab ;  dct:isReplacedBy :committees-of-inquiry ; skos:broader :committees-of-inquiry ;  skos:description "" .
+:reviews a skos:Concept ; skos:prefLabel "Reviews" ; :inScheme :vocab ;  dct:isReplacedBy :committees-of-inquiry ; skos:broader :committees-of-inquiry ;  skos:description "" .
+:inter-government-relations a skos:Concept ; skos:prefLabel "Inter Government Relations" ; :inScheme :vocab ;  dct:isReplacedBy :commonwealth-state-relations ; skos:broader :commonwealth-state-relations ;  skos:description "" .
+:joint-consultative-bodies a skos:Concept ; skos:prefLabel "Joint Consultative Bodies" ; :inScheme :vocab ;  dct:isReplacedBy :commonwealth-state-relations ; skos:broader :commonwealth-state-relations ;  skos:description "" .
+:state-commonwealth-relations a skos:Concept ; skos:prefLabel "State Commonwealth Relations" ; :inScheme :vocab ;  dct:isReplacedBy :commonwealth-state-relations ; skos:broader :commonwealth-state-relations ;  skos:description "" .
+:media a skos:Concept ; skos:prefLabel "Media" ; :inScheme :vocab ;  dct:isReplacedBy :communications ; skos:broader :communications ;  skos:description "" .
+:adoption-services a skos:Concept ; skos:prefLabel "Adoption Services" ; :inScheme :vocab ;  dct:isReplacedBy :community-services ; skos:broader :community-services ;  skos:description "" .
+:social-services a skos:Concept ; skos:prefLabel "Social Services" ; :inScheme :vocab ;  dct:isReplacedBy :community-services ; skos:broader :community-services ;  skos:description "" .
+:compensation a skos:Concept ; skos:prefLabel "Compensation" ; :inScheme :vocab ;  dct:isReplacedBy :compensation-schemes ; skos:broader :compensation-schemes ;  skos:description "" .
+:workers-compensation a skos:Concept ; skos:prefLabel "Workers Compensation" ; :inScheme :vocab ;  dct:isReplacedBy :compensation-schemes ; skos:broader :compensation-schemes ;  skos:description "" .
+:consulate-general a skos:Concept ; skos:prefLabel "Consulate General" ; :inScheme :vocab ;  dct:isReplacedBy :consular-services ; skos:broader :consular-services ;  skos:description "" .
+:consulates a skos:Concept ; skos:prefLabel "Consulates" ; :inScheme :vocab ;  dct:isReplacedBy :consular-services ; skos:broader :consular-services ;  skos:description "" .
+:designs a skos:Concept ; skos:prefLabel "Designs" ; :inScheme :vocab ;  dct:isReplacedBy :copyright ; skos:broader :copyright ;  skos:description "" .
+:intellectual-property a skos:Concept ; skos:prefLabel "Intellectual Property" ; :inScheme :vocab ;  dct:isReplacedBy :copyright ; skos:broader :copyright ;  skos:description "" .
+:logos a skos:Concept ; skos:prefLabel "Logos" ; :inScheme :vocab ;  dct:isReplacedBy :copyright ; skos:broader :copyright ;  skos:description "" .
+:symbols a skos:Concept ; skos:prefLabel "Symbols" ; :inScheme :vocab ;  dct:isReplacedBy :copyright ; skos:broader :copyright ;  skos:description "" .
+:market-concentration a skos:Concept ; skos:prefLabel "Market Concentration" ; :inScheme :vocab ;  dct:isReplacedBy :corporate-affairs ; skos:broader :corporate-affairs ;  skos:description "" .
+:monopolies a skos:Concept ; skos:prefLabel "Monopolies" ; :inScheme :vocab ;  dct:isReplacedBy :corporate-affairs ; skos:broader :corporate-affairs ;  skos:description "" .
+:securities-corporate a skos:Concept ; skos:prefLabel "Securities (Corporate)" ; :inScheme :vocab ;  dct:isReplacedBy :corporate-affairs ; skos:broader :corporate-affairs ;  skos:description "" .
+:culture a skos:Concept ; skos:prefLabel "Culture" ; :inScheme :vocab ;  dct:isReplacedBy :cultural-affairs ; skos:broader :cultural-affairs ;  skos:description "" .
+:bank-notes a skos:Concept ; skos:prefLabel "Bank Notes" ; :inScheme :vocab ;  dct:isReplacedBy :currency ; skos:broader :currency ;  skos:description "" .
+:bonds a skos:Concept ; skos:prefLabel "Bonds" ; :inScheme :vocab ;  dct:isReplacedBy :currency ; skos:broader :currency ;  skos:description "" .
+:coinage a skos:Concept ; skos:prefLabel "Coinage" ; :inScheme :vocab ;  dct:isReplacedBy :currency ; skos:broader :currency ;  skos:description "" .
+:coins a skos:Concept ; skos:prefLabel "Coins" ; :inScheme :vocab ;  dct:isReplacedBy :currency ; skos:broader :currency ;  skos:description "" .
+:legal-tender a skos:Concept ; skos:prefLabel "Legal Tender" ; :inScheme :vocab ;  dct:isReplacedBy :currency ; skos:broader :currency ;  skos:description "" .
+:teaching a skos:Concept ; skos:prefLabel "Teaching" ; :inScheme :vocab ;  dct:isReplacedBy :curriculum-development ; skos:broader :curriculum-development ;  skos:description "" .
+:defence-cooperation a skos:Concept ; skos:prefLabel "Defence Cooperation" ; :inScheme :vocab ;  dct:isReplacedBy :defence ; skos:broader :defence ;  skos:description "" .
+:defence-committees a skos:Concept ; skos:prefLabel "Defence Committees" ; :inScheme :vocab ;  dct:isReplacedBy :defence-administration ; skos:broader :defence-administration ;  skos:description "" .
+:allied-cooperation a skos:Concept ; skos:prefLabel "Allied Cooperation" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:armed-forces a skos:Concept ; skos:prefLabel "Armed Forces" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:armed-services a skos:Concept ; skos:prefLabel "Armed Services" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:campaigns a skos:Concept ; skos:prefLabel "Campaigns" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:civil-defences a skos:Concept ; skos:prefLabel "Civil Defences" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:coastal-defences a skos:Concept ; skos:prefLabel "Coastal Defences" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:council-of-defence a skos:Concept ; skos:prefLabel "Council Of Defence" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:expeditionary-forces a skos:Concept ; skos:prefLabel "Expeditionary Forces" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:joint-operations a skos:Concept ; skos:prefLabel "Joint Operations" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:military a skos:Concept ; skos:prefLabel "Military" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:military-action a skos:Concept ; skos:prefLabel "Military Action" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:military-service a skos:Concept ; skos:prefLabel "Military Service" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:war a skos:Concept ; skos:prefLabel "War" ; :inScheme :vocab ;  dct:isReplacedBy :defence-forces ; skos:broader :defence-forces ;  skos:description "" .
+:aircraft a skos:Concept ; skos:prefLabel "Aircraft" ; :inScheme :vocab ;  dct:isReplacedBy :defence-industries ; skos:broader :defence-industries ;  skos:description "" .
+:armament a skos:Concept ; skos:prefLabel "Armament" ; :inScheme :vocab ;  dct:isReplacedBy :defence-industries ; skos:broader :defence-industries ;  skos:description "" .
+:aviation a skos:Concept ; skos:prefLabel "Aviation" ; :inScheme :vocab ;  dct:isReplacedBy :defence-industries ; skos:broader :defence-industries ;  skos:description "" .
+:clothing a skos:Concept ; skos:prefLabel "Clothing" ; :inScheme :vocab ;  dct:isReplacedBy :defence-industries ; skos:broader :defence-industries ;  skos:description "" .
+:aerial-surveillance a skos:Concept ; skos:prefLabel "Aerial Surveillance" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:coastwatchers a skos:Concept ; skos:prefLabel "Coastwatchers" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:communications-intelligence a skos:Concept ; skos:prefLabel "Communications Intelligence" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:communications-security a skos:Concept ; skos:prefLabel "Communications Security" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:defence-security a skos:Concept ; skos:prefLabel "Defence Security" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:electronic-security a skos:Concept ; skos:prefLabel "Electronic Security" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:electronic-surveillance a skos:Concept ; skos:prefLabel "Electronic Surveillance" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:military-intelligence a skos:Concept ; skos:prefLabel "Military Intelligence" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:navy-intelligence a skos:Concept ; skos:prefLabel "Navy Intelligence" ; :inScheme :vocab ;  dct:isReplacedBy :defence-intelligence ; skos:broader :defence-intelligence ;  skos:description "" .
+:chemical-warfare-experiments a skos:Concept ; skos:prefLabel "Chemical Warfare Experiments" ; :inScheme :vocab ;  dct:isReplacedBy :defence-research ; skos:broader :defence-research ;  skos:description "" .
+:war-service-home-schemes a skos:Concept ; skos:prefLabel "War Service Home Schemes" ; :inScheme :vocab ;  dct:isReplacedBy :defence-service-home-schemes ; skos:broader :defence-service-home-schemes ;  skos:description "" .
+:dental-health a skos:Concept ; skos:prefLabel "Dental Health" ; :inScheme :vocab ;  dct:isReplacedBy :dental-services ; skos:broader :dental-services ;  skos:description "" .
+:geology a skos:Concept ; skos:prefLabel "Geology" ; :inScheme :vocab ;  dct:isReplacedBy :earth-sciences ; skos:broader :earth-sciences ;  skos:description "" .
+:geophysics a skos:Concept ; skos:prefLabel "Geophysics" ; :inScheme :vocab ;  dct:isReplacedBy :earth-sciences ; skos:broader :earth-sciences ;  skos:description "" .
+:elections a skos:Concept ; skos:prefLabel "Elections" ; :inScheme :vocab ;  dct:isReplacedBy :electoral-matters ; skos:broader :electoral-matters ;  skos:description "" .
+:franchise a skos:Concept ; skos:prefLabel "Franchise" ; :inScheme :vocab ;  dct:isReplacedBy :electoral-matters ; skos:broader :electoral-matters ;  skos:description "" .
+:referendums a skos:Concept ; skos:prefLabel "Referendums" ; :inScheme :vocab ;  dct:isReplacedBy :electoral-matters ; skos:broader :electoral-matters ;  skos:description "" .
+:labour a skos:Concept ; skos:prefLabel "Labour" ; :inScheme :vocab ;  dct:isReplacedBy :employment ; skos:broader :employment ;  skos:description "" .
+:unemployment a skos:Concept ; skos:prefLabel "Unemployment" ; :inScheme :vocab ;  dct:isReplacedBy :employment ; skos:broader :employment ;  skos:description "" .
+:working-conditions a skos:Concept ; skos:prefLabel "Working Conditions" ; :inScheme :vocab ;  dct:isReplacedBy :employment ; skos:broader :employment ;  skos:description "" .
+:coal a skos:Concept ; skos:prefLabel "Coal" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:fuels a skos:Concept ; skos:prefLabel "Fuels" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:gas a skos:Concept ; skos:prefLabel "Gas" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:hydroelectric-power a skos:Concept ; skos:prefLabel "Hydroelectric Power" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:hydroelectricity a skos:Concept ; skos:prefLabel "Hydroelectricity" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:liquid-fuels a skos:Concept ; skos:prefLabel "Liquid Fuels" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:nuclear a skos:Concept ; skos:prefLabel "Nuclear" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:oil a skos:Concept ; skos:prefLabel "Oil" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:petroleum a skos:Concept ; skos:prefLabel "Petroleum" ; :inScheme :vocab ;  dct:isReplacedBy :energy ; skos:broader :energy ;  skos:description "" .
+:pollution a skos:Concept ; skos:prefLabel "Pollution" ; :inScheme :vocab ;  dct:isReplacedBy :environmental-monitoring ; skos:broader :environmental-monitoring ;  skos:description "" .
+:equal-employment a skos:Concept ; skos:prefLabel "Equal Employment" ; :inScheme :vocab ;  dct:isReplacedBy :equity-programs ; skos:broader :equity-programs ;  skos:description "" .
+:export-incentives a skos:Concept ; skos:prefLabel "Export Incentives" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:export-insurance a skos:Concept ; skos:prefLabel "Export Insurance" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:export-marketing a skos:Concept ; skos:prefLabel "Export Marketing" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:export-support a skos:Concept ; skos:prefLabel "Export Support" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:exports a skos:Concept ; skos:prefLabel "Exports" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:imports a skos:Concept ; skos:prefLabel "Imports" ; :inScheme :vocab ;  dct:isReplacedBy :exports-and-imports ; skos:broader :exports-and-imports ;  skos:description "" .
+:family-courts a skos:Concept ; skos:prefLabel "Family Courts" ; :inScheme :vocab ;  dct:isReplacedBy :family-law ; skos:broader :family-law ;  skos:description "" .
+:federal-courts a skos:Concept ; skos:prefLabel "Federal Courts" ; :inScheme :vocab ;  dct:isReplacedBy :federal-law ; skos:broader :federal-law ;  skos:description "" .
+:high-court a skos:Concept ; skos:prefLabel "High Court" ; :inScheme :vocab ;  dct:isReplacedBy :federal-law ; skos:broader :federal-law ;  skos:description "" .
+:land-army a skos:Concept ; skos:prefLabel "Land (Army)" ; :inScheme :vocab ;  dct:isReplacedBy :field-force-army ; skos:broader :field-force-army ;  skos:description "" .
+:film a skos:Concept ; skos:prefLabel "Film" ; :inScheme :vocab ;  dct:isReplacedBy :film-production ; skos:broader :film-production ;  skos:description "" .
+:finance a skos:Concept ; skos:prefLabel "Finance" ; :inScheme :vocab ;  dct:isReplacedBy :financial-matters ; skos:broader :financial-matters ;  skos:description "" .
+:treasury a skos:Concept ; skos:prefLabel "Treasury" ; :inScheme :vocab ;  dct:isReplacedBy :financial-matters ; skos:broader :financial-matters ;  skos:description "" .
+:fisheries a skos:Concept ; skos:prefLabel "Fisheries" ; :inScheme :vocab ;  dct:isReplacedBy :fisheries-regulation ; skos:broader :fisheries-regulation ;  skos:description "" .
+:external-affairs a skos:Concept ; skos:prefLabel "External Affairs" ; :inScheme :vocab ;  dct:isReplacedBy :foreign-policy ; skos:broader :foreign-policy ;  skos:description "" .
+:foreign-affairs a skos:Concept ; skos:prefLabel "Foreign Affairs" ; :inScheme :vocab ;  dct:isReplacedBy :foreign-policy ; skos:broader :foreign-policy ;  skos:description "" .
+:forestry a skos:Concept ; skos:prefLabel "Forestry" ; :inScheme :vocab ;  dct:isReplacedBy :forestry-regulation ; skos:broader :forestry-regulation ;  skos:description "" .
+:timber a skos:Concept ; skos:prefLabel "Timber" ; :inScheme :vocab ;  dct:isReplacedBy :forestry-regulation ; skos:broader :forestry-regulation ;  skos:description "" .
+:freight-and-cartage a skos:Concept ; skos:prefLabel "Freight And Cartage" ; :inScheme :vocab ;  dct:isReplacedBy :freight ; skos:broader :freight ;  skos:description "" .
+:disposals a skos:Concept ; skos:prefLabel "Disposals" ; :inScheme :vocab ;  dct:isReplacedBy :goods-and-services ; skos:broader :goods-and-services ;  skos:description "" .
+:purchasing a skos:Concept ; skos:prefLabel "Purchasing" ; :inScheme :vocab ;  dct:isReplacedBy :goods-and-services ; skos:broader :goods-and-services ;  skos:description "" .
+:accommodation a skos:Concept ; skos:prefLabel "Accommodation" ; :inScheme :vocab ;  dct:isReplacedBy :government-accommodation-and-catering ; skos:broader :government-accommodation-and-catering ;  skos:description "" .
+:catering a skos:Concept ; skos:prefLabel "Catering" ; :inScheme :vocab ;  dct:isReplacedBy :government-accommodation-and-catering ; skos:broader :government-accommodation-and-catering ;  skos:description "" .
+:food-services a skos:Concept ; skos:prefLabel "Food Services" ; :inScheme :vocab ;  dct:isReplacedBy :government-accommodation-and-catering ; skos:broader :government-accommodation-and-catering ;  skos:description "" .
+:government-hostels a skos:Concept ; skos:prefLabel "Government Hostels" ; :inScheme :vocab ;  dct:isReplacedBy :government-accommodation-and-catering ; skos:broader :government-accommodation-and-catering ;  skos:description "" .
+:advertising a skos:Concept ; skos:prefLabel "Advertising" ; :inScheme :vocab ;  dct:isReplacedBy :government-media ; skos:broader :government-media ;  skos:description "" .
+:information a skos:Concept ; skos:prefLabel "Information" ; :inScheme :vocab ;  dct:isReplacedBy :government-media ; skos:broader :government-media ;  skos:description "" .
+:national-information-policy a skos:Concept ; skos:prefLabel "National Information Policy" ; :inScheme :vocab ;  dct:isReplacedBy :government-media ; skos:broader :government-media ;  skos:description "" .
+:promotional-activities a skos:Concept ; skos:prefLabel "Promotional Activities" ; :inScheme :vocab ;  dct:isReplacedBy :government-media ; skos:broader :government-media ;  skos:description "" .
+:publicity a skos:Concept ; skos:prefLabel "Publicity" ; :inScheme :vocab ;  dct:isReplacedBy :government-media ; skos:broader :government-media ;  skos:description "" .
+:attache a skos:Concept ; skos:prefLabel "Attache" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:diplomacy a skos:Concept ; skos:prefLabel "Diplomacy" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:diplomatic-corps a skos:Concept ; skos:prefLabel "Diplomatic Corps" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:embassies a skos:Concept ; skos:prefLabel "Embassies" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:expatriates a skos:Concept ; skos:prefLabel "Expatriates" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:high-commissions a skos:Concept ; skos:prefLabel "High Commissions" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:legations a skos:Concept ; skos:prefLabel "Legations" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:trade-representations a skos:Concept ; skos:prefLabel "Trade Representations" ; :inScheme :vocab ;  dct:isReplacedBy :government-representation-overseas ; skos:broader :government-representation-overseas ;  skos:description "" .
+:imperial-relations a skos:Concept ; skos:prefLabel "Imperial Relations" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:monarchy a skos:Concept ; skos:prefLabel "Monarchy" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:queens-representative a skos:Concept ; skos:prefLabel "Queen'S Representative" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:regal a skos:Concept ; skos:prefLabel "Regal" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:royal-visits a skos:Concept ; skos:prefLabel "Royal Visits" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:vice-regal a skos:Concept ; skos:prefLabel "Vice Regal" ; :inScheme :vocab ;  dct:isReplacedBy :governor-general ; skos:broader :governor-general ;  skos:description "" .
+:grants a skos:Concept ; skos:prefLabel "Grants" ; :inScheme :vocab ;  dct:isReplacedBy :grants-administration ; skos:broader :grants-administration ;  skos:description "" .
+:medical-insurance-schemes a skos:Concept ; skos:prefLabel "Medical Insurance Schemes" ; :inScheme :vocab ;  dct:isReplacedBy :health-insurance ; skos:broader :health-insurance ;  skos:description "" .
+:diseases a skos:Concept ; skos:prefLabel "Diseases" ; :inScheme :vocab ;  dct:isReplacedBy :health-services ; skos:broader :health-services ;  skos:description "" .
+:health-education a skos:Concept ; skos:prefLabel "Health Education" ; :inScheme :vocab ;  dct:isReplacedBy :health-services ; skos:broader :health-services ;  skos:description "" .
+:health-promotion a skos:Concept ; skos:prefLabel "Health Promotion" ; :inScheme :vocab ;  dct:isReplacedBy :health-services ; skos:broader :health-services ;  skos:description "" .
+:public-health a skos:Concept ; skos:prefLabel "Public Health" ; :inScheme :vocab ;  dct:isReplacedBy :health-services ; skos:broader :health-services ;  skos:description "" .
+:hearing a skos:Concept ; skos:prefLabel "Hearing" ; :inScheme :vocab ;  dct:isReplacedBy :hearing-services ; skos:broader :hearing-services ;  skos:description "" .
+:commemorative-memorials a skos:Concept ; skos:prefLabel "Commemorative Memorials" ; :inScheme :vocab ;  dct:isReplacedBy :historic-memorials ; skos:broader :historic-memorials ;  skos:description "" .
+:clinics a skos:Concept ; skos:prefLabel "Clinics" ; :inScheme :vocab ;  dct:isReplacedBy :hospitals-and-clinics ; skos:broader :hospitals-and-clinics ;  skos:description "" .
+:hospitals a skos:Concept ; skos:prefLabel "Hospitals" ; :inScheme :vocab ;  dct:isReplacedBy :hospitals-and-clinics ; skos:broader :hospitals-and-clinics ;  skos:description "" .
+:housing-programs a skos:Concept ; skos:prefLabel "Housing Programs" ; :inScheme :vocab ;  dct:isReplacedBy :housing ; skos:broader :housing ;  skos:description "" .
+:housing-research a skos:Concept ; skos:prefLabel "Housing Research" ; :inScheme :vocab ;  dct:isReplacedBy :housing ; skos:broader :housing ;  skos:description "" .
+:antidiscrimination a skos:Concept ; skos:prefLabel "Antidiscrimination" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:civil-liberties a skos:Concept ; skos:prefLabel "Civil Liberties" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:civil-rights a skos:Concept ; skos:prefLabel "Civil Rights" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:discrimination a skos:Concept ; skos:prefLabel "Discrimination" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:privacy a skos:Concept ; skos:prefLabel "Privacy" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:racial-discrimination a skos:Concept ; skos:prefLabel "Racial Discrimination" ; :inScheme :vocab ;  dct:isReplacedBy :human-rights ; skos:broader :human-rights ;  skos:description "" .
+:aboriginal-affairs a skos:Concept ; skos:prefLabel "Aboriginal Affairs" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:aboriginal-welfare a skos:Concept ; skos:prefLabel "Aboriginal Welfare" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:aboriginals a skos:Concept ; skos:prefLabel "Aboriginals" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:aborigines a skos:Concept ; skos:prefLabel "Aborigines" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:islanders a skos:Concept ; skos:prefLabel "Islanders" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:native-affairs a skos:Concept ; skos:prefLabel "Native Affairs" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:natives a skos:Concept ; skos:prefLabel "Natives" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:torres-strait-islanders a skos:Concept ; skos:prefLabel "Torres Strait Islanders" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-affairs ; skos:broader :indigenous-affairs ;  skos:description "" .
+:aboriginal-enterprises a skos:Concept ; skos:prefLabel "Aboriginal Enterprises" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-enterprises ; skos:broader :indigenous-enterprises ;  skos:description "" .
+:aboriginal-land-rights a skos:Concept ; skos:prefLabel "Aboriginal Land Rights" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-land-rights ; skos:broader :indigenous-land-rights ;  skos:description "" .
+:land-claims a skos:Concept ; skos:prefLabel "Land Claims" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-land-rights ; skos:broader :indigenous-land-rights ;  skos:description "" .
+:land-councils a skos:Concept ; skos:prefLabel "Land Councils" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-land-rights ; skos:broader :indigenous-land-rights ;  skos:description "" .
+:land-rights a skos:Concept ; skos:prefLabel "Land Rights" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-land-rights ; skos:broader :indigenous-land-rights ;  skos:description "" .
+:native-title-claims a skos:Concept ; skos:prefLabel "Native Title Claims" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-land-rights ; skos:broader :indigenous-land-rights ;  skos:description "" .
+:aboriginal-missions a skos:Concept ; skos:prefLabel "Aboriginal Missions" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-settlements ; skos:broader :indigenous-settlements ;  skos:description "" .
+:aboriginal-reserves a skos:Concept ; skos:prefLabel "Aboriginal Reserves" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-settlements ; skos:broader :indigenous-settlements ;  skos:description "" .
+:missions a skos:Concept ; skos:prefLabel "Missions" ; :inScheme :vocab ;  dct:isReplacedBy :indigenous-settlements ; skos:broader :indigenous-settlements ;  skos:description "" .
+:industrial a skos:Concept ; skos:prefLabel "Industrial" ; :inScheme :vocab ;  dct:isReplacedBy :industrial-relations ; skos:broader :industrial-relations ;  skos:description "" .
+:espionage a skos:Concept ; skos:prefLabel "Espionage" ; :inScheme :vocab ;  dct:isReplacedBy :internal-security ; skos:broader :internal-security ;  skos:description "" .
+:disarmament a skos:Concept ; skos:prefLabel "Disarmament" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:international-agreements a skos:Concept ; skos:prefLabel "International Agreements" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:league-of-nations a skos:Concept ; skos:prefLabel "League Of Nations" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:peace-keeping-forces a skos:Concept ; skos:prefLabel "Peace Keeping Forces" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:peace-treaties a skos:Concept ; skos:prefLabel "Peace Treaties" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:protocol a skos:Concept ; skos:prefLabel "Protocol" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:trade-agreements a skos:Concept ; skos:prefLabel "Trade Agreements" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:treaties a skos:Concept ; skos:prefLabel "Treaties" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:united-nations a skos:Concept ; skos:prefLabel "United Nations" ; :inScheme :vocab ;  dct:isReplacedBy :international-relations ; skos:broader :international-relations ;  skos:description "" .
+:enemy-aliens a skos:Concept ; skos:prefLabel "Enemy Aliens" ; :inScheme :vocab ;  dct:isReplacedBy :internees ; skos:broader :internees ;  skos:description "" .
+:internment a skos:Concept ; skos:prefLabel "Internment" ; :inScheme :vocab ;  dct:isReplacedBy :internees ; skos:broader :internees ;  skos:description "" .
+:internment-camps a skos:Concept ; skos:prefLabel "Internment Camps" ; :inScheme :vocab ;  dct:isReplacedBy :internees ; skos:broader :internees ;  skos:description "" .
+:courts a skos:Concept ; skos:prefLabel "Courts" ; :inScheme :vocab ;  dct:isReplacedBy :justice-administration ; skos:broader :justice-administration ;  skos:description "" .
+:justice a skos:Concept ; skos:prefLabel "Justice" ; :inScheme :vocab ;  dct:isReplacedBy :justice-administration ; skos:broader :justice-administration ;  skos:description "" .
+:interstate-transport a skos:Concept ; skos:prefLabel "Interstate Transport" ; :inScheme :vocab ;  dct:isReplacedBy :land-transport ; skos:broader :land-transport ;  skos:description "" .
+:land a skos:Concept ; skos:prefLabel "Land" ; :inScheme :vocab ;  dct:isReplacedBy :land-use ; skos:broader :land-use ;  skos:description "" .
+:funding-for-literature a skos:Concept ; skos:prefLabel "Funding For Literature" ; :inScheme :vocab ;  dct:isReplacedBy :literature-funding ; skos:broader :literature-funding ;  skos:description "" .
+:literature a skos:Concept ; skos:prefLabel "Literature" ; :inScheme :vocab ;  dct:isReplacedBy :literature-funding ; skos:broader :literature-funding ;  skos:description "" .
+:supply a skos:Concept ; skos:prefLabel "Supply" ; :inScheme :vocab ;  dct:isReplacedBy :logistics-defence ; skos:broader :logistics-defence ;  skos:description "" .
+:fleet-air-arm a skos:Concept ; skos:prefLabel "Fleet Air Arm" ; :inScheme :vocab ;  dct:isReplacedBy :maritime-commands-navy ; skos:broader :maritime-commands-navy ;  skos:description "" .
+:monuments a skos:Concept ; skos:prefLabel "Monuments" ; :inScheme :vocab ;  dct:isReplacedBy :memorials ; skos:broader :memorials ;  skos:description "" .
+:migrant-accommodation a skos:Concept ; skos:prefLabel "Migrant Accommodation" ; :inScheme :vocab ;  dct:isReplacedBy :migrant-services ; skos:broader :migrant-services ;  skos:description "" .
+:migrant-camps a skos:Concept ; skos:prefLabel "Migrant Camps" ; :inScheme :vocab ;  dct:isReplacedBy :migrant-services ; skos:broader :migrant-services ;  skos:description "" .
+:migrant-documentation a skos:Concept ; skos:prefLabel "Migrant Documentation" ; :inScheme :vocab ;  dct:isReplacedBy :migrant-services ; skos:broader :migrant-services ;  skos:description "" .
+:migrant-hostels a skos:Concept ; skos:prefLabel "Migrant Hostels" ; :inScheme :vocab ;  dct:isReplacedBy :migrant-services ; skos:broader :migrant-services ;  skos:description "" .
+:aliens a skos:Concept ; skos:prefLabel "Aliens" ; :inScheme :vocab ;  dct:isReplacedBy :migration ; skos:broader :migration ;  skos:description "" .
+:assisted-migration a skos:Concept ; skos:prefLabel "Assisted Migration" ; :inScheme :vocab ;  dct:isReplacedBy :migration ; skos:broader :migration ;  skos:description "" .
+:immigration a skos:Concept ; skos:prefLabel "Immigration" ; :inScheme :vocab ;  dct:isReplacedBy :migration ; skos:broader :migration ;  skos:description "" .
+:overseas-qualifications a skos:Concept ; skos:prefLabel "Overseas Qualifications" ; :inScheme :vocab ;  dct:isReplacedBy :migration ; skos:broader :migration ;  skos:description "" .
+:white-australia-policy a skos:Concept ; skos:prefLabel "White Australia Policy" ; :inScheme :vocab ;  dct:isReplacedBy :migration ; skos:broader :migration ;  skos:description "" .
+:ethnic-affairs a skos:Concept ; skos:prefLabel "Ethnic Affairs" ; :inScheme :vocab ;  dct:isReplacedBy :multiculturalism ; skos:broader :multiculturalism ;  skos:description "" .
+:celebrations a skos:Concept ; skos:prefLabel "Celebrations" ; :inScheme :vocab ;  dct:isReplacedBy :national-events ; skos:broader :national-events ;  skos:description "" .
+:festivals a skos:Concept ; skos:prefLabel "Festivals" ; :inScheme :vocab ;  dct:isReplacedBy :national-events ; skos:broader :national-events ;  skos:description "" .
+:national-estate a skos:Concept ; skos:prefLabel "National Estate" ; :inScheme :vocab ;  dct:isReplacedBy :national-heritage ; skos:broader :national-heritage ;  skos:description "" .
+:world-heritage a skos:Concept ; skos:prefLabel "World Heritage" ; :inScheme :vocab ;  dct:isReplacedBy :national-heritage ; skos:broader :national-heritage ;  skos:description "" .
+:conscription a skos:Concept ; skos:prefLabel "Conscription" ; :inScheme :vocab ;  dct:isReplacedBy :national-service ; skos:broader :national-service ;  skos:description "" .
+:naval-police a skos:Concept ; skos:prefLabel "Naval Police" ; :inScheme :vocab ;  dct:isReplacedBy :navy-support ; skos:broader :navy-support ;  skos:description "" .
+:support a skos:Concept ; skos:prefLabel "Support" ; :inScheme :vocab ;  dct:isReplacedBy :navy-support ; skos:broader :navy-support ;  skos:description "" .
+:aid-programs a skos:Concept ; skos:prefLabel "Aid Programs" ; :inScheme :vocab ;  dct:isReplacedBy :overseas-aid-programs ; skos:broader :overseas-aid-programs ;  skos:description "" .
+:house-of-representatives a skos:Concept ; skos:prefLabel "House Of Representatives" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-chamber-administration ; skos:broader :parliamentary-chamber-administration ;  skos:description "" .
+:joint-house a skos:Concept ; skos:prefLabel "Joint House" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-chamber-administration ; skos:broader :parliamentary-chamber-administration ;  skos:description "" .
+:parliamentary-chambers a skos:Concept ; skos:prefLabel "Parliamentary Chambers" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-chamber-administration ; skos:broader :parliamentary-chamber-administration ;  skos:description "" .
+:senate a skos:Concept ; skos:prefLabel "Senate" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-chamber-administration ; skos:broader :parliamentary-chamber-administration ;  skos:description "" .
+:constitution a skos:Concept ; skos:prefLabel "Constitution" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:federal-executive-council a skos:Concept ; skos:prefLabel "Federal Executive Council" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:federal-legislature a skos:Concept ; skos:prefLabel "Federal Legislature" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:legislative-processes a skos:Concept ; skos:prefLabel "Legislative Processes" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:legislature a skos:Concept ; skos:prefLabel "Legislature" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:parliament a skos:Concept ; skos:prefLabel "Parliament" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:parliamentary-buildings a skos:Concept ; skos:prefLabel "Parliamentary Buildings" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:parliamentary-departments a skos:Concept ; skos:prefLabel "Parliamentary Departments" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:select-committees a skos:Concept ; skos:prefLabel "Select Committees" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:standing-committees a skos:Concept ; skos:prefLabel "Standing Committees" ; :inScheme :vocab ;  dct:isReplacedBy :parliamentary-matters ; skos:broader :parliamentary-matters ;  skos:description "" .
+:arrivals a skos:Concept ; skos:prefLabel "Arrivals" ; :inScheme :vocab ;  dct:isReplacedBy :passenger-entry-control ; skos:broader :passenger-entry-control ;  skos:description "" .
+:patents a skos:Concept ; skos:prefLabel "Patents" ; :inScheme :vocab ;  dct:isReplacedBy :patents-and-trademarks ; skos:broader :patents-and-trademarks ;  skos:description "" .
+:trade-marks a skos:Concept ; skos:prefLabel "Trade Marks" ; :inScheme :vocab ;  dct:isReplacedBy :patents-and-trademarks ; skos:broader :patents-and-trademarks ;  skos:description "" .
+:trademarks a skos:Concept ; skos:prefLabel "Trademarks" ; :inScheme :vocab ;  dct:isReplacedBy :patents-and-trademarks ; skos:broader :patents-and-trademarks ;  skos:description "" .
+:benefits a skos:Concept ; skos:prefLabel "Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:child-endowment a skos:Concept ; skos:prefLabel "Child Endowment" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:funeral-benefits a skos:Concept ; skos:prefLabel "Funeral Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:hospital-benefits a skos:Concept ; skos:prefLabel "Hospital Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:invalid-pensions a skos:Concept ; skos:prefLabel "Invalid Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:maternity-allowance a skos:Concept ; skos:prefLabel "Maternity Allowance" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:mental-institutions-benefits a skos:Concept ; skos:prefLabel "Mental Institutions Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:national-pension-schemes a skos:Concept ; skos:prefLabel "National Pension Schemes" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:old-age-pensions a skos:Concept ; skos:prefLabel "Old Age Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:pensions a skos:Concept ; skos:prefLabel "Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:service-pensions a skos:Concept ; skos:prefLabel "Service Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:sickness-benefits a skos:Concept ; skos:prefLabel "Sickness Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:social-security a skos:Concept ; skos:prefLabel "Social Security" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:unemployment-benefits a skos:Concept ; skos:prefLabel "Unemployment Benefits" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:widows-pensions a skos:Concept ; skos:prefLabel "Widows Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :pensions-and-benefits ; skos:broader :pensions-and-benefits ;  skos:description "" .
+:staffing a skos:Concept ; skos:prefLabel "Staffing" ; :inScheme :vocab ;  dct:isReplacedBy :personnel ; skos:broader :personnel ;  skos:description "" .
+:drugs-manufacture a skos:Concept ; skos:prefLabel "Drugs (Manufacture)" ; :inScheme :vocab ;  dct:isReplacedBy :pharmaceuticals-and-medical-aids ; skos:broader :pharmaceuticals-and-medical-aids ;  skos:description "" .
+:medical-aids a skos:Concept ; skos:prefLabel "Medical Aids" ; :inScheme :vocab ;  dct:isReplacedBy :pharmaceuticals-and-medical-aids ; skos:broader :pharmaceuticals-and-medical-aids ;  skos:description "" .
+:commonwealth-police a skos:Concept ; skos:prefLabel "Commonwealth Police" ; :inScheme :vocab ;  dct:isReplacedBy :police-administration ; skos:broader :police-administration ;  skos:description "" .
+:federal-police a skos:Concept ; skos:prefLabel "Federal Police" ; :inScheme :vocab ;  dct:isReplacedBy :police-administration ; skos:broader :police-administration ;  skos:description "" .
+:national-law-enforcement a skos:Concept ; skos:prefLabel "National Law Enforcement" ; :inScheme :vocab ;  dct:isReplacedBy :police-administration ; skos:broader :police-administration ;  skos:description "" .
+:police a skos:Concept ; skos:prefLabel "Police" ; :inScheme :vocab ;  dct:isReplacedBy :police-administration ; skos:broader :police-administration ;  skos:description "" .
+:police-stations a skos:Concept ; skos:prefLabel "Police Stations" ; :inScheme :vocab ;  dct:isReplacedBy :police-administration ; skos:broader :police-administration ;  skos:description "" .
+:ports a skos:Concept ; skos:prefLabel "Ports" ; :inScheme :vocab ;  dct:isReplacedBy :port-regulation ; skos:broader :port-regulation ;  skos:description "" .
+:mail-services a skos:Concept ; skos:prefLabel "Mail Services" ; :inScheme :vocab ;  dct:isReplacedBy :postal-services ; skos:broader :postal-services ;  skos:description "" .
+:post-office a skos:Concept ; skos:prefLabel "Post Office" ; :inScheme :vocab ;  dct:isReplacedBy :postal-services ; skos:broader :postal-services ;  skos:description "" .
+:stamps-production-and-printing a skos:Concept ; skos:prefLabel "Stamps (Production And Printing)" ; :inScheme :vocab ;  dct:isReplacedBy :postal-services ; skos:broader :postal-services ;  skos:description "" .
+:kindergarten a skos:Concept ; skos:prefLabel "Kindergarten" ; :inScheme :vocab ;  dct:isReplacedBy :preschool-education ; skos:broader :preschool-education ;  skos:description "" .
+:preschools a skos:Concept ; skos:prefLabel "Preschools" ; :inScheme :vocab ;  dct:isReplacedBy :preschool-education ; skos:broader :preschool-education ;  skos:description "" .
+:primary-schooling a skos:Concept ; skos:prefLabel "Primary Schooling" ; :inScheme :vocab ;  dct:isReplacedBy :primary-education ; skos:broader :primary-education ;  skos:description "" .
+:primary-schools a skos:Concept ; skos:prefLabel "Primary Schools" ; :inScheme :vocab ;  dct:isReplacedBy :primary-education ; skos:broader :primary-education ;  skos:description "" .
+:property a skos:Concept ; skos:prefLabel "Property" ; :inScheme :vocab ;  dct:isReplacedBy :property-management ; skos:broader :property-management ;  skos:description "" .
+:diplomatic-protection a skos:Concept ; skos:prefLabel "Diplomatic Protection" ; :inScheme :vocab ;  dct:isReplacedBy :protective-services ; skos:broader :protective-services ;  skos:description "" .
+:nightwatchmen a skos:Concept ; skos:prefLabel "Nightwatchmen" ; :inScheme :vocab ;  dct:isReplacedBy :protective-services ; skos:broader :protective-services ;  skos:description "" .
+:security-guards a skos:Concept ; skos:prefLabel "Security Guards" ; :inScheme :vocab ;  dct:isReplacedBy :protective-services ; skos:broader :protective-services ;  skos:description "" .
+:affirmative-action a skos:Concept ; skos:prefLabel "Affirmative Action" ; :inScheme :vocab ;  dct:isReplacedBy :public-service ; skos:broader :public-service ;  skos:description "" .
+:conditions-of-service a skos:Concept ; skos:prefLabel "Conditions Of Service" ; :inScheme :vocab ;  dct:isReplacedBy :public-service ; skos:broader :public-service ;  skos:description "" .
+:electricity-services a skos:Concept ; skos:prefLabel "Electricity Services" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:fire-fighting-services a skos:Concept ; skos:prefLabel "Fire Fighting Services" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:gas-services a skos:Concept ; skos:prefLabel "Gas Services" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:sewerage a skos:Concept ; skos:prefLabel "Sewerage" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:utilities a skos:Concept ; skos:prefLabel "Utilities" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:water-services a skos:Concept ; skos:prefLabel "Water Services" ; :inScheme :vocab ;  dct:isReplacedBy :public-utilities ; skos:broader :public-utilities ;  skos:description "" .
+:printing a skos:Concept ; skos:prefLabel "Printing" ; :inScheme :vocab ;  dct:isReplacedBy :publishing-and-printing ; skos:broader :publishing-and-printing ;  skos:description "" .
+:animal-quarantine a skos:Concept ; skos:prefLabel "Animal Quarantine" ; :inScheme :vocab ;  dct:isReplacedBy :quarantine ; skos:broader :quarantine ;  skos:description "" .
+:human-quarantine a skos:Concept ; skos:prefLabel "Human Quarantine" ; :inScheme :vocab ;  dct:isReplacedBy :quarantine ; skos:broader :quarantine ;  skos:description "" .
+:infectious-diseases a skos:Concept ; skos:prefLabel "Infectious Diseases" ; :inScheme :vocab ;  dct:isReplacedBy :quarantine ; skos:broader :quarantine ;  skos:description "" .
+:plant-quarantine a skos:Concept ; skos:prefLabel "Plant Quarantine" ; :inScheme :vocab ;  dct:isReplacedBy :quarantine ; skos:broader :quarantine ;  skos:description "" .
+:radio a skos:Concept ; skos:prefLabel "Radio" ; :inScheme :vocab ;  dct:isReplacedBy :radio-broadcasting ; skos:broader :radio-broadcasting ;  skos:description "" .
+:radio-licences a skos:Concept ; skos:prefLabel "Radio Licences" ; :inScheme :vocab ;  dct:isReplacedBy :radio-broadcasting ; skos:broader :radio-broadcasting ;  skos:description "" .
+:wireless a skos:Concept ; skos:prefLabel "Wireless" ; :inScheme :vocab ;  dct:isReplacedBy :radio-broadcasting ; skos:broader :radio-broadcasting ;  skos:description "" .
+:wireless-telegraphy a skos:Concept ; skos:prefLabel "Wireless Telegraphy" ; :inScheme :vocab ;  dct:isReplacedBy :radio-broadcasting ; skos:broader :radio-broadcasting ;  skos:description "" .
+:government-railways a skos:Concept ; skos:prefLabel "Government Railways" ; :inScheme :vocab ;  dct:isReplacedBy :rail-transport ; skos:broader :rail-transport ;  skos:description "" .
+:railways a skos:Concept ; skos:prefLabel "Railways" ; :inScheme :vocab ;  dct:isReplacedBy :rail-transport ; skos:broader :rail-transport ;  skos:description "" .
+:price-control a skos:Concept ; skos:prefLabel "Price Control" ; :inScheme :vocab ;  dct:isReplacedBy :rationing-and-price-control ; skos:broader :rationing-and-price-control ;  skos:description "" .
+:price-fixing a skos:Concept ; skos:prefLabel "Price Fixing" ; :inScheme :vocab ;  dct:isReplacedBy :rationing-and-price-control ; skos:broader :rationing-and-price-control ;  skos:description "" .
+:price-surveillance a skos:Concept ; skos:prefLabel "Price Surveillance" ; :inScheme :vocab ;  dct:isReplacedBy :rationing-and-price-control ; skos:broader :rationing-and-price-control ;  skos:description "" .
+:recruiting a skos:Concept ; skos:prefLabel "Recruiting" ; :inScheme :vocab ;  dct:isReplacedBy :recruitment ; skos:broader :recruitment ;  skos:description "" .
+:decentralisation a skos:Concept ; skos:prefLabel "Decentralisation" ; :inScheme :vocab ;  dct:isReplacedBy :regional-development ; skos:broader :regional-development ;  skos:description "" .
+:rural a skos:Concept ; skos:prefLabel "Rural" ; :inScheme :vocab ;  dct:isReplacedBy :regional-development ; skos:broader :regional-development ;  skos:description "" .
+:post-war-reconstruction a skos:Concept ; skos:prefLabel "Post War Reconstruction" ; :inScheme :vocab ;  dct:isReplacedBy :repatriation ; skos:broader :repatriation ;  skos:description "" .
+:soldiers-settlement-schemes a skos:Concept ; skos:prefLabel "Soldiers' Settlement Schemes" ; :inScheme :vocab ;  dct:isReplacedBy :repatriation ; skos:broader :repatriation ;  skos:description "" .
+:repatriation-clinics a skos:Concept ; skos:prefLabel "Repatriation Clinics" ; :inScheme :vocab ;  dct:isReplacedBy :repatriation-hospitals ; skos:broader :repatriation-hospitals ;  skos:description "" .
+:natural-resources a skos:Concept ; skos:prefLabel "Natural Resources" ; :inScheme :vocab ;  dct:isReplacedBy :resources ; skos:broader :resources ;  skos:description "" .
+:motor-vehicle-national-certification a skos:Concept ; skos:prefLabel "Motor Vehicle National Certification" ; :inScheme :vocab ;  dct:isReplacedBy :road-transport ; skos:broader :road-transport ;  skos:description "" .
+:roads a skos:Concept ; skos:prefLabel "Roads" ; :inScheme :vocab ;  dct:isReplacedBy :road-transport ; skos:broader :road-transport ;  skos:description "" .
+:government-steamship-lines a skos:Concept ; skos:prefLabel "Government Steamship Lines" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:marine-authorities a skos:Concept ; skos:prefLabel "Marine Authorities" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:marine-transport a skos:Concept ; skos:prefLabel "Marine Transport" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:maritime-marine a skos:Concept ; skos:prefLabel "Maritime Marine" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:merchant-seamen a skos:Concept ; skos:prefLabel "Merchant Seamen" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:merchant-shipping a skos:Concept ; skos:prefLabel "Merchant Shipping" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:shipping a skos:Concept ; skos:prefLabel "Shipping" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:steamship-lines a skos:Concept ; skos:prefLabel "Steamship Lines" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:stevedoring a skos:Concept ; skos:prefLabel "Stevedoring" ; :inScheme :vocab ;  dct:isReplacedBy :sea-transport ; skos:broader :sea-transport ;  skos:description "" .
+:secondary-schools a skos:Concept ; skos:prefLabel "Secondary Schools" ; :inScheme :vocab ;  dct:isReplacedBy :secondary-education ; skos:broader :secondary-education ;  skos:description "" .
+:industry a skos:Concept ; skos:prefLabel "Industry" ; :inScheme :vocab ;  dct:isReplacedBy :secondary-industries ; skos:broader :secondary-industries ;  skos:description "" .
+:manufacturing-industries a skos:Concept ; skos:prefLabel "Manufacturing Industries" ; :inScheme :vocab ;  dct:isReplacedBy :secondary-industries ; skos:broader :secondary-industries ;  skos:description "" .
+:refining-and-chemical-programs a skos:Concept ; skos:prefLabel "Refining And Chemical Programs" ; :inScheme :vocab ;  dct:isReplacedBy :secondary-industries ; skos:broader :secondary-industries ;  skos:description "" .
+:counter-terrorism a skos:Concept ; skos:prefLabel "Counter Terrorism" ; :inScheme :vocab ;  dct:isReplacedBy :security-and-intelligence ; skos:broader :security-and-intelligence ;  skos:description "" .
+:intelligence a skos:Concept ; skos:prefLabel "Intelligence" ; :inScheme :vocab ;  dct:isReplacedBy :security-and-intelligence ; skos:broader :security-and-intelligence ;  skos:description "" .
+:security a skos:Concept ; skos:prefLabel "Security" ; :inScheme :vocab ;  dct:isReplacedBy :security-and-intelligence ; skos:broader :security-and-intelligence ;  skos:description "" .
+:census a skos:Concept ; skos:prefLabel "Census" ; :inScheme :vocab ;  dct:isReplacedBy :social-and-economic-research ; skos:broader :social-and-economic-research ;  skos:description "" .
+:demographic-surveys a skos:Concept ; skos:prefLabel "Demographic Surveys" ; :inScheme :vocab ;  dct:isReplacedBy :social-and-economic-research ; skos:broader :social-and-economic-research ;  skos:description "" .
+:economic-research a skos:Concept ; skos:prefLabel "Economic Research" ; :inScheme :vocab ;  dct:isReplacedBy :social-and-economic-research ; skos:broader :social-and-economic-research ;  skos:description "" .
+:astronomy a skos:Concept ; skos:prefLabel "Astronomy" ; :inScheme :vocab ;  dct:isReplacedBy :space-science ; skos:broader :space-science ;  skos:description "" .
+:ionospheric-prediction a skos:Concept ; skos:prefLabel "Ionospheric Prediction" ; :inScheme :vocab ;  dct:isReplacedBy :space-science ; skos:broader :space-science ;  skos:description "" .
+:benefits-for-students a skos:Concept ; skos:prefLabel "Benefits For Students" ; :inScheme :vocab ;  dct:isReplacedBy :student-assistance ; skos:broader :student-assistance ;  skos:description "" .
+:scholarships a skos:Concept ; skos:prefLabel "Scholarships" ; :inScheme :vocab ;  dct:isReplacedBy :student-assistance ; skos:broader :student-assistance ;  skos:description "" .
+:students a skos:Concept ; skos:prefLabel "Students" ; :inScheme :vocab ;  dct:isReplacedBy :student-assistance ; skos:broader :student-assistance ;  skos:description "" .
+:supreme-courts a skos:Concept ; skos:prefLabel "Supreme Courts" ; :inScheme :vocab ;  dct:isReplacedBy :supreme-law ; skos:broader :supreme-law ;  skos:description "" .
+:geography a skos:Concept ; skos:prefLabel "Geography" ; :inScheme :vocab ;  dct:isReplacedBy :survey-and-mapping ; skos:broader :survey-and-mapping ;  skos:description "" .
+:mapping a skos:Concept ; skos:prefLabel "Mapping" ; :inScheme :vocab ;  dct:isReplacedBy :survey-and-mapping ; skos:broader :survey-and-mapping ;  skos:description "" .
+:tariffs a skos:Concept ; skos:prefLabel "Tariffs" ; :inScheme :vocab ;  dct:isReplacedBy :tariff-regulation ; skos:broader :tariff-regulation ;  skos:description "" .
+:customs-duty a skos:Concept ; skos:prefLabel "Customs Duty" ; :inScheme :vocab ;  dct:isReplacedBy :tariffs ; skos:broader :tariffs ;  skos:description "" .
+:tax a skos:Concept ; skos:prefLabel "Tax" ; :inScheme :vocab ;  dct:isReplacedBy :taxation ; skos:broader :taxation ;  skos:description "" .
+:cable-services a skos:Concept ; skos:prefLabel "Cable Services" ; :inScheme :vocab ;  dct:isReplacedBy :telecommunications ; skos:broader :telecommunications ;  skos:description "" .
+:satellites a skos:Concept ; skos:prefLabel "Satellites" ; :inScheme :vocab ;  dct:isReplacedBy :telecommunications ; skos:broader :telecommunications ;  skos:description "" .
+:telegraphic-services a skos:Concept ; skos:prefLabel "Telegraphic Services" ; :inScheme :vocab ;  dct:isReplacedBy :telecommunications ; skos:broader :telecommunications ;  skos:description "" .
+:telephones a skos:Concept ; skos:prefLabel "Telephones" ; :inScheme :vocab ;  dct:isReplacedBy :telecommunications ; skos:broader :telecommunications ;  skos:description "" .
+:cable-television a skos:Concept ; skos:prefLabel "Cable Television" ; :inScheme :vocab ;  dct:isReplacedBy :television-broadcasting ; skos:broader :television-broadcasting ;  skos:description "" .
+:television a skos:Concept ; skos:prefLabel "Television" ; :inScheme :vocab ;  dct:isReplacedBy :television-broadcasting ; skos:broader :television-broadcasting ;  skos:description "" .
+:ashmore-and-cartier-islands a skos:Concept ; skos:prefLabel "Ashmore And Cartier Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:australian-antarctic-territory a skos:Concept ; skos:prefLabel "Australian Antarctic Territory" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:british-new-guinea a skos:Concept ; skos:prefLabel "British New Guinea" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:cartier-islands a skos:Concept ; skos:prefLabel "Cartier Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:christmas-island a skos:Concept ; skos:prefLabel "Christmas Island" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:cocos-keeling-islands a skos:Concept ; skos:prefLabel "Cocos (Keeling) Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:cocos-island a skos:Concept ; skos:prefLabel "Cocos Island" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:coral-sea-islands a skos:Concept ; skos:prefLabel "Coral Sea Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:heard-and-mcdonald-islands a skos:Concept ; skos:prefLabel "Heard And Mcdonald Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:keeling-island a skos:Concept ; skos:prefLabel "Keeling Island" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:mcdonald-islands a skos:Concept ; skos:prefLabel "Mcdonald Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:national-capital a skos:Concept ; skos:prefLabel "National Capital" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:nauru a skos:Concept ; skos:prefLabel "Nauru" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:new-britain a skos:Concept ; skos:prefLabel "New Britain" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:new-guinea a skos:Concept ; skos:prefLabel "New Guinea" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:new-hebrides a skos:Concept ; skos:prefLabel "New Hebrides" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:norfolk-island a skos:Concept ; skos:prefLabel "Norfolk Island" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:pacific-islands a skos:Concept ; skos:prefLabel "Pacific Islands" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:papua a skos:Concept ; skos:prefLabel "Papua" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:papua-new-guinea a skos:Concept ; skos:prefLabel "Papua New Guinea" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:territorial-administration a skos:Concept ; skos:prefLabel "Territorial Administration" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:territories a skos:Concept ; skos:prefLabel "Territories" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:territory a skos:Concept ; skos:prefLabel "Territory" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:vanuatu a skos:Concept ; skos:prefLabel "Vanuatu" ; :inScheme :vocab ;  dct:isReplacedBy :territory-administration ; skos:broader :territory-administration ;  skos:description "" .
+:tertiary-institutions a skos:Concept ; skos:prefLabel "Tertiary Institutions" ; :inScheme :vocab ;  dct:isReplacedBy :tertiary-education ; skos:broader :tertiary-education ;  skos:description "" .
+:commerce a skos:Concept ; skos:prefLabel "Commerce" ; :inScheme :vocab ;  dct:isReplacedBy :trade ; skos:broader :trade ;  skos:description "" .
+:mercantile a skos:Concept ; skos:prefLabel "Mercantile" ; :inScheme :vocab ;  dct:isReplacedBy :trade ; skos:broader :trade ;  skos:description "" .
+:air-training-units a skos:Concept ; skos:prefLabel "Air Training Units" ; :inScheme :vocab ;  dct:isReplacedBy :training-air-force ; skos:broader :training-air-force ;  skos:description "" .
+:transport-economics a skos:Concept ; skos:prefLabel "Transport Economics" ; :inScheme :vocab ;  dct:isReplacedBy :transport ; skos:broader :transport ;  skos:description "" .
+:town-planning a skos:Concept ; skos:prefLabel "Town Planning" ; :inScheme :vocab ;  dct:isReplacedBy :urban-development ; skos:broader :urban-development ;  skos:description "" .
+:legacy a skos:Concept ; skos:prefLabel "Legacy" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:patriotic-funds a skos:Concept ; skos:prefLabel "Patriotic Funds" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:seamens-war-pensions a skos:Concept ; skos:prefLabel "Seamens' War Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:soldiers-children-education-schemes a skos:Concept ; skos:prefLabel "Soldiers' Children Education Schemes" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:soldiers-trust-funds a skos:Concept ; skos:prefLabel "Soldiers' Trust Funds" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:war-gratuities a skos:Concept ; skos:prefLabel "War Gratuities" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:war-pensions a skos:Concept ; skos:prefLabel "War Pensions" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:war-service a skos:Concept ; skos:prefLabel "War Service" ; :inScheme :vocab ;  dct:isReplacedBy :veterans-affairs ; skos:broader :veterans-affairs ;  skos:description "" .
+:war-graves a skos:Concept ; skos:prefLabel "War Graves" ; :inScheme :vocab ;  dct:isReplacedBy :war-memorials ; skos:broader :war-memorials ;  skos:description "" .
+:enemy-property a skos:Concept ; skos:prefLabel "Enemy Property" ; :inScheme :vocab ;  dct:isReplacedBy :wartime-security ; skos:broader :wartime-security ;  skos:description "" .
+:national-security a skos:Concept ; skos:prefLabel "National Security" ; :inScheme :vocab ;  dct:isReplacedBy :wartime-security ; skos:broader :wartime-security ;  skos:description "" .
+:propaganda a skos:Concept ; skos:prefLabel "Propaganda" ; :inScheme :vocab ;  dct:isReplacedBy :wartime-security ; skos:broader :wartime-security ;  skos:description "" .
+:wartime-controls a skos:Concept ; skos:prefLabel "Wartime Controls" ; :inScheme :vocab ;  dct:isReplacedBy :wartime-security ; skos:broader :wartime-security ;  skos:description "" .
+:rubbish-collection a skos:Concept ; skos:prefLabel "Rubbish Collection" ; :inScheme :vocab ;  dct:isReplacedBy :waste-disposal ; skos:broader :waste-disposal ;  skos:description "" .
+:water a skos:Concept ; skos:prefLabel "Water" ; :inScheme :vocab ;  dct:isReplacedBy :water-resources ; skos:broader :water-resources ;  skos:description "" .
+:public-works a skos:Concept ; skos:prefLabel "Public Works" ; :inScheme :vocab ;  dct:isReplacedBy :works ; skos:broader :works ;  skos:description "" .
