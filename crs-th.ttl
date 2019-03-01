@@ -1,0 +1,22 @@
+@prefix : <http://test.linked.data.gov.au/def/crs-th/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://test.linked.data.gov.au/def/crs-th> a owl:Ontology ;
+    rdfs:label "CRS Thesaurus Terms"@en ;
+    dc:contributor "Nicholas Car" ;
+    dc:contributor "David Hearder" ;
+    dc:publisher "National Archives of Australia" ;
+    dct:contributor <http://orcid.org/0000-0002-8742-7730> ;
+    dct:created "2019-02-14T15:25:00.297000+10:00"^^xsd:dateTime ;
+    dct:publisher <http://catalogue.linked.data.gov.au/org/O-000790> ;
+    rdfs:comment """This is the Commonwealth Record Series (CRS)' Thesuarus Terms List 31 which is a thesaurus of government functions.
+The CRS is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations.
+This SKOS/RDF expression of the Term List 20 is the same as the original save for the translation of relations from CRS Thesuarus custom terms to stnadardised SKOS relations.
+""";
+    owl:versionInfo "As per NAA database, no additions except for Top Concepts" ;
+    dc:source """This CRS Thesaurus Terms is taken directly from the NAA's CRS Database table VALID_THESAURUS_TERMS where INS_SUMMARY_ID value equalled 20.""" ;
