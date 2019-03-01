@@ -10,7 +10,7 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-:cs a owl:Ontology , skos:ConceptScheme ;
+:cs a skos:ConceptScheme ;
     rdfs:label "CRS Thesaurus Terms"@en ;
     dc:contributor "David Hearder",
         "Nicholas Car" ;
