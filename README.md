@@ -1,5 +1,5 @@
 # CRS Thesaurus in SKOS
-This is the Commonwealth Record Series (CRS)' thesauruses of government functions delivered as [SKOS vocabularies](https://www.w3.org/TR/skos-primer/).
+This is the Commonwealth Record Series (CRS)' thesaurus of government functions delivered as a [SKOS vocabulary](https://www.w3.org/TR/skos-primer/).
 
 The CRS database is maintained by the [National Archives of Australia](http://naa.gov.au) to keep track of the archiving of records from government persons and organisations and [RDF](https://www.w3.org/RDF/) / [OWL](https://www.w3.org/TR/owl2-overview/) implementations of its agency listings is modelled by the [CRS Ontology](https://github.com/CSIRO-enviro-informatics/crs-ont). Content according to the ontology will soon be delivered online via the [Longitudinal Spine of Government Functions' data portal](http://db.longspine.cat) (not public yet).
 
